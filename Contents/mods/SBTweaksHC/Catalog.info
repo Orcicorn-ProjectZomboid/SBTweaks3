@@ -23,6 +23,9 @@ Tweak Item Settings to our choices (Requires ItemTweaker API)
     lua/client/SBTweaks_Tweak_Base.lua
     lua/client/SBTweaks_Tweak_Mods.lua
 
+Tweak Sleeping Mechanics 
+    lua/client/SBTweaks_RequireLessSleep.lua
+
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
