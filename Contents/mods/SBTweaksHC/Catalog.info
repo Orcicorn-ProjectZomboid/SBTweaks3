@@ -33,6 +33,9 @@ MOD: Fuel Side Indicator (2616986064)
 MOD: Insect Ingredients (2773824553)
     lua/client/ImportedMods/Mod_InsectIngredients.lua
 
+MOD: Jump through Windows (26888884240)
+    lua/client/ImportedMods/Mod_JumpThroughWindows.lua
+
 MOD: Nutrition Info (2830099097)
     lua/client/ImportedMods/Mod_NutritionInfo.lua
 
