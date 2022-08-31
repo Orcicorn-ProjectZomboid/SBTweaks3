@@ -17,7 +17,7 @@ Fitness Books
     scripts/SBTweaks_Books_Melee.txt
 
 MOD: Nutrition Info (2830099097)
-    lua/client/SBTweaks_Mod_NutritionInfo.lua
+    lua/client/ImportedMods/Mod_NutritionInfo.lua
 
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
