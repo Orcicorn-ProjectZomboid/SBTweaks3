@@ -42,3 +42,6 @@ PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
 
 PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
     lua/client/Patches/Fix_ToadTraits_Cannibal.lua
+
+PATCH: Fix "TrueActions" for 41.73 Furniture
+    lua/client/Patches/Fix_TrueActions_4173.lua
