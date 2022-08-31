@@ -140,4 +140,7 @@ ItemName_EN = {
     
     /* Tacos */
     ItemName_SBTweaks.SBTRawTacoShell = "Raw Taco Shell",
+
+    /* Smores */
+    ItemName_SmoreUncooked = "Smore",
 }

@@ -22,6 +22,11 @@ Fitness Books
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
+S'mores Recipes & Items
+    lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Recipes_EN.txt 
+    scripts/SBTweaks_Smores.txt
+
 Status Messages
     lua/client/SBTweaks_StatusMessages.lua
     lua/shared/Translate/EN/IG_UI_EN.txt

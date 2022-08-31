@@ -39,4 +39,6 @@ Recipe_EN = {
     Recipe_SBTMakeTortillaChips = "Make Tortilla Chips",
     Recipe_SBTMakeHotSauce = "Make Hot Sauce",
 
+    /* Smores */
+    Recipe_PrepareSmores = "Make Smore",
 }
