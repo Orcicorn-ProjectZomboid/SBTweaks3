@@ -39,3 +39,6 @@ MOD: Time To Cook (2718642011)
 
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
+
+PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
+    lua/client/Patches/Fix_ToadTraits_Cannibal.lua
