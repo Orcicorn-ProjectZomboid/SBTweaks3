@@ -1,3 +1,6 @@
+============================================================
+== ADDITIONS -------------------------------------------- ==
+============================================================
 AFK Ring
     clothing/clothingItems/Ring_AFK.xml
     lua/client/SBTweaks_Action_AFKRing.lua
@@ -19,6 +22,10 @@ Fitness Books
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
+Status Messages
+    lua/client/SBTweaks_StatusMessages.lua
+    lua/shared/Translate/EN/IG_UI_EN.txt
+
 Tweak Item Settings to our choices (Requires ItemTweaker API)
     lua/client/SBTweaks_Tweak_Base.lua
     lua/client/SBTweaks_Tweak_Mods.lua
@@ -26,6 +33,9 @@ Tweak Item Settings to our choices (Requires ItemTweaker API)
 Tweak Sleeping Mechanics 
     lua/client/SBTweaks_RequireLessSleep.lua
 
+============================================================
+== MODS ------------------------------------------------- ==
+============================================================
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
@@ -67,6 +77,9 @@ MOD: Tuck and Roll (2832401837)
     lua/client/Vehicles/ISUI/Mod_TuckAndRoll_ISUI.lua
     lua/client/Vehicles/TimedActions/Mod_TuckAndRoll_Action.lua
 
+============================================================
+== OVERRIDES -------------------------------------------- ==
+============================================================
 OVERRIDE: Poultice Names & Recipes 
     lua/shared/Translate/EN/ContextMenu_EN.txt
     lua/shared/Translate/EN/ItemName_EN.txt
@@ -78,6 +91,9 @@ OVERRIDE: Base Game Reload Action (Speed up)
 OVERRIDE: Gun Fighter Liquid Reload from Arsenal26
     lua/client/SBTweaks_Override_GunFighterLiquidReload.lua
 
+============================================================
+== PATCHES ---------------------------------------------- ==
+============================================================
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
 
