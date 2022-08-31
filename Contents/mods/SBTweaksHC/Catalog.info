@@ -19,6 +19,11 @@ Fitness Books
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
+MOD: Brick Wants Fish + Some Self Tweaks (2696281225)
+    lua/client/Fishing/TimedActions/ISFishingAction.lua
+    lua/client/Fishing/Mod_AddSeaFoodToFishing.lua
+    lua/server/Fishing/BuildingOptions/Mod_FishingNetCatchesMore.lua
+
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua
 
