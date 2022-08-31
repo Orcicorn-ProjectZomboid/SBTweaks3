@@ -67,6 +67,11 @@ MOD: Tuck and Roll (2832401837)
     lua/client/Vehicles/ISUI/Mod_TuckAndRoll_ISUI.lua
     lua/client/Vehicles/TimedActions/Mod_TuckAndRoll_Action.lua
 
+OVERRIDE: Poultice Names & Recipes 
+    lua/shared/Translate/EN/ContextMenu_EN.txt
+    lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Recipes_EN.txt
+
 OVERRIDE: Base Game Reload Action (Speed up)
     lua/clients/SBTweaks_Override_ReloadAction.lua
 

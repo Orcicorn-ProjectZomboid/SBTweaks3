@@ -132,4 +132,9 @@ ItemName_EN = {
     /* Fishing Nets are really just bait traps */
     ItemName_Base.FishingNet = "Fish Bait Trap",
     ItemName_Base.BrokenFishingNet = "Broken Fish Bait Trap",
+
+    /* Confusing Poultices */
+    ItemName_Base.ComfreyCataplasm = "Fracture Healing Poultice",
+    ItemName_Base.PlantainCataplasm = "Wound Healing Poultice",
+    ItemName_Base.WildGarlicCataplasm = "Antibiotic Poultice",
 }

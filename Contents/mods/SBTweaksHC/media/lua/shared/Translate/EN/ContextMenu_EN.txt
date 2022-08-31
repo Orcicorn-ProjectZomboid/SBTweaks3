@@ -1,4 +1,9 @@
 ContextMenu_EN = {
 	/* Fishing net is a Bait Trap */
 	ContextMenu_Place_Fishing_Net = "Place Fish Bait Trap",
+
+    /* Right-Click Options for Poultices */
+	ContextMenu_PlantainCataplasm = "Wound Poultice",
+	ContextMenu_ComfreyCataplasm = "Fracture Poultice",
+	ContextMenu_GarlicCataplasm = "Antibiotic Poultice",
 }
