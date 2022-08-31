@@ -1,0 +1,54 @@
+module MoreTraits {
+    imports { 
+        Base
+    }
+    
+    item ZombPatty {
+        HungerChange	=	-8,
+        UnhappyChange	=	50,
+        ThirstChange		=		-4,
+        Weight	=	0.5,
+        Type	=	Food,
+        IsCookable	=	TRUE,
+        DangerousUncooked	=	TRUE,
+        DaysTotallyRotten	=	4,
+        MinutesToBurn	=	70,
+        DisplayName	=	Human Meat,
+        Icon	=	MeatPatty,
+        DaysFresh	=	2,
+        MinutesToCook	=	30,
+        EvolvedRecipe   =   Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:15;Salad:15;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Burger:15;Burrito:15;Taco:15;Pie:10,
+        FoodType    =   Meat,
+        Carbohydrates = 0,
+        Proteins = 26,
+        Lipids = 30,
+        CustomEatSound = MaleZombieEating,
+        Calories = 180,
+        BadInMicrowave = true,
+        GoodHot = true,
+        BadCold = true,
+    }
+
+    /* BloodBox is in SBTweaks.lua */
+
+    item BloodBoxBad {
+		Type = Food,
+		DisplayName = Coagulated Blood,
+		Icon = BloodbagBad,
+		Weight = 0.1,
+        Poison = true,
+        PoisonPower = 30,
+        PoisonDetectionLevel = 7,
+        UseForPoison = 1,
+		ThirstChange = 0,
+		HungerChange = 0,
+		UnhappyChange = 26,
+        ReduceFoodSickness = -25,
+		CustomContextMenu = Drink,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        Tooltip = Ooooh chunky!,
+	}
+}
