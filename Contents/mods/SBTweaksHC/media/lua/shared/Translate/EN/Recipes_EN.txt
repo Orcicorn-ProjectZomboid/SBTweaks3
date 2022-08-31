@@ -33,4 +33,10 @@ Recipe_EN = {
     Recipe_Make_Plantain_Poultice = "Make Wound Healing Poultice",
     Recipe_Make_Wild_Garlic_Poultice = "Make Antibiotic Poultice",
 
+    /* Tacos */
+    Recipe_SBTMakeRawTacoShells = "Make Taco Shells",
+    Recipe_SBTMakeTortillas = "Make Tortillas",
+    Recipe_SBTMakeTortillaChips = "Make Tortilla Chips",
+    Recipe_SBTMakeHotSauce = "Make Hot Sauce",
+
 }

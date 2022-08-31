@@ -1,0 +1,67 @@
+module SBTweaks {
+	imports {
+        Base
+	}
+	item SBTRawTacoShell {
+		DisplayName = Raw Taco Shell,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Tortilla,
+		DaysFresh = 3,
+		DaysTotallyRotten = 5,
+		HungerChange = -5,
+		Calories = 40,
+		Carbohydrates = 0,
+		Lipids = 2,
+		Proteins = 2,
+		WorldStaticModel = Tortilla_Ground,
+        IsCookable = true,
+        MinutesToCook = 5,
+        MinutesToBurn = 10,
+        ReplaceOnCooked = Base.TacoShell,
+	}
+
+    recipe SBTMakeRawTacoShells {
+        keep Pan/GridlePan,
+        keep RollingPin,
+        Flour/Cornflour=1,
+        Water=1,
+        Result:SBTweaks.SBTRawTacoShell=3,
+        Time:150,
+        Sound:MakePlaster,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeTortillas {
+        keep Pan/GridlePan,
+        keep RollingPin,
+        Flour/Cornflour=1,
+        Water=1,
+        Result:Tortilla=2,
+        Time:90,
+        Sound:MakePlaster,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeTortillaChips {
+        keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+        Tortilla,
+        Result:TortillaChips=6,
+        Time:120,
+        Sound:SliceMeat,
+        Category:Cooking,
+    }
+    
+    recipe SBTMakeHotSauce {
+        keep Pot/Saucepan,
+        Water=2,
+        Pepper=1,
+        PepperJalapeno/PepperHabanero,
+        Result:Hotsauce,
+        Time:300,
+        Sound:MakePlaster,
+        Category:Cooking,
+        SkillRequired:Cooking=1,
+    }
+}

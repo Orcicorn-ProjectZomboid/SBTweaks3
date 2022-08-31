@@ -137,4 +137,7 @@ ItemName_EN = {
     ItemName_Base.ComfreyCataplasm = "Fracture Healing Poultice",
     ItemName_Base.PlantainCataplasm = "Wound Healing Poultice",
     ItemName_Base.WildGarlicCataplasm = "Antibiotic Poultice",
+    
+    /* Tacos */
+    ItemName_SBTweaks.SBTRawTacoShell = "Raw Taco Shell",
 }
