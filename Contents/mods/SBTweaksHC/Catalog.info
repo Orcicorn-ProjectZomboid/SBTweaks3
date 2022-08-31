@@ -33,6 +33,8 @@ MOD: Brick Wants Fish + Some Self Tweaks (2696281225)
     lua/client/Fishing/TimedActions/ISFishingAction.lua
     lua/client/Fishing/Mod_AddSeaFoodToFishing.lua
     lua/server/Fishing/BuildingOptions/Mod_FishingNetCatchesMore.lua
+    lua/shared/Translate/EN/ContextMenu_EN.txt
+    lua/shared/Translate/EN/ItemName_EN.txt
 
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua

@@ -128,4 +128,8 @@ ItemName_EN = {
     ItemName_SBTweaks.BookSneaking3 = " Sneaking 3: Advanced",
     ItemName_SBTweaks.BookSneaking4 = " Sneaking 4: Expert",
     ItemName_SBTweaks.BookSneaking5 = " Sneaking 5: Master",  
+
+    /* Fishing Nets are really just bait traps */
+    ItemName_Base.FishingNet = "Fish Bait Trap",
+    ItemName_Base.BrokenFishingNet = "Broken Fish Bait Trap",
 }
