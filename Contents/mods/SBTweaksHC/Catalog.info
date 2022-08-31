@@ -34,6 +34,9 @@ MOD: Nutrition Info (2830099097)
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
 
+MOD: Snow is Still Rain (2704811006)
+    lua/server/RainBarrel/SRainBarrelSystem.lua
+
 MOD: Time To Cook (2718642011)
     lua/client/ImportedMods/Mod_TimeToCook.lua
 
