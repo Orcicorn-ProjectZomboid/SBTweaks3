@@ -1,0 +1,4 @@
+Recipe_EN = {
+    /* SBTweaks_AFKRing.txt */
+    Recipe_MakeGhostRing = "Craft a Ghost Ring",
+}

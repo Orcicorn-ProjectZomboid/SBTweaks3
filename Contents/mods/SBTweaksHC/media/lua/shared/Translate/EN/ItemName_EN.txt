@@ -1,4 +1,7 @@
 ItemName_EN = {
+    /* SBTweaks_AFKRing.txt */
+    ItemName_SBTweaks.AFKRing = "Ghost Ring",
+
     /* BASE GAME SKILL BOOK RENAME */
     ItemName_Base.BookCarpentry1 = " Carpentry 1: Beginner",
     ItemName_Base.BookCarpentry2 = " Carpentry 2: Intermediate",

@@ -1,0 +1,9 @@
+IGUI_EN = {
+    /* AFK Ring */
+    IGUI_SBTweaks_HaloAFKStart = "AFK Mode Enabled",
+    IGUI_SBTweaks_HaloAFKStop = "AFK mode disabled",
+    IGUI_SBTweaks_HaloAFKActive = "AFK MODE",
+    IGUI_SBTweaks_ChatAFKStart = "has entered AFK mode",
+    IGUI_SBTweaks_ChatAFKStop = "has returned",
+
+}

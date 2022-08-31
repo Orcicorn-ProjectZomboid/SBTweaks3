@@ -1,3 +1,14 @@
+AFK Ring
+    clothing/clothingItems/Ring_AFK.xml
+    lua/client/SBTweaks_Action_AFKRing.lua
+    lua/server/SBTweaks_Logic_AFKRing.lua
+    shared/Translate/EN/IG_UI_EN.txt
+    shared/Translate/EN/ItemName_EN.txt
+    shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweaks_AFKRing.txt
+    textures/Item_AFKRing.png
+    fileGuidTable.xml
+
 Fitness Books 
     lua/server/SBTweaks_Books_Distribution.lua 
     lua/server/SBTweaks_Books_XP.lua 
