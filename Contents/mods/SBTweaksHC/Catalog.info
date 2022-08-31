@@ -15,3 +15,6 @@ Fitness Books
     lua/shared/Translate/EN/ItemName_EN.txt
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
+
+MOD: Nutrition Info (2830099097)
+    lua/client/SBTweaks_Mod_NutritionInfo.lua
