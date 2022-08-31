@@ -51,6 +51,10 @@ MOD: Snow is Still Rain (2704811006)
 MOD: Time To Cook (2718642011)
     lua/client/ImportedMods/Mod_TimeToCook.lua
 
+MOD: Tuck and Roll (2832401837)
+    lua/client/Vehicles/ISUI/Mod_TuckAndRoll_ISUI.lua
+    lua/client/Vehicles/TimedActions/Mod_TuckAndRoll_Action.lua
+
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
 
