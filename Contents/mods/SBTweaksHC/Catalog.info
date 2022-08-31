@@ -36,3 +36,6 @@ MOD: Show Level Numbers (2837506142)
 
 MOD: Time To Cook (2718642011)
     lua/client/ImportedMods/Mod_TimeToCook.lua
+
+PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
+    lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
