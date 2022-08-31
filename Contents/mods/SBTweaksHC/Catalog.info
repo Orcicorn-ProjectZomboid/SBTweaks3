@@ -20,7 +20,7 @@ Fitness Books
     scripts/SBTweaks_Books_Melee.txt
 
 Tweak Item Settings to our choices (Requires ItemTweaker API)
-    lua/client/SBTweaks.lua
+    lua/client/SBTweaks_Tweak_Base.lua
 
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
