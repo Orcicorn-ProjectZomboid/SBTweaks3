@@ -9,6 +9,9 @@ AFK Ring
     textures/Item_AFKRing.png
     fileGuidTable.xml
 
+Character Creation Methods
+    lua/shared/NPCs/TweakCharacterCreationTraits.lua
+
 Fitness Books 
     lua/server/SBTweaks_Books_Distribution.lua 
     lua/server/SBTweaks_Books_XP.lua 
