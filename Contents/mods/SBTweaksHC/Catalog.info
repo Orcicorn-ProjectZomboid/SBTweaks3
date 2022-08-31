@@ -25,6 +25,9 @@ MOD: Faction Safehouses (2717575749)
 MOD: Fuel Side Indicator (2616986064)
     lua/client/ImportedMods/Mod_FuelSideIndicator.lua
 
+MOD: Insect Ingredients (2773824553)
+    lua/client/ImportedMods/Mod_InsectIngredients.lua
+
 MOD: Nutrition Info (2830099097)
     lua/client/ImportedMods/Mod_NutritionInfo.lua
 
