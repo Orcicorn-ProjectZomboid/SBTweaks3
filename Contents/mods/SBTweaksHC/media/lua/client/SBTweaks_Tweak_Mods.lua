@@ -18,3 +18,9 @@ if getActivatedMods():contains("Authentic Z - Current") then
     TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGrey", "UseDelta", 0);
     TweakItem("AuthenticZClothing.Authentic_MilitaryFlashlightGreen", "UseDelta", 0); 
 end
+
+-- MOD: More Traits
+if getActivatedMods():contains("ToadTraits") then
+    TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
+    TweakItem("MoreTraits.AntiqueKatana", "AttachmentType", "Knife");
+end
