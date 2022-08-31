@@ -45,3 +45,6 @@ PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
 
 PATCH: Fix "TrueActions" for 41.73 Furniture
     lua/client/Patches/Fix_TrueActions_4173.lua
+
+PATCH: Fix "TsarTrailers" Generator
+    lua/server/Trailers/Trailers.lua
