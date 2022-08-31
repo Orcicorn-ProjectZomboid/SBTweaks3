@@ -19,6 +19,9 @@ Fitness Books
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
+MOD: Faction Safehouses (2717575749)
+    lua/client/ImportedMods/Mod_FactionSafehouses.lua
+
 MOD: Fuel Side Indicator (2616986064)
     lua/client/ImportedMods/Mod_FuelSideIndicator.lua
 
