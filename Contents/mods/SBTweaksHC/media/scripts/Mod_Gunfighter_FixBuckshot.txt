@@ -1,0 +1,62 @@
+module Base {
+	recipe Make 410g ShotShell {
+		Hull410g	= 1,
+		GunPowder	= 12,
+		PrimerSG	= 1,
+		Lead00Buck	= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.410gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 20g ShotShell {
+		Hull20g		= 1,
+		GunPowder	= 14,
+		PrimerSG	= 1,
+		Lead00Buck	= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.20gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 12g ShotShell {
+		Hull12g		= 1,
+		GunPowder	= 16,
+		PrimerSG	= 1,
+		Lead00Buck	= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.ShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 10g ShotShell {
+		Hull10g		= 1,
+		GunPowder	= 18,
+		PrimerSG	= 1,
+		Lead00Buck	= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.10gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+	recipe Make 4g ShotShell {
+		Hull4g		= 1,
+		GunPowder	= 22,
+		PrimerSG	= 1,
+		Lead00Buck	= 1,
+		keep Lyman_TMag/Lee_LoadMaster,
+		Sound			: Reloading_Press,
+		Result		: Base.4gShotgunShells,
+		Time			: 70.0,
+		CanBeDoneFromFloor: TRUE,
+		NeedToBeLearn	: true,
+	}
+}

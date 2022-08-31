@@ -1,0 +1,242 @@
+module Base {
+    recipe MakeBrass223 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass223=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass3006 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass3006=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass308 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass308=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass357 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass357=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass38 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass38=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass380 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass380=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass44 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass44=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass45 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass45=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass4570 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass4570=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass45LC {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass45LC=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass50 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass50=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass50BMG {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass50BMG=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass545x39 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass545x39=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass556 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass556=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass57 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass57=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass762x39 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass762x39=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass762x51 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass762x51=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass762x54r {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass762x54r=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeBrass9 {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Brass9=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeHull10g {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Hull10g=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeHull12g {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Hull12g=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeHull20g {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Hull20g=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeHull4g {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Hull4g=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+    recipe MakeHull410g {
+        keep TW.MetalCutter,
+        keep Lyman_TMag/Lee_LoadMaster,
+        Base.SmallSheetMetal,
+        Result: Hull410g=50,
+        Sound: Reloading_Press,
+        Time: 70.0,
+        NeedToBeLearn: false,
+        CanBeDoneFromFloor: TRUE,
+    }
+}

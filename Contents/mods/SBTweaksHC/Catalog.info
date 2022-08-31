@@ -54,6 +54,11 @@ MOD: Time To Cook (2718642011)
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
 
+PATCH: Fix/Tweak Gunfighter Arsenal Recipes 
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/Mod_Gunfighter_FixBuckshot.txt
+    scripts/Mod_Gunfighter_MakeShells.txt
+
 PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
     lua/client/Patches/Fix_ToadTraits_Cannibal.lua
     scripts/Mod_ToadTraits_FoodFixes.txt

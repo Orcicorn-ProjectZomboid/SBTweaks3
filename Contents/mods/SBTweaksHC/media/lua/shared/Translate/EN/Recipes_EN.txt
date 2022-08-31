@@ -1,4 +1,30 @@
 Recipe_EN = {
     /* SBTweaks_AFKRing.txt */
     Recipe_MakeGhostRing = "Craft a Ghost Ring",
+
+    /* Mod_GunFighter_MakeShells.txt */
+    Recipe_MakeBrass223 = "Make 223-REM Brass",
+    Recipe_MakeBrass3006 = "Make 30-06 SPRG Brass",
+    Recipe_MakeBrass308 = "Make 308-WIN Brass",
+    Recipe_MakeBrass357 = "Make 357-MAG Brass",
+    Recipe_MakeBrass38 = "Make 38-SPC Brass",
+    Recipe_MakeBrass380 = "Make 380-ACP Brass",
+    Recipe_MakeBrass44 = "Make 44-MAG Brass",
+    Recipe_MakeBrass45 = "Make 45-ACP Brass",
+    Recipe_MakeBrass4570 = "Make 45-70 GOV Brass",
+    Recipe_MakeBrass45LC = "Make 45-LC Brass",
+    Recipe_MakeBrass50 = "Make 50-MAG Brass",
+    Recipe_MakeBrass50BMG = "Make 50-BMG Brass",
+    Recipe_MakeBrass545x39 = "Make 5.45x39mm Brass",
+    Recipe_MakeBrass556 = "Make 5.56x45mm Brass",
+    Recipe_MakeBrass57 = "Make 5.7x28mm Brass",
+    Recipe_MakeBrass762x39 = "Make 7.62x39mm Brass",
+    Recipe_MakeBrass762x51 = "Make 7.62x51mm Brass",
+    Recipe_MakeBrass762x54r = "Make 7.62x54mm-R Brass",
+    Recipe_MakeBrass9 = "Make 9mm Brass",
+    Recipe_MakeHull10g = "Make 10g Hull",
+    Recipe_MakeHull12g = "Make 12g Hull",
+    Recipe_MakeHull20g = "Make 20g Hull",
+    Recipe_MakeHull4g = "Make 4g Hull",
+    Recipe_MakeHull410g = "Make 410g Hull",
 }
