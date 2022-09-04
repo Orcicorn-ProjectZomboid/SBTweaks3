@@ -89,7 +89,7 @@ MOD: Nutrition Info (2830099097)
     lua/client/ImportedMods/Mod_NutritionInfo.lua
 
 MOD: Paw Low Loot
-    scripts/SBTweaks_Mod_FixPawLowLoot.txt
+    scripts/Mod_PawLowLoot_FixGrimoire.txt
 
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
