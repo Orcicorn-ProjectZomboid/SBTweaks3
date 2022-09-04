@@ -1,0 +1,209 @@
+module SBTweaks
+{
+
+	imports
+	{
+		Base
+	}
+
+   /* 
+   	* -----------------------------------------------------------
+	* DIGGING OUT THE WEAPON TYPES FROM THE Model55_Stock
+    * 	Brita's Weapon Pack: 			2200148440
+	*	Arsenal(26) GunFighter Mod: 	2297098490
+	* -----------------------------------------------------------
+    * cd ~/path/to/mod/folder/scripts/
+    * clear;grep "item" *.txt > /g/weapons.txt
+	* Open "G:\weapons.txt"
+    * Find & Replace 
+    *    .*item|[\s|\{]       REPLACE WITH NULL
+    *    \n                   REPLACE WITH /
+    *
+	* -----------------------------------------------------------
+	* BREAKING UP WEAPONS INTO SETS OF 50 TO AVOID LAG WHEN
+	* RIGHT-CLICKING RECIPES IN THE GAME (IS REALLY BAD 100+)
+	* -----------------------------------------------------------
+	* /usr/bin/python3 break.py
+	*
+	*	input = "AMT1911/AMT1911_Long/M1911_Carbine/Colt1911/Colt_Kimber/Colt_Commander/PARA1911/PULP_1911/KG9/Thompson/Thompson_1928/M2Hyde/Model50/Model55_Stock/Model55_Fold/Calico_M900_Stock/Calico_M900_Fold/Calico_M950_Pistol/Calico_22LR/Ruger_1022/Marlin_M70/Cricket_22/AR7/AR7_Fold/Ruger_MK4/Buckmark/Buckmark_Long/Buckmark_Carbine/CP33/American180/ZIP22/TAC15/GP100_2/GP100_2_357/GP100_4/GP100_4_357/GP100_6/GP100_6_357/K6S/K6S_357/Marlin_1894/Marlin_1894_357/Rhino_60DS/Rhino_60DS_357/SW_327/SW_327_357/MP7/MP7_Stock/Jatimatic/Jatimatic_Stock/Sten/Sten_MK2/Sten_MK2SD/M29_44/M29_44Carbine/Automag/DEagle/BOAR/EDM96/EDM96_Fold/M82/BFG50/Harris50/TAC50/CheyTac50/CheyTac50_Fold/Gepard_M6/OSV_96/FN_57/FN_57_MK2/FN_P90/FN_PS90/AK47/AK47_Melee/AKM/AKM_Melee/AK103/AK103_Melee/M85_Stock/M85_Stock_Melee/M85_Fold/M85_Fold_Melee/MD65_Stock/MD65_Stock_Melee/MD65_Fold/MD65_Fold_Melee/AKMS_Stock/AKMS_Stock_Melee/AKMS_Fold/AKMS_Fold_Melee/AK74/AK74_Melee/AKS74/AKS74_Melee/AKS74_Fold/AKS74_Fold_Melee/AKS74U/AKS74U_Melee/AKS74U_Fold/AKS74U_Fold_Melee/AK12/AK12_Melee/AK12_Fold/AK12_Fold_Melee/AK74_Alpha/AK74_Alpha_Fold/RPK74/M723/M723_HE/M723_INC/M723_Melee/XM117/XM117_HE/XM117_INC/XM117_Melee/H416/H416_Melee/H416_HE/H416_INC/AR18/AR18_Fold/Carbon15_97/Type38/Type38_Melee/Type99/Type99_Melee/AUG9/AUG/BT380_Stock/BT380_Fold/BT9_Stock/BT9_Fold/BAR/BAR_Monitor/B93R/M9/M9A3/Sako85/Savage12/L96/F2000/Tavor/QBZ_95/FAMAS/FAMAS_G2/FAMAS_Felin/CAR15SMG/CAR15_Survival/M635/M635S/M635SD/CZ75/CZ97B/K5/K7_Stock/K7_Fold/K14/K2C1_PH/K2C1_PH_HE/K2C1_PH_INC/K2C1_PH_Melee/K1DEV/K1DEV_HE/K1DEV_INC/K1DEV_Melee/K2_C1/K2_C1_HE/K2_C1_INC/K2_C1_Melee/K2_1/K2_1_HE/K2_1_INC/K2_1_Melee/K2_203/K2_203_HE/K2_203_INC/K2_203_Melee/K1_1/K1_1_HE/K1_1_INC/K1_1_Melee/DR_200/DR_200_HE/DR_200_INC/DR_200_Melee/EVO_Fold/EVO_Stock/FAL/FAL_Melee/FAL_PARA_Stock/FAL_PARA_Stock_Melee/FAL_PARA_Fold/FAL_PARA_Fold_Melee/FN_FNC/FN_FNC_Melee/FN_FNC_Fold/FN_FNC_Fold_Melee/Galil/Galil_Fold/Galil_Sniper/Galil_Sniper_Fold/G17/G18/G21/G34/G42/G33/G33_Melee/G3/G3_Melee/G28/G28_Melee/G28_HE/G28_INC/MK18/MK18_Melee/MK18_HE/MK18_INC/G36/G36_Fold/G36C/G36C_Fold/G36KV/G36KV_Fold/G11K3/PSG1/MSG90/HK_MK23/HK_USP/HK_USP_Match/Type20/Type89/Type89_Fold/Type64/Type64_Melee/KRISS_Stock/KRISS_Fold/KRISS9_Stock/KRISS9_Fold/KRISS9_MLOK_Stock/KRISS9_MLOK_Fold/KRISS22_MK11_Stock/KRISS22_MK11_Fold/KRISS22_CRB_Stock/KRISS22_CRB_Fold/L85/L85A2/L86/L22/EX41_HE/EX41_INC/EX41_HE_FIRE/EX41_INC_FIRE/Federal_HE/Federal_INC/Federal_HE_FIRE/Federal_INC_FIRE/M32_HE/M32_INC/M32_HE_FIRE/M32_INC_FIRE/GM94_HE/GM94_INC/GM94_HE_FIRE/GM94_INC_FIRE/M72_LAW/M72_LAW_FIRE/RPG_7/RPG_7_FIRE/Win_1894/Win_1895/Viper/Winchester1903/Winchester1873/Winchester1866/M240/K12/MG42/M60/MK43/G21LMG/M249/M249E3/M249E3_Fold/K3LMG/PKM/RPD/M14/M14_Melee/M14EBR/M14EBR_Melee/M16A1/M16A1_Melee/M16A1_HE/M16A1_INC/M16A2/M16A2_Melee/M16A2_HE/M16A2_INC/M16A3/M16A3_Melee/M16A3_HE/M16A3_INC/ColtM16/ColtM16_Melee/ColtM16_HE/ColtM16_INC/M16Wood/M16Wood_Melee/M16Wood_HE/M16Wood_INC/M16Tape/M16Tape_Melee/M16Tape_HE/M16Tape_INC/M1Carbine/M1Carbine_Melee/M2Carbine/M2Carbine_Melee/M4/M4_Melee/M4_HE/M4_INC/M4A1/M4A1_Melee/M4A1_HE/M4A1_INC/M40/M40A1/M40A2/M40A3/MAC10_Fold/MAC10_Stock/MAS36/MAS36_Melee/MAS44/MAS44_Melee/MAS49/MAS49_Melee/MINI14/MINI14_Stock/MINI14_Fold/MINI14_T/MP5_Fixed/MP5_Stock/MP5_Fold/MP5SD6_Fixed/MP5SD6_Stock/MP5SD6_Fold/MPA57DMG/MPA57DMG_Carbine/MPA57DMG_Carbine_Fold/VP70/VP70_Stock/HK4_380/HK4_22/Vz61_Fixed/Vz61_Fold/Vz61_Stock/PPK/Colt1903/Bersa85F/Ots14_1A_01/Ots14_1A_02/Ots14_4A/Ots14_4A_01/Ots14_4A_03/Ots14_4A_GL/Ots14_4A_GL_HE/Ots14_4A_GL_INC/OTS_03_SVU/MP9/MP45/P226/P220/XD9/XD4/Taurus856/Colt_Service38/Colt_Service45/Colt_Navy_1851/M1936/LCP380/SCARL/SCARL_Melee/SCARL_HE/SCARL_INC/SCARH/SCARH_Melee/SCARH_HE/SCARH_INC/SCAR20/SCAR20_Melee/SCAR20_HE/SCAR20_INC/SCARSC_Stock/SCARSC_Fold/KS23/KS23_S_Pistol/M870_Wingmaster/M870_Police/M870/M870_Melee/M870_Express/M870_MCS/M870_CQB/M870_CQB_Fold/M870_Breaching_Pistol/DT11/DT11_Sawed/DT11_Pistol/Coachgun/Coachgun_Sawed/Coachgun_Pistol/Terminator/Terminator_Fold/Triple_Crown/KSG/KSG25/UTS15/SIX12/SIX12SD/M1208/M1212/M1216/Origin/SPAS_15/USAS_12/Saiga12/Saiga12_Long/Saiga12_Tromix/AA12/CAWS/R11_87/A400/M1014/M1014_Fold/M1014_Stock/M1014_Wick/DAO12/DAO12_Fold/M1887/M1887_Sawed/AUTO_5/Shorty_Pistol/M1897/M1897_Melee/TOZ106/TOZ106_Fold/TOZ194_Pistol/MP133S_Pistol/MP133/Ithaca_M37/Ithaca_M37_Melee/NEF_Handi_38/NEF_Handi_38_Sawed/NEF_Handi_357/NEF_Handi_357_Sawed/NEF_Handi_45LC/NEF_Handi_45LC_Sawed/NEF_Handi_410/NEF_Handi_410_Sawed/Ruger_No1_308/Ruger_No1_3006/Ruger_No1_4570/Thompson_Center_308/Thompson_Center_3006/Thompson_Center_4570/SKS/SKS_Bayo/SKS30/SKS30_Bayo/SKS_Melee/SKS_Bayo_Melee/SKS30_Melee/SKS30_Bayo_Melee/SKS_PARA/SKS_PARA_Bayo/SKS30_PARA/SKS30_PARA_Bayo/SKS_PARA_Melee/SKS_PARA_Bayo_Melee/SKS30_PARA_Melee/SKS30_PARA_Bayo_Melee/BodyGuard380/M5238/M5906/M4506/SPAS12_Fixed/SPAS12_Fixed_Melee/SPAS12_Fold/SPAS12_Fold_Melee/SPAS12_Stock/SPAS12_Stock_Melee/STAR_Z45_Stock/STAR_Z45_Fold/STAR_Z45_Fixed/SUB2000/SUB2000_Fold/SVD/SVD_Melee/SVDK/SVDK_Melee/SV_98/UMP9_Stock/UMP9_Fold/UMP45_Stock/UMP45_Fold/UZI/UZI_Fold/UZI_Wood/UZI_Micro/UZI_Micro_Fold/Shotgun/ShotgunSawnoff/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff/VSS/ASVAL/ASVAL_Fold/Vz58/Vz58_Melee/Vz58_Stock/Vz58_Stock_Melee/Vz58_Fold/Vz58_Fold_Melee/Vz58_Mini_Stock/Vz58_Mini_Stock_Melee/Vz58_Mini_Fold/Vz58_Mini_Fold_Melee/WA2000/M46_Mauser/M46_Mauser_Melee/Mosin/Mosin_Melee/MosinObrez_Pistol/M1/M1_Melee/M1903/M1903_Melee/Commando/APS/APS_Fold/Makarov/Makarov380/PB/Luger/Luger_WW1/Luger_Carbine/XM8Compact_Pistol/XM8/XM8LMG"
+	*	counter=0;
+	*	output=""
+	*	for character in input:
+    *		output = output + character
+    *		if character == "/":
+    *    		counter = counter + 1
+    *    		if counter % 50 == 0:
+    *        		print(output)
+    *        		output = ""
+	*	print(output)
+    */
+
+	recipe SBSuperRepairsArsenalGunFighter {
+    	keep [Recipe.GetItemTypes.Screwdriver],
+		keep UmarexSS/RWS_M34/Benjamin_M397/Judge_45LC/Judge_410g/Judge513_45LC/Judge513_410g/Judge513_Long_45LC/Judge513_Long_410g/TXS_804_45LC/TXS_804_410g/VIPER_G2/Ash/VSSK/AK12_New/AK12_New_Melee/RPK16/AK308/AK308_Melee/AK5C/AK5C_Melee/AK5C_Fold/AK5C_Fold_Melee/SKS_A26/SKS_A26_Melee/SKS30_A26/SKS30_A26_Melee/DEagle_Long/WD_Flame_FIRE/WD_Flame/Musk_FIRE/Musk/M2A1_FIRE/M2A1/SS2000_FIRE/SS2000/K11/K11_HE/K11_INC/XM214/GAU17/GAU19/Moss500_20/ROYAL_SXS/Colt1855/10855_Silver/SW_M500/Pistol/Pistol2/Pistol3/Revolver_Short/Revolver_Short_357/Revolver/Revolver_357/Revolver_Long/Revolver_Long_357/VarmintRifle/HuntingRifle/AssaultRifle2/AssaultRifle2_Melee/AssaultRifle/AssaultRifle_Melee/AssaultRifle_HE/AssaultRifle_INC,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalNew {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep AKM_Custom/AKM_Custom_Melee/AK74_Custom/AK74_Custom_Melee/LVOA_C/LVOA_C_Melee/LVOA_C_HE/LVOA_C_INC/ADAR/ADAR_Melee/MK47/AAC_Honey/AAC_Honey_Fold/AAC_HoneySD/AAC_HoneySD_Fold/Bush_AR15_MOE/Bush_AR15_MOE_Melee/Bush_AR15_MOE_HE/Bush_AR15_MOE_INC/Bush_XM15/Bush_XM15_Melee/Bush_XM15_HE/Bush_XM15_INC/Bush_XM15_Custom/Bush_XM15_Custom_Melee/Bush_XM15_Custom_HE/Bush_XM15_Custom_INC/TR1_UltraLight/MCX_Spear/MCX_Spear_Melee/MCX_Spear_HE/MCX_Spear_INC/MCX_Virtus/MCX_Virtus_Melee/MCX_Virtus_HE/MCX_Virtus_INC/MCX_VirtusPatrol/MCX_VirtusPatrol_Melee/MCX_VirtusPatrol_HE/MCX_VirtusPatrol_INC/MCX_Socom/MCX_Socom_Melee/MCX_Socom_HE/MCX_Socom_INC/JW3_TTI_MPX,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack1 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep AMT1911/AMT1911_Long/M1911_Carbine/Colt1911/Colt_Kimber/Colt_Commander/PARA1911/PULP_1911/KG9/Thompson/Thompson_1928/M2Hyde/Model50/Model55_Stock/Model55_Fold/Calico_M900_Stock/Calico_M900_Fold/Calico_M950_Pistol/Calico_22LR/Ruger_1022/Marlin_M70/Cricket_22/AR7/AR7_Fold/Ruger_MK4/Buckmark/Buckmark_Long/Buckmark_Carbine/CP33/American180/ZIP22/TAC15/GP100_2/GP100_2_357/GP100_4/GP100_4_357/GP100_6/GP100_6_357/K6S/K6S_357/Marlin_1894/Marlin_1894_357/Rhino_60DS/Rhino_60DS_357/SW_327/SW_327_357/MP7/MP7_Stock/Jatimatic/Jatimatic_Stock,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack2 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep Sten/Sten_MK2/Sten_MK2SD/M29_44/M29_44Carbine/Automag/DEagle/BOAR/EDM96/EDM96_Fold/M82/BFG50/Harris50/TAC50/CheyTac50/CheyTac50_Fold/Gepard_M6/OSV_96/FN_57/FN_57_MK2/FN_P90/FN_PS90/AK47/AK47_Melee/AKM/AKM_Melee/AK103/AK103_Melee/M85_Stock/M85_Stock_Melee/M85_Fold/M85_Fold_Melee/MD65_Stock/MD65_Stock_Melee/MD65_Fold/MD65_Fold_Melee/AKMS_Stock/AKMS_Stock_Melee/AKMS_Fold/AKMS_Fold_Melee/AK74/AK74_Melee/AKS74/AKS74_Melee/AKS74_Fold/AKS74_Fold_Melee/AKS74U/AKS74U_Melee/AKS74U_Fold/AKS74U_Fold_Melee,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack3 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep AK12/AK12_Melee/AK12_Fold/AK12_Fold_Melee/AK74_Alpha/AK74_Alpha_Fold/RPK74/M723/M723_HE/M723_INC/M723_Melee/XM117/XM117_HE/XM117_INC/XM117_Melee/H416/H416_Melee/H416_HE/H416_INC/AR18/AR18_Fold/Carbon15_97/Type38/Type38_Melee/Type99/Type99_Melee/AUG9/AUG/BT380_Stock/BT380_Fold/BT9_Stock/BT9_Fold/BAR/BAR_Monitor/B93R/M9/M9A3/Sako85/Savage12/L96/F2000/Tavor/QBZ_95/FAMAS/FAMAS_G2/FAMAS_Felin/CAR15SMG/CAR15_Survival/M635/M635S,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack4 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep M635SD/CZ75/CZ97B/K5/K7_Stock/K7_Fold/K14/K2C1_PH/K2C1_PH_HE/K2C1_PH_INC/K2C1_PH_Melee/K1DEV/K1DEV_HE/K1DEV_INC/K1DEV_Melee/K2_C1/K2_C1_HE/K2_C1_INC/K2_C1_Melee/K2_1/K2_1_HE/K2_1_INC/K2_1_Melee/K2_203/K2_203_HE/K2_203_INC/K2_203_Melee/K1_1/K1_1_HE/K1_1_INC/K1_1_Melee/DR_200/DR_200_HE/DR_200_INC/DR_200_Melee/EVO_Fold/EVO_Stock/FAL/FAL_Melee/FAL_PARA_Stock/FAL_PARA_Stock_Melee/FAL_PARA_Fold/FAL_PARA_Fold_Melee/FN_FNC/FN_FNC_Melee/FN_FNC_Fold/FN_FNC_Fold_Melee/Galil/Galil_Fold/Galil_Sniper,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack5 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep Galil_Sniper_Fold/G17/G18/G21/G34/G42/G33/G33_Melee/G3/G3_Melee/G28/G28_Melee/G28_HE/G28_INC/MK18/MK18_Melee/MK18_HE/MK18_INC/G36/G36_Fold/G36C/G36C_Fold/G36KV/G36KV_Fold/G11K3/PSG1/MSG90/HK_MK23/HK_USP/HK_USP_Match/Type20/Type89/Type89_Fold/Type64/Type64_Melee/KRISS_Stock/KRISS_Fold/KRISS9_Stock/KRISS9_Fold/KRISS9_MLOK_Stock/KRISS9_MLOK_Fold/KRISS22_MK11_Stock/KRISS22_MK11_Fold/KRISS22_CRB_Stock/KRISS22_CRB_Fold/L85/L85A2/L86/L22/EX41_HE,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack6 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep EX41_INC/EX41_HE_FIRE/EX41_INC_FIRE/Federal_HE/Federal_INC/Federal_HE_FIRE/Federal_INC_FIRE/M32_HE/M32_INC/M32_HE_FIRE/M32_INC_FIRE/GM94_HE/GM94_INC/GM94_HE_FIRE/GM94_INC_FIRE/M72_LAW/M72_LAW_FIRE/RPG_7/RPG_7_FIRE/Win_1894/Win_1895/Viper/Winchester1903/Winchester1873/Winchester1866/M240/K12/MG42/M60/MK43/G21LMG/M249/M249E3/M249E3_Fold/K3LMG/PKM/RPD/M14/M14_Melee/M14EBR/M14EBR_Melee/M16A1/M16A1_Melee/M16A1_HE/M16A1_INC/M16A2/M16A2_Melee/M16A2_HE/M16A2_INC/M16A3,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack7 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep M16A3_Melee/M16A3_HE/M16A3_INC/ColtM16/ColtM16_Melee/ColtM16_HE/ColtM16_INC/M16Wood/M16Wood_Melee/M16Wood_HE/M16Wood_INC/M16Tape/M16Tape_Melee/M16Tape_HE/M16Tape_INC/M1Carbine/M1Carbine_Melee/M2Carbine/M2Carbine_Melee/M4/M4_Melee/M4_HE/M4_INC/M4A1/M4A1_Melee/M4A1_HE/M4A1_INC/M40/M40A1/M40A2/M40A3/MAC10_Fold/MAC10_Stock/MAS36/MAS36_Melee/MAS44/MAS44_Melee/MAS49/MAS49_Melee/MINI14/MINI14_Stock/MINI14_Fold/MINI14_T/MP5_Fixed/MP5_Stock/MP5_Fold/MP5SD6_Fixed/MP5SD6_Stock/MP5SD6_Fold/MPA57DMG,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack8 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep MPA57DMG_Carbine/MPA57DMG_Carbine_Fold/VP70/VP70_Stock/HK4_380/HK4_22/Vz61_Fixed/Vz61_Fold/Vz61_Stock/PPK/Colt1903/Bersa85F/Ots14_1A_01/Ots14_1A_02/Ots14_4A/Ots14_4A_01/Ots14_4A_03/Ots14_4A_GL/Ots14_4A_GL_HE/Ots14_4A_GL_INC/OTS_03_SVU/MP9/MP45/P226/P220/XD9/XD4/Taurus856/Colt_Service38/Colt_Service45/Colt_Navy_1851/M1936/LCP380/SCARL/SCARL_Melee/SCARL_HE/SCARL_INC/SCARH/SCARH_Melee/SCARH_HE/SCARH_INC/SCAR20/SCAR20_Melee/SCAR20_HE/SCAR20_INC/SCARSC_Stock/SCARSC_Fold/KS23/KS23_S_Pistol/M870_Wingmaster,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack9 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep M870_Police/M870/M870_Melee/M870_Express/M870_MCS/M870_CQB/M870_CQB_Fold/M870_Breaching_Pistol/DT11/DT11_Sawed/DT11_Pistol/Coachgun/Coachgun_Sawed/Coachgun_Pistol/Terminator/Terminator_Fold/Triple_Crown/KSG/KSG25/UTS15/SIX12/SIX12SD/M1208/M1212/M1216/Origin/SPAS_15/USAS_12/Saiga12/Saiga12_Long/Saiga12_Tromix/AA12/CAWS/R11_87/A400/M1014/M1014_Fold/M1014_Stock/M1014_Wick/DAO12/DAO12_Fold/M1887/M1887_Sawed/AUTO_5/Shorty_Pistol/M1897/M1897_Melee/TOZ106/TOZ106_Fold/TOZ194_Pistol,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack10 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep MP133S_Pistol/MP133/Ithaca_M37/Ithaca_M37_Melee/NEF_Handi_38/NEF_Handi_38_Sawed/NEF_Handi_357/NEF_Handi_357_Sawed/NEF_Handi_45LC/NEF_Handi_45LC_Sawed/NEF_Handi_410/NEF_Handi_410_Sawed/Ruger_No1_308/Ruger_No1_3006/Ruger_No1_4570/Thompson_Center_308/Thompson_Center_3006/Thompson_Center_4570/SKS/SKS_Bayo/SKS30/SKS30_Bayo/SKS_Melee/SKS_Bayo_Melee/SKS30_Melee/SKS30_Bayo_Melee/SKS_PARA/SKS_PARA_Bayo/SKS30_PARA/SKS30_PARA_Bayo/SKS_PARA_Melee/SKS_PARA_Bayo_Melee/SKS30_PARA_Melee/SKS30_PARA_Bayo_Melee/BodyGuard380/M5238/M5906/M4506/SPAS12_Fixed/SPAS12_Fixed_Melee/SPAS12_Fold/SPAS12_Fold_Melee/SPAS12_Stock/SPAS12_Stock_Melee/STAR_Z45_Stock/STAR_Z45_Fold/STAR_Z45_Fixed/SUB2000/SUB2000_Fold/SVD,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack11 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep SVD_Melee/SVDK/SVDK_Melee/SV_98/UMP9_Stock/UMP9_Fold/UMP45_Stock/UMP45_Fold/UZI/UZI_Fold/UZI_Wood/UZI_Micro/UZI_Micro_Fold/Shotgun/ShotgunSawnoff/DoubleBarrelShotgun/DoubleBarrelShotgunSawnoff/VSS/ASVAL/ASVAL_Fold/Vz58/Vz58_Melee/Vz58_Stock/Vz58_Stock_Melee/Vz58_Fold/Vz58_Fold_Melee/Vz58_Mini_Stock/Vz58_Mini_Stock_Melee/Vz58_Mini_Fold/Vz58_Mini_Fold_Melee/WA2000/M46_Mauser/M46_Mauser_Melee/Mosin/Mosin_Melee/MosinObrez_Pistol/M1/M1_Melee/M1903/M1903_Melee/Commando/APS/APS_Fold/Makarov/Makarov380/PB/Luger/Luger_WW1/Luger_Carbine/XM8Compact_Pistol,
+      	Cleaning=5,
+		Result:UnusableMetal,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+	}
+
+   recipe SBSuperRepairsArsenalWeaponPack12 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep XM8/XM8LMG,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+	}
+
+}

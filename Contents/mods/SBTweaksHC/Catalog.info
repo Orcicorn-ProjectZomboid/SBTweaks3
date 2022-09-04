@@ -28,6 +28,11 @@ Fitness Books
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
+Gun Cleaning (Expert)
+    lua/client/SBTweaks_Recipes_ExpertRepair.lua
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweaks_Recipes_Guncleaning.txt
+
 Miscellaneous Food Recipes
     scripts/SBTweaks_Recipes_Food.txt
     lua/shared/Translate/EN/Recipes_EN.txt    
@@ -96,6 +101,9 @@ MOD: Show Level Numbers (2837506142)
 
 MOD: Snow is Still Rain (2704811006)
     lua/server/RainBarrel/SRainBarrelSystem.lua
+
+MOD: The Workshop (2680473910)
+    scripts/Mod_TheWorkshop_FixPropane.txt
 
 MOD: Time To Cook (2718642011)
     lua/client/ImportedMods/Mod_TimeToCook.lua

@@ -28,6 +28,22 @@ Recipe_EN = {
     Recipe_MakeHull4g = "Make 4g Hull",
     Recipe_MakeHull410g = "Make 410g Hull",
 
+    /* Expert Repair */
+    Recipe_SBSuperRepairsArsenalGunFighter = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalNew = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack1 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack2 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack3 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack4 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack5 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack6 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack7 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack8 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack9 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack10 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack11 = "Expert Repair",
+    Recipe_SBSuperRepairsArsenalWeaponPack12 = "Expert Repair",
+
     /* Miscellaneous Food Recipes */
     Recipe_MakeKetchup = "Make Ketchup",
     Recipe_MakeChipsPlain = "Make Chips (Plain)",
