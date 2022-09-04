@@ -1,0 +1,70 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+	recipe MakeKetchup {
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		RemouladeEmpty/WineEmpty2/WaterBottleEmpty/BeerEmpty/MayonnaiseEmpty/WineEmpty,
+		farming.Tomato=5,
+		Sugar=5,
+		Water=5,
+		Result:Ketchup,
+		OnGiveXP:Recipe.OnGiveXP.Give5CookingXP,
+		Time:60,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=2
+	}
+
+	recipe MakeChipsPlain {
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		farming.Potato=5,
+		Salt=5,
+		Result:Crisps2=6,
+		OnGiveXP:Recipe.OnGiveXP.Give5CookingXP,
+		Time:45.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkilLRequired:Cooking=1
+	}
+
+	recipe MakeChipsSaltVinegar {
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		farming.Potato=5,
+		Salt=5,
+		Vinegar=5,
+		Result:Crisps3=8,
+		OnGiveXP:Recipe.OnGiveXP.Give15CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=2
+	}
+
+	recipe MakeChipsKetchup {
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		farming.Potato=5,
+		Ketchup=5,
+		Result:Crisps=10,
+		OnGiveXP:Recipe.OnGiveXP.Give25CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=3
+	}
+
+	recipe MakeChipsSourCream {
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		farming.Potato=5,
+		Salt=5,
+		Pepper=5,
+		Milk=5,
+		Result:Crisps4=12,
+		OnGiveXP:Recipe.OnGiveXP.Give25CookingXP,
+		Time:55.0,
+		NeedToBeLearn:False,
+		Category:Cooking,
+		SkillRequired:Cooking=3
+	}
+}

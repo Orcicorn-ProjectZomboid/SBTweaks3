@@ -28,6 +28,13 @@ Recipe_EN = {
     Recipe_MakeHull4g = "Make 4g Hull",
     Recipe_MakeHull410g = "Make 410g Hull",
 
+    /* Miscellaneous Food Recipes */
+    Recipe_MakeKetchup = "Make Ketchup",
+    Recipe_MakeChipsPlain = "Make Chips (Plain)",
+    Recipe_MakeChipsSaltVinegar = "Make Chips (Salt & Vinegar)",
+    Recipe_MakeChipsKetchup = "Make Chips (Ketchup)",
+    Recipe_MakeChipsSourCream = "Make Chips (Sour Cream)",
+
     /* Over Power Poultice Recipes */
     Recipe_Make_Comfrey_Poultice = "Make Fracture Healing Poultice",
     Recipe_Make_Plantain_Poultice = "Make Wound Healing Poultice",

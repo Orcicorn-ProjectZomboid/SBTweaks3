@@ -28,6 +28,10 @@ Fitness Books
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
+Miscellaneous Food Recipes
+    scripts/SBTweaks_Recipes_Food.txt
+    lua/shared/Translate/EN/Recipes_EN.txt    
+
 S'mores Recipes & Items
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt 
