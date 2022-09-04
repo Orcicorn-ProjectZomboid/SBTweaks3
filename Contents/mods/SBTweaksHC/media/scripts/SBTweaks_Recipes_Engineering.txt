@@ -1,0 +1,78 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe MakeAlarmClock {
+	    keep [Recipe.GetItemTypes.Screwdriver],
+	    ElectronicsScrap=5,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:AlarmClock2,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Electrical,
+    }
+
+    recipe MakeTimer {
+	    keep [Recipe.GetItemTypes.Screwdriver],
+	    ElectronicsScrap=3,
+        ElectricWire,
+	    Screws,
+        Battery,
+	    Result:Timer,
+	    OnGiveXP:Recipe.OnGiveXP.Give20ElectricalXP,
+	    SkillRequired:Electrical=3,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Electrical,
+    }
+
+	recipe MakeBarbedWire {
+		keep TW.MetalCutter,
+		keep TW.Pliers,
+		Wire=5,
+		Result:BarbedWire,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+		Time:30.0,
+		NeedToBeLearn:False,
+	}
+
+	recipe MakeSledgeHammer {
+		WoodenStick,
+        ClubHammer,
+        Screws=4,
+        Scotchtape/DuctTape,
+        WeldingRods=2,
+        BlowTorch=10,
+        keep WeldingMask,
+        keep Screwdriver,
+        keep Saw/GardenSaw,
+        Result:Sledgehammer=1,
+        Time:100.0,
+        Sound:BlowTorch,
+        Category:Survivalist,
+	}
+
+	recipe MakeJarLidFromSmallMetal {
+		keep TW.MetalCutter, 
+		SmallSheetMetal,
+		Result:JarLid=4,
+		Time:60.0,
+		Category:Cooking,
+		NeedToBeLearn:False,
+	}
+
+	recipe MakeJarLidFromLargeMetal {
+		keep TW.MetalCutter, 
+		SheetMetal,
+		Result:JarLid=16,
+		Time:240.0,
+		Category:Cooking,
+		NeedToBeLearn:False,
+	}
+
+}

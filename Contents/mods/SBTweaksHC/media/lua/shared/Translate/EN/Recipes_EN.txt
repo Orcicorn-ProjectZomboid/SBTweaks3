@@ -35,6 +35,14 @@ Recipe_EN = {
     Recipe_MakeChipsKetchup = "Make Chips (Ketchup)",
     Recipe_MakeChipsSourCream = "Make Chips (Sour Cream)",
 
+    /* Engineering Recipes */
+    Recipe_MakeAlarmClock = "Make Alarm Clock",
+    Recipe_MakeTimer = "Make Timer",
+    Recipe_MakeBarbedWire = "Make Barbed Wire",
+    Recipe_MakeSledgeHammer = "Make Sledge Hammer",
+    Recipe_MakeJarLidFromSmallMetal = "Make Jar Lids",
+    Recipe_MakeJarLidFromLargeMetal = "Make Jar Lids",
+
     /* Over Power Poultice Recipes */
     Recipe_Make_Comfrey_Poultice = "Make Fracture Healing Poultice",
     Recipe_Make_Plantain_Poultice = "Make Wound Healing Poultice",

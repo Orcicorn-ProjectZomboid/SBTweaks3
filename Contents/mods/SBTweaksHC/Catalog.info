@@ -32,6 +32,10 @@ Miscellaneous Food Recipes
     scripts/SBTweaks_Recipes_Food.txt
     lua/shared/Translate/EN/Recipes_EN.txt    
 
+Miscellaneous Engineering Recipes 
+    scripts/SBTweaks_Recipes_Engineering.txt
+    lua/shared/Translate/EN/Recipes_EN.txt
+
 S'mores Recipes & Items
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt 
