@@ -1,0 +1,12 @@
+module TW {
+    imports {
+        Base
+    }
+
+    recipe Convert to Small Propane Tanks {
+        destroy LargePropaneTank=1,
+        Result: PropaneTank=2,
+        CanBeDoneFromFloor: True,
+        Category:Welding,
+    }
+}
