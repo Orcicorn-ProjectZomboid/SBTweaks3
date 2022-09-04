@@ -1,0 +1,15 @@
+module Base
+{
+    item Grimoire
+    {
+        Weight	=	3,
+        Type	=	Literature,
+        DisplayName	=	Grimoire,
+        Icon	=	Grimoire,
+        TeachedRecipes  =   Summon Rogue Sword;Summon Witchy Staff;Summon Great Sword;Summon Antique Mace,
+        ReplaceOnUse    =   Grimoire,
+        BoredomChange	=	-30,
+        StaticModel = Grimoire,
+        Tooltip = A heavy book with intricate drawings. What this might teach?,
+    }
+}
