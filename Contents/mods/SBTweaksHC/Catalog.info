@@ -80,6 +80,9 @@ Taco Recipes & Items
     lua/shared/Translate/EN/Recipes_EN.txt 
     scripts/SBTweaks_Tacos.txt
 
+Tweak Fire Extinguisher Spawns
+    lua/server/SBTweaks_Distribution_FireExtinguishers.lua
+
 Tweak Item Settings to our choices (Requires ItemTweaker API)
     lua/client/SBTweaks_Tweak_Base.lua
     lua/client/SBTweaks_Tweak_Mods.lua
