@@ -104,6 +104,9 @@ Tweak Sleeping Mechanics
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
+MOD: Boredom Tweaks (2725360009)
+    lua/client/ImportedMods/Mod_BoredomTweaks.lua
+
 MOD: Brick Wants Fish + Some Self Tweaks (2696281225)
     lua/client/Fishing/TimedActions/ISFishingAction.lua
     lua/client/Fishing/Mod_AddSeaFoodToFishing.lua
