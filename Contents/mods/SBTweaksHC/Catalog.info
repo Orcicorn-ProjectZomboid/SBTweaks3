@@ -142,6 +142,10 @@ MOD: Paw Low Loot
 MOD: Radio's Use AC Power
     scripts/Mod_RadioAC.txt
 
+MOD: Refill Lighters
+    scripts/Mod_RefillLighters.txt
+    textures/Item_Lighter_Empty.png
+
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
 
