@@ -185,6 +185,10 @@ OVERRIDE: Vehicle Recycling Fix
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
 
+PATCH: Fix Paw Low Loot Fantasy errors on clothing equip
+    lua/client/erisPLL_nvg/erisPLL_headwearOverride/ReadMe.info
+    lua/client/erisPLL_nvg/erisPLL_headwearOverride/erisPLL_headwearOverride.lua
+
 PATCH: Fix/Tweak Gunfighter Arsenal Recipes 
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/Mod_Gunfighter_FixBuckshot.txt

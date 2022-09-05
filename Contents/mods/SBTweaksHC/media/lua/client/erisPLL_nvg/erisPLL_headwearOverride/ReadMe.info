@@ -1,0 +1,4 @@
+This file exists because the Paw Low Loot Fantasy Pack has a broken
+set of code for it's Night Vision Goggles.
+
+This simply overwrites the existing file with all of it's code commented out
