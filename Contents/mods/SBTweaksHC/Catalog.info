@@ -44,6 +44,8 @@ Custom Clothing
     scripts/SBTweaks_CustomClothing.txt
     textures/clothes/tshirt_spacebro_black.png
     textures/clothes/tshirt_spacebro_white.png
+    textures/Item_tshirt_spacebroblack.png
+    textures/Item_tshirt_spacebrowhite.png
 
 Fix Canned Items
     lua/server/SBTweaks_Override_OpenCannedItems.lua
