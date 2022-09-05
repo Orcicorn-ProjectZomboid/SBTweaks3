@@ -1,0 +1,65 @@
+module SBTweaks {
+    import {
+        Base
+    }
+
+    item PillsSBTums {
+        DisplayCategory = FirstAid,
+        Weight = 0.2,
+        Type = Drainable,
+        UseDelta = 0.1,
+        UseWhileEquipped = False,
+        DisplayName = Antacid,
+        Icon = SBTums,
+        Tooltip = Tooltip_SBTweaks_SBTums,
+        StaticModel = PillBottle,
+        WorldStaticModel = SBTums,
+        Medical = True,
+    }
+
+    item PillsSBCoughSyrup {
+        DisplayCategory = FirstAid,
+        Weight = 0.2,
+        Type = Drainable,
+        UseDelta = 0.1,
+        UseWhileEquipped = False,
+        DisplayName = Cough Syrup,
+        Icon = SBCoughSyrup,
+        Tooltip = Tooltip_SBTweaks_SBCoughSyrup,
+        StaticModel = PillBottle,
+        WorldStaticModel = SBCoughSyurp,
+        Medical = True,
+    }
+
+    item PillsSBOpioids {
+        DisplayCategory = FirstAid,
+        Weight = 0.2,
+        Type = Drainable,
+        UseDelta = 0.25,
+        UseWhileEquipped = False,
+        DisplayName = Oxycodone,
+        Icon = SBOpioids,
+        Tooltip = Tooltip_SBTweaks_SBOpioids,
+        StaticModel = PillBottle,
+        WorldStaticModel = SBOpioids,
+        Medical = True,
+    }
+}
+
+module Base {
+	model SBTums {
+        mesh = WorldItems/Vitamins,
+        texture = WorldItems/SBTums,
+        scale = 0.4,
+    }
+	model SBOpioids {
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/SBOpioids,
+        scale = 0.4,
+    }
+    model SBCoughSyurp {
+        mesh = WorldItems/Disinfectant,
+        texture = WorldItems/SBCoughSyrup,
+        scale = 0.2,
+    }
+}

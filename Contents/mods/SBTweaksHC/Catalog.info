@@ -36,6 +36,17 @@ Gun Cleaning (Expert)
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweaks_Recipes_Guncleaning.txt
 
+Medical Items
+    lua/client/TimedActions/SBTweaks_ISTakePillAction.lua
+    lua/server/SBTweaks_Distribution_MedicalItems.lua
+    scripts/SBTweaks_MedicalItems.txt
+    textures/WorldItems/SBCoughSyrup.png
+    textures/WorldItems/SBOpioids.png 
+    textures/WorldItems/SBTums.png
+    textures/Item_SBCoughSyrup.png 
+    textures/Item_SBOpioids.png
+    textures/Item_SBTums.png
+
 Miscellaneous Food Recipes
     scripts/SBTweaks_Recipes_Food.txt
     lua/shared/Translate/EN/Recipes_EN.txt    
