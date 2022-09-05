@@ -25,8 +25,8 @@ Fix Canned Items
     lua/server/SBTweaks_Override_OpenCannedItems.lua
 
 Fitness Books 
-    lua/server/SBTweaks_Books_Distribution.lua 
-    lua/server/SBTweaks_Books_XP.lua 
+    lua/server/SBTweaks_Distribution_MeleeBooks.lua 
+    lua/server/SBTweaks_Books_MeleeXP.lua 
     lua/shared/Translate/EN/ItemName_EN.txt
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
