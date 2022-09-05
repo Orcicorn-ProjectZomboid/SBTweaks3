@@ -80,6 +80,19 @@ ItemName_EN = {
     ItemName_Base.BookTrapping4 = " Trapping 4: Expert",
     ItemName_Base.BookTrapping5 = " Trapping 5: Master",
 
+    /* SBTweaks_Books_Firearms.txt */
+    ItemName_SBTweaks.BookFirearms1 = " Aiming 1: Beginner",
+    ItemName_SBTweaks.BookFirearms2 = " Aiming 2: Intermediate",
+    ItemName_SBTweaks.BookFirearms3 = " Aiming 3: Advanced",
+    ItemName_SBTweaks.BookFirearms4 = " Aiming 4: Expert",
+    ItemName_SBTweaks.BookFirearms5 = " Aiming 5: Master",
+
+    ItemName_SBTweaks.BookReloading1 = " Reloading 1: Beginner",
+    ItemName_SBTweaks.BookReloading2 = " Reloading 2: Intermediate",
+    ItemName_SBTweaks.BookReloading3 = " Reloading 3: Advanced",
+    ItemName_SBTweaks.BookReloading4 = " Reloading 4: Expert",
+    ItemName_SBTweaks.BookReloading5 = " Reloading 5: Master",
+
     /* SBTweaks_Books_Fitness.txt */
     ItemName_SBTweaks.BookFitness1 = " Fitness 1: Beginner",
     ItemName_SBTweaks.BookFitness2 = " Fitness 2: Intermediate",

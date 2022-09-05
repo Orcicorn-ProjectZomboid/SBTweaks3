@@ -1,0 +1,138 @@
+module SBTweaks {
+	imports {
+		Base
+	}
+
+	item BookFirearms1 {
+        NumberOfPages		=	220,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Firearms for Beginners,
+        Icon				=	Book8,
+        SkillTrained 		= 	Aiming,
+        LvlSkillTrained 	= 	1,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookYellowBrown_Ground,
+    }
+	item BookFirearms2 {
+        NumberOfPages		=	260,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Firearms for Intermediates,
+        Icon				=	Book8,
+        SkillTrained 		= 	Aiming,
+        LvlSkillTrained 	= 	3,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookYellowBrown_Ground,
+    }
+    item BookFirearms3 {
+        NumberOfPages		=	300,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Advanced Firearms Training,
+        Icon				=	Book8,
+        SkillTrained 		= 	Aiming,
+        LvlSkillTrained 	= 	5,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookYellowBrown_Ground,
+    }
+    item BookFirearms4 {
+        NumberOfPages		=	340,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Expert Firearms Training,
+        Icon				=	Book8,
+        SkillTrained 		= 	Aiming,
+        LvlSkillTrained 	= 	7,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookYellowBrown_Ground,
+    }
+    item BookFirearms5 {
+        NumberOfPages		=	380,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Master Firearms Training,
+        Icon				=	Book8,
+        SkillTrained 		= 	Aiming,
+        LvlSkillTrained 	= 	9,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookYellowBrown_Ground,
+    }
+
+
+    item BookReloading1 {
+        NumberOfPages		=	220,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Reloading for Beginners,
+        Icon				=	Book4,
+        SkillTrained 		= 	Reloading,
+        LvlSkillTrained 	= 	1,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookPurple_Ground,
+    }
+	item BookReloading2 {
+        NumberOfPages		=	260,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Reloading for Intermediates,
+        Icon				=	Book4,
+        SkillTrained 		= 	Reloading,
+        LvlSkillTrained 	= 	3,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookPurple_Ground,
+    }
+    item BookReloading3 {
+        NumberOfPages		=	300,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Advanced Reloading Training,
+        Icon				=	Book4,
+        SkillTrained 		= 	Reloading,
+        LvlSkillTrained 	= 	5,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookPurple_Ground,
+    }
+    item BookReloading4 {
+        NumberOfPages		=	340,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Expert Reloading Training,
+        Icon				=	Book4,
+        SkillTrained 		= 	Reloading,
+        LvlSkillTrained 	= 	7,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookPurple_Ground,
+    }
+    item BookReloading5 {
+        NumberOfPages		=	380,
+        Weight				=	0.8,
+        Type				=	Literature,
+        DisplayCategory     =   SkillBook,
+        DisplayName			=	Master Reloading Training,
+        Icon				=	Book4,
+        SkillTrained 		= 	Reloading,
+        LvlSkillTrained 	= 	9,
+        NumLevelsTrained 	= 	2,
+        StaticModel 		= 	Book,
+        WorldStaticModel 	= 	BookPurple_Ground,
+    }
+}
