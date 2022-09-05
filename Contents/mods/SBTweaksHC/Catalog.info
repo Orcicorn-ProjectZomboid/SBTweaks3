@@ -136,6 +136,9 @@ MOD: Paw Low Loot
     lua/server/SBTweaks_Distribution_Tweak_PawLowLoot.lua
     scripts/Mod_PawLowLoot_FixGrimoire.txt
 
+MOD: Radio's Use AC Power
+    scripts/Mod_RadioAC.txt
+
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
 
