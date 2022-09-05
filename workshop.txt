@@ -1,6 +1,6 @@
 version=1
 id=
-title=Space Brother Server Tweaks (Hardcore)
-description=Various tweaks, improvements and nerfs for the Space Brothers' Private Server
+title=Space Brother Server Tweaks (Version 3.0)
+description=Various tweaks, improvements and nerfs for the Space Brothers' Private Server v3.0
 tags=Build 41;Misc;Multiplayer;Silly/Fun
 visibility=unlisted
