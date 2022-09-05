@@ -197,6 +197,8 @@ PATCH: Fix/Tweak Gunfighter Arsenal Recipes
 PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
     lua/client/Patches/Fix_ToadTraits_Cannibal.lua
     scripts/Mod_ToadTraits_FoodFixes.txt
+    textures/Item_Bloodbag.png
+    textures/Item_BloodbagBad.png
 
 PATCH: Fix "TrueActions" for 41.73 Furniture
     lua/client/Patches/Fix_TrueActions_4173.lua
