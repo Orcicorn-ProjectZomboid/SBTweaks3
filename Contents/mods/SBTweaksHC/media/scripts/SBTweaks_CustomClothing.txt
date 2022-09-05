@@ -1,0 +1,60 @@
+module SBTweaks
+{
+	imports
+	{
+		Base
+	}
+
+	item tshirt_spacebro_black {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Space Brothers T-Shirt (Black),
+        ClothingItem = tshirt_spacebroblack,
+		Icon = tshirt_spacebroblack,
+        BodyLocation = Tshirt,
+        IconsForTexture = TShirt_SpaceBroBlack,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        BiteDefense = 5,
+        ScratchDefense = 5,
+        WorldStaticModel = TShirt_Ground,
+        CanHaveHoles = true,
+    }
+
+    item tshirt_spacebro_white {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Space Brothers T-Shirt (White),
+        ClothingItem = tshirt_spacebrowhite,
+		Icon = tshirt_spacebrowhite,
+        BodyLocation = Tshirt,
+        IconsForTexture = TShirt_SpaceBroWhite,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        CombatSpeedModifier = 1.10,
+        WorldStaticModel = TShirt_Ground,
+        CanHaveHoles = true,
+    }
+
+    item socks_spacebro {
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Space Brothers Socks,
+		ClothingItem = Socks_SpaceBroRunning,
+		BodyLocation = Socks,
+		Icon = SocksAnkleWhite,
+		BloodLocation = Shoes,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        RunSpeedModifier = 1.10,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Sock_Ankle_Ground,
+    }
+
+
+}

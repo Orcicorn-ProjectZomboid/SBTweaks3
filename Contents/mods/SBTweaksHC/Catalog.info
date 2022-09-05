@@ -21,6 +21,17 @@ AFK Ring
 Character Creation Methods
     lua/shared/NPCs/TweakCharacterCreationTraits.lua
 
+Custom Clothing
+    fileGuidTable.xml 
+    clothing/clothingItems/Socks_SpaceBroRunning.xml
+    clothing/clothingItems/TShirt_SpaceBroBlack.xml
+    clothing/clothingItems/TShirt_SpaceBroWhite.xml
+    lua/server/SBTweaks_Distribution_CustomClothing.lua
+    lua/shared/Translate/EN/ItemName_EN.txt
+    scripts/SBTweaks_CustomClothing.txt
+    textures/clothes/tshirt_spacebro_black.png
+    textures/clothes/tshirt_spacebro_white.png
+
 Fix Canned Items
     lua/server/SBTweaks_Override_OpenCannedItems.lua
 

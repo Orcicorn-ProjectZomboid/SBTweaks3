@@ -2,6 +2,11 @@ ItemName_EN = {
     /* SBTweaks_AFKRing.txt */
     ItemName_SBTweaks.AFKRing = "Ghost Ring",
 
+    /* Clothing */
+    ItemName_SBTweaks.tshirt_spacebro_black = "Space Brothers Protective Shirt",
+    ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
+    ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
+
     /* BASE GAME SKILL BOOK RENAME */
     ItemName_Base.BookCarpentry1 = " Carpentry 1: Beginner",
     ItemName_Base.BookCarpentry2 = " Carpentry 2: Intermediate",

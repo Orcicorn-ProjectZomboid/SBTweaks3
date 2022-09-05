@@ -4,4 +4,8 @@
         <path>media/clothing/clothingItems/Ring_AFK.xml</path>
         <guid>sbtweaks-121f-4084-8d07-7691a12d70a1</guid>
     </files>
+    <files>
+        <path>media/clothing/clothingItems/Socks_SpaceBroRunning</path>
+        <guid>sbtweaks-34b3-4e20-905b-d22cf82b8217</guid>
+    </files>
 </fileGuidTable>
