@@ -21,6 +21,9 @@ AFK Ring
 Character Creation Methods
     lua/shared/NPCs/TweakCharacterCreationTraits.lua
 
+Fix Canned Items
+    lua/server/SBTweaks_Override_OpenCannedItems.lua
+
 Fitness Books 
     lua/server/SBTweaks_Books_Distribution.lua 
     lua/server/SBTweaks_Books_XP.lua 
