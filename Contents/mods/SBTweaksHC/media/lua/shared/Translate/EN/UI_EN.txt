@@ -1,0 +1,11 @@
+UI_EN = {
+    /* Base Game */
+    /* UI_Intro1 = "THESE ARE THE END-TIMES", */
+    /* UI_Intro2 = "THERE WAS NO HOPE OF SURVIVAL", */
+    /* UI_Intro3 = "THIS IS HOW YOU DIED", */
+    /* UI_ClickToSkip = "Click to Start", */
+    UI_Intro1 = "THIS IS ONCE AGAIN THE END-TIMES",
+    UI_Intro2 = "THERE IS STILL NO HOPE FOR SURVIVAL",
+    UI_Intro3 = "THIS IS HOW YOU DIED... AGAIN",
+    UI_ClickToSkip = "Ready to Die?",
+}

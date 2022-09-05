@@ -152,6 +152,9 @@ MOD: Tuck and Roll (2832401837)
 ============================================================
 == OVERRIDES -------------------------------------------- ==
 ============================================================
+OVERRIDE: Base Game Welcome text 
+    lua/shared/Translate/EN/UI_EN.txt
+
 OVERRIDE: Poultice Names & Recipes 
     lua/shared/Translate/EN/ContextMenu_EN.txt
     lua/shared/Translate/EN/ItemName_EN.txt
