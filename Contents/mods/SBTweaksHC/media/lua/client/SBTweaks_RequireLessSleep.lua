@@ -23,6 +23,7 @@ local function SBTweaksSleep()
         -- Gather information about our player
         local playerStats = player:getStats();
         local fatigue = playerStats:getFatigue();
+        local endurance = playerStats:getEndurance();
         -- local lastHourSlept = player:getLastHourSleeped();
 
         -- Calculate the reduction (Fatigue / (HoursRequired * Events))
@@ -38,8 +39,15 @@ local function SBTweaksSleep()
             -- maxSleepHours = (maxSleepHours * modifierSleepy);
         end;
 
-        -- Reduce their fatigue
-        playerStats:setFatigue(fatigue - reduction);
+        -- Adjust the Player's values
+        if fatigue - reduction >= 0 then
+            -- Reduce Fatigue, we're sleeping
+            playerStats:setFatigue(fatigue - reduction);
+        end
+        if endurance + reduction <= 1 then
+            -- Increase Endurance
+            playerStats:setEndurance(endurance + reduction);
+        end
 
         -- If you've been asleep for longer than allowed, time to get up
         -- if (player:getHoursSurvived() - lastHourSlept) >= maxSleepHours then 
