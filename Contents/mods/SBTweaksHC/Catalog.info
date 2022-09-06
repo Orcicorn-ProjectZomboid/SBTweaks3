@@ -145,6 +145,10 @@ MOD: Out the Window (2659216714)
     lua/client/ImportedMods/Mod_OutTheWindow_ThrowCorpseAction.lua
     lua/shared/Translate/EN/ContextMenu_EN.txt
 
+MOD: Panty Sniffer (2854335350)
+    lua/client/ImportedMods/Mod_PantySniffer.lua
+    lua/shared/Translate/EN/UI_EN.txt
+
 MOD: Radio's Use AC Power (2857191956)
     scripts/Mod_RadioAC.txt
 
