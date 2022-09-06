@@ -95,6 +95,10 @@ Tweak Item Settings to our choices (Requires ItemTweaker API)
     lua/client/SBTweaks_Tweak_Base.lua
     lua/client/SBTweaks_Tweak_Mods.lua
 
+Tweak Paw Low Loot
+    lua/server/SBTweaks_Distribution_Tweak_PawLowLoot.lua
+    scripts/Mod_PawLowLoot_FixGrimoire.txt
+
 Tweak Sleeping Mechanics 
     lua/client/SBTweaks_RequireLessSleep.lua
 
@@ -135,14 +139,16 @@ MOD: Jump through Windows (26888884240)
 MOD: Nutrition Info (2830099097)
     lua/client/ImportedMods/Mod_NutritionInfo.lua
 
-MOD: Paw Low Loot
-    lua/server/SBTweaks_Distribution_Tweak_PawLowLoot.lua
-    scripts/Mod_PawLowLoot_FixGrimoire.txt
+MOD: Out the Window (2659216714)
+    lua/client/ImportedMods/Mod_OutTheWindow.lua
+    lua/client/ImportedMods/Mod_OutTheWindow_ContextMenu.lua
+    lua/client/ImportedMods/Mod_OutTheWindow_ThrowCorpseAction.lua
+    lua/shared/Translate/EN/ContextMenu_EN.txt
 
-MOD: Radio's Use AC Power
+MOD: Radio's Use AC Power (2857191956)
     scripts/Mod_RadioAC.txt
 
-MOD: Refill Lighters
+MOD: Refill Lighters (2780594299)
     scripts/Mod_RefillLighters.txt
     textures/Item_Lighter_Empty.png
 

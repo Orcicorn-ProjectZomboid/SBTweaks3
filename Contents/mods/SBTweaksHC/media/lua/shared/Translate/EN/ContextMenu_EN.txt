@@ -6,4 +6,8 @@ ContextMenu_EN = {
 	ContextMenu_PlantainCataplasm = "Wound Poultice",
 	ContextMenu_ComfreyCataplasm = "Fracture Poultice",
 	ContextMenu_GarlicCataplasm = "Antibiotic Poultice",
+
+	/* Throw Corpse out the Window/Fence */
+	ContextMenu_ThrowCorpseOutTheWindow = "Throw Corpse Out The Window",
+	ContextMenu_ThrowCorpseOverFence = "Throw Corpse Over Fence",
 }
