@@ -121,6 +121,9 @@ MOD: Brick Wants Fish + Some Self Tweaks (2696281225)
 MOD: Clear Description for Moodles 
     lua/shared/Translate/EN/Moodles_EN.txt
 
+MOD: Description on Trait
+    lua/client/ImportedMods/Mod_DescriptionOnTrait.lua
+
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua
 
