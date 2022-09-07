@@ -1,4 +1,4 @@
-OutTheWindow = require('OutTheWindow/OutTheWindow')
+OutTheWindow = require('ImportedMods/Mod_OutTheWindow')
 ISThrowCorpse = ISBaseTimedAction:derive('ISThrowCorpse')
 
 function ISThrowCorpse:isValid()

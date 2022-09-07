@@ -1,4 +1,4 @@
-ocal OutTheWindow = require('OutTheWindow/OutTheWindow')
+local OutTheWindow = require('ImportedMods/Mod_OutTheWindow')
 
 function OutTheWindow.OnFillWorldObjectContextMenu(playerId, context, worldobjects, test)
 
