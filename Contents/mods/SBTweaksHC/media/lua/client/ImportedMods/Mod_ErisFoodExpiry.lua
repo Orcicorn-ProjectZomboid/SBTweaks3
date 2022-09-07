@@ -20,8 +20,8 @@ print("[ Loading ERIS_FOOD_EXPIRY ]");
 
 local show_seconds = false;
 local show_inventory_bar = true;
-local require_trait = true;
 local max_intervals = 3;
+local show_cookinglevel = 3;
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------/OPTIONS----------------------------------------------------
@@ -266,7 +266,8 @@ function ISToolTipInv:render()
 					expires = false;
 					table.insert(drawTable, translationData["label_neverperish"]);
 				else
-					if getPlayer(0):HasTrait("Nutritionist") or packaged or not require_trait then
+					-- Only show label details if Nutritionist trait or Cooking Skill as defined in locals
+					if getPlayer(0):HasTrait("Nutritionist") or getPlayer(0):getPerkLevel(Perks.Cooking) >= show_cookinglevel then
 						local stale_str = getFreshTimeData(fresh_days);
 						local rot_str = getFreshTimeData(stale_days);
 						if stale_str ~= "" then
