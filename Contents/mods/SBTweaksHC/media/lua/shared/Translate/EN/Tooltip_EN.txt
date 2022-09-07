@@ -1,0 +1,6 @@
+Tooltip_EN {
+    /* Medical Items */
+    Tooltip_SBTweaks_SBOpioids = "Provides exceptional pain relief",
+    Tooltip_SBTweaks_SBTums = "Soothe upset stomachs",
+    Tooltip_SBTweaks_SBCoughSyrup = "Mild relief from cold and flu symptoms",
+}

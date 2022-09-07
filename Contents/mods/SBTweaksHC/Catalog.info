@@ -58,6 +58,8 @@ Gun Cleaning (Expert)
 Medical Items
     lua/client/TimedActions/SBTweaks_ISTakePillAction.lua
     lua/server/SBTweaks_Distribution_MedicalItems.lua
+    lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Tooltip_EN.txt
     scripts/SBTweaks_MedicalItems.txt
     textures/WorldItems/SBCoughSyrup.png
     textures/WorldItems/SBOpioids.png 

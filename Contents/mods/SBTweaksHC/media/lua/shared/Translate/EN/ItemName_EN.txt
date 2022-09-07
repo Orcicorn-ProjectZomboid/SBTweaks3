@@ -7,6 +7,11 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
     ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
 
+    /* Medical Items *
+    ItemName_SBTweaks.PillsSBTums = "Antacid",
+    ItemName_SBTweaks.PillsSBCoughSyrup = "Cough Syrup",
+    ItemName_SBTweaks.PillsSBOpioids = "Oxycontin",
+
     /* BASE GAME SKILL BOOK RENAME */
     ItemName_Base.BookCarpentry1 = " Carpentry 1: Beginner",
     ItemName_Base.BookCarpentry2 = " Carpentry 2: Intermediate",
