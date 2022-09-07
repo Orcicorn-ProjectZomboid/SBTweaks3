@@ -104,6 +104,9 @@ Tweak Paw Low Loot
 Tweak Sleeping Mechanics 
     lua/client/SBTweaks_RequireLessSleep.lua
 
+Tweak Zombie Loot (Inspired by 2686972114)
+    lua/server/SBTweaks_Distribution_ZombieLoot.lua
+
 ============================================================
 == MODS ------------------------------------------------- ==
 ============================================================
