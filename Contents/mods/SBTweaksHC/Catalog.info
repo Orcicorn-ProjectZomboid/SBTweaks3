@@ -151,6 +151,9 @@ MOD: ItemTweaker API (566115016)
 MOD: Jump through Windows (26888884240)
     lua/client/ImportedMods/Mod_JumpThroughWindows.lua
 
+MOD: Moonshine (2324977512)
+    scripts/Mod_Moonshine.txt
+
 MOD: Nutrition Info (2830099097)
     lua/client/ImportedMods/Mod_NutritionInfo.lua
 
