@@ -129,6 +129,10 @@ MOD: Clear Description for Moodles
 MOD: Description on Trait
     lua/client/ImportedMods/Mod_DescriptionOnTrait.lua
 
+MOD: Eris Food Expiry 
+    lua/client/ImportedMods/Mod_ErisFoodExpiry.lua
+    lua/shared/Translate/EN/UI_EN.txt
+
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua
 

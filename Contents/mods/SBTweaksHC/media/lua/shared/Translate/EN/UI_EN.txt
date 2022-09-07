@@ -37,4 +37,23 @@ UI_EN = {
     UI_SNIFF_NEUTRAL3 = "*inhales*",
     UI_SNIFF_NEUTRAL4 = "*quiet moan*",
     UI_SNIFF_NEUTRAL5 = "*inhales deeply*",
+
+    /* MOD: lua/client/ImportedMods/Mod_ErisFoodExpiry.lua */
+    UI_mod_eris_food_expiry_years = "y",
+	UI_mod_eris_food_expiry_months = "m",
+	UI_mod_eris_food_expiry_weeks = "w",
+	UI_mod_eris_food_expiry_days = "d",
+	UI_mod_eris_food_expiry_hours = "h",
+	UI_mod_eris_food_expiry_mins = "m",
+	UI_mod_eris_food_expiry_secs = "s",
+	UI_mod_eris_food_expiry_stale_label = "Stale in: ",
+	UI_mod_eris_food_expiry_rotten_label = "Rotten in: ",
+	UI_mod_eris_food_expiry_freshbar_label = "Freshness: ",
+	UI_mod_eris_food_expiry_label_veryfresh = "Very Fresh",
+	UI_mod_eris_food_expiry_label_fresh = "Fresh",
+	UI_mod_eris_food_expiry_label_ok = "Looks okay",
+	UI_mod_eris_food_expiry_label_rotting = "Starting to rot",
+	UI_mod_eris_food_expiry_label_almost_rotten = "Almost rotten",
+	UI_mod_eris_food_expiry_label_completely_rotten = "Rotten",
+	UI_mod_eris_food_expiry_label_neverperish = "Does not go bad"
 }
