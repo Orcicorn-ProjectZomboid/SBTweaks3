@@ -168,6 +168,9 @@ MOD: Refill Lighters (2780594299)
     scripts/Mod_RefillLighters.txt
     textures/Item_Lighter_Empty.png
 
+MOD: Repair Any Clothing (2779627490)
+    lua/client/ImportedMods/Mod_RepairAnyClothes.lua
+
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
 
