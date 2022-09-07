@@ -174,6 +174,10 @@ MOD: Repair Any Clothing (2779627490)
 MOD: Show Level Numbers (2837506142)
     lua/client/ImportedMods/Mod_ShowLevelNumbers.lua
 
+MOD: Show Material (Clothing) (1922750845)
+    lua/client/ImportedMods/Mod_ShowClothingMaterial.lua
+    lua/shared/Translate/EN/IG_UI_EN.txt
+
 MOD: Snow is Still Rain (2704811006)
     lua/server/RainBarrel/SRainBarrelSystem.lua
 

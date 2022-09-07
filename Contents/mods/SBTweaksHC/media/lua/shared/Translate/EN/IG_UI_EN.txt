@@ -32,4 +32,10 @@ IGUI_EN = {
     IGUI_PlayerText_WeaponReload = "Need to reload",
     IGUI_PlayerText_WeaponRack = "Need to rack",
 
+    /* MOD: Show Clothing Material */
+   	IGUI_SM_Fabric = "Fabric: ",
+	IGUI_SM_Cotton = "Cotton",
+	IGUI_SM_Denim = "Denim",
+	IGUI_SM_Leather = "Leather",
+
 }
