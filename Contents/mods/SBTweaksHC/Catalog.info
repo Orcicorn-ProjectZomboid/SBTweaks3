@@ -129,6 +129,9 @@ MOD: Clear Description for Moodles
 MOD: Description on Trait
     lua/client/ImportedMods/Mod_DescriptionOnTrait.lua
 
+MOD: Edible Junk (2697578712)
+    scripts/Mod_EdibleJunk.txt
+
 MOD: Eris Food Expiry 
     lua/client/ImportedMods/Mod_ErisFoodExpiry.lua
     lua/shared/Translate/EN/UI_EN.txt

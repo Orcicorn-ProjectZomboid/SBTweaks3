@@ -1,0 +1,62 @@
+module Base {
+    
+    item Crayons {
+        DisplayCategory = Food,
+        HungerChange	=	-1,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Crayons,
+        Icon	=	Crayons,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        StaticModel = Crayons,
+        WorldStaticModel = Crayons,
+    }
+
+    item Toothpaste {
+        DisplayCategory = Food,
+        HungerChange	=	-1,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Toothpaste,
+        Icon	=	Toothpaste,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        StaticModel = Toothpaste,
+        WorldStaticModel = Toothpaste,
+    }
+
+    item Glue {
+        DisplayCategory = Food,
+        HungerChange = -1,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Glue,
+        Icon	=	Glue,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        StaticModel = Glue,
+        WorldStaticModel = Glue,
+    }
+
+    item Eraser {
+        DisplayCategory = Food,
+        HungerChange = -1,
+        Weight	=	0.1,
+        Type	=	Food,
+        DisplayName	=	Eraser,
+        Icon	=	Eraser,
+        Carbohydrates = 0,
+        Proteins = 0,
+        Lipids = 0,
+        Calories = 0,
+        StaticModel = Eraser,
+        WorldStaticModel = Eraser,
+    }
+}
