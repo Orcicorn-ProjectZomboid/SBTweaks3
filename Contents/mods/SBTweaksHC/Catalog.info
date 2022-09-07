@@ -136,6 +136,9 @@ MOD: Eris Food Expiry
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua
 
+MOD: Farming Never Rot (1415491388)
+    lua/server/Farming/Mod_FarmingNeverRot.lua
+
 MOD: Fuel Side Indicator (2616986064)
     lua/client/ImportedMods/Mod_FuelSideIndicator.lua
 
