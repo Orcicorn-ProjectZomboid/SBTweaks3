@@ -21,6 +21,7 @@ end
 
 -- MOD: More Traits
 if getActivatedMods():contains("ToadTraits") then
+    TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
     TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
     TweakItem("MoreTraits.AntiqueKatana", "AttachmentType", "Knife");
 end

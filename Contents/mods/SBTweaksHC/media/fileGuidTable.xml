@@ -16,4 +16,9 @@
         <path>media/clothing/clothingItems/TShirt_SpaceBroWhite.xml</path>
         <guid>sbtweaks-f3e5-45dd-8fdc-582890d918c3</guid>
     </files>
+    <files>
+        <note>More Traits Mod: Reskin Packer Bag</note>
+        <path>media/clothing/clothingItems/Bag_PackerBag.xml</path>
+        <guid>90c8ada9-6425-404a-9f57-2779c2850b7e</guid>
+    </files>
 </fileGuidTable>

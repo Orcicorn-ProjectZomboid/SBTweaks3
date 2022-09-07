@@ -206,6 +206,17 @@ OVERRIDE: Music (Vietnam Era Music)
     lua/server/SBTweaks_Distribution_Music_Cassettes_Vietnam.lua
     lua/server/SBTweaks_Distribution_Music_Vinyl_Vietnam.lua
 
+OVERRIDE: Packer Bag Textures from "More Traits"
+    fileGuidTable.xml
+    clothing/clothingItems/Bag_PackerBag.xml
+    lua/client/SBTweaks_Tweak_Mods.lua
+    textures/Item_BagPacker_Alien.png
+    textures/Item_BagPacker_Camo.png
+    textures/Item_BagPacker.png
+    textures/clothes/Bag_MoreTraitsPacker_Alien.png
+    textures/clothes/Bag_MoreTraitsPacker_Camo.png
+    textures/clothes/Bag_MoreTraitsPacker.png
+
 OVERRIDE: Vehicle Recycling Fix 
     lua/client/TimedActions/RecycleVehicleAction.lua
     lua/server/SBTweaks_Command_RMove.lua
