@@ -1,0 +1,12 @@
+module Base {
+    item PlayerToeTag {
+	    DisplayCategory = Accessory,
+		Type = Literature,
+		DisplayName = Toe Tag,
+		Icon = Necklace_Dogtags,
+		Weight = 0,
+		WorldStaticModel = Necklace_Dogtags_Ground,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+	}
+}

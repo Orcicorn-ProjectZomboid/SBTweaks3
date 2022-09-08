@@ -90,6 +90,10 @@ Taco Recipes & Items
     lua/shared/Translate/EN/Recipes_EN.txt 
     scripts/SBTweaks_Tacos.txt
 
+Toe Tags 
+    lua/client/SBTweaks_ToeTags.lua
+    scripts/SBTweaks_ToeTags.txt
+
 Tweak Fire Extinguisher Spawns
     lua/server/SBTweaks_Distribution_FireExtinguishers.lua
 
