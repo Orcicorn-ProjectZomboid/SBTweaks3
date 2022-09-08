@@ -32,10 +32,17 @@ IGUI_EN = {
     IGUI_PlayerText_WeaponReload = "Need to reload",
     IGUI_PlayerText_WeaponRack = "Need to rack",
 
+    /* BASE: Shouts */
+    IGUI_PlayerText_Callout1New = "*LOUD WHISTLE*",
+    IGUI_PlayerText_Callout2New = "HEY SHIT FOR BRAINS.. OVER HERE",
+    IGUI_PlayerText_Callout3New = "LETS GET IT ON",
+    IGUI_PlayerText_Callout1Sneak = "pssst",
+    IGUI_PlayerText_Callout2Sneak = "hey.. you.. c'mere",
+    IGUI_PlayerText_Callout3Sneak = "here kitty kitty kitty",
+
     /* MOD: Show Clothing Material */
    	IGUI_SM_Fabric = "Fabric: ",
 	IGUI_SM_Cotton = "Cotton",
 	IGUI_SM_Denim = "Denim",
 	IGUI_SM_Leather = "Leather",
-
 }
