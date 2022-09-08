@@ -227,25 +227,27 @@ end
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
+-- DISABLED BY TYLER:  We don't need freshness when items are cooking or expanded.
+-- require it to be handled via tooltip only
 
-function ISInventoryPane:drawItemDetails(_item, _y, _xoff, _yoff, _red)
-	local itemObj = _item;
-	if itemObj then
-		if instanceof(itemObj, "Food") and show_inventory_bar then
-			local fresh_frac, stale_frac, fresh_days, stale_days = getItemFreshness(itemObj);
-			local hdrHgt = self.headerHgt or 16;
-			local itemHgt = self.itemHgt or 16;
-			local top = hdrHgt + _y * itemHgt + _yoff;
-			local fgBar = {r=1 - fresh_frac, g=stale_frac, b=0.0, a=0.7};
-			local fgText = {r=0.6, g=0.8, b=0.5, a=0.6};
-			if _red then fgText = {r=0.0, g=0.0, b=0.5, a=0.7}; end;
-			local bar_label = translationData["freshbar_label"];
-			drawDetails(self, bar_label, stale_frac / 1.0, _xoff, top + 3, fgText, fgBar);
-			return callback_drawItemDetails(self, itemObj, _y, _xoff, _yoff - (self.fontHgt / 2) , _red);
-		end;
-	end;
-	return callback_drawItemDetails(self, _item, _y, _xoff, _yoff, _red);
-end
+-- function ISInventoryPane:drawItemDetails(_item, _y, _xoff, _yoff, _red)
+-- 	local itemObj = _item;
+-- 	if itemObj then
+-- 		if instanceof(itemObj, "Food") and show_inventory_bar then
+-- 			local fresh_frac, stale_frac, fresh_days, stale_days = getItemFreshness(itemObj);
+-- 			local hdrHgt = self.headerHgt or 16;
+-- 			local itemHgt = self.itemHgt or 16;
+-- 			local top = hdrHgt + _y * itemHgt + _yoff;
+-- 			local fgBar = {r=1 - fresh_frac, g=stale_frac, b=0.0, a=0.7};
+-- 			local fgText = {r=0.6, g=0.8, b=0.5, a=0.6};
+-- 			if _red then fgText = {r=0.0, g=0.0, b=0.5, a=0.7}; end;
+-- 			local bar_label = translationData["freshbar_label"];
+-- 			drawDetails(self, bar_label, stale_frac / 1.0, _xoff, top + 3, fgText, fgBar);
+-- 			return callback_drawItemDetails(self, itemObj, _y, _xoff, _yoff - (self.fontHgt / 2) , _red);
+-- 		end;
+-- 	end;
+-- 	return callback_drawItemDetails(self, _item, _y, _xoff, _yoff, _red);
+-- end
 
 ----------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------
