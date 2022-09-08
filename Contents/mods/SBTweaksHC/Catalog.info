@@ -130,6 +130,9 @@ MOD: Brick Wants Fish + Some Self Tweaks (2696281225)
 MOD: Clear Description for Moodles 
     lua/shared/Translate/EN/Moodles_EN.txt
 
+MOD: Crops Never Rot (2728416041)
+    lua/server/Farming/Mod_CropsNeverRot.lua
+
 MOD: Description on Trait
     lua/client/ImportedMods/Mod_DescriptionOnTrait.lua
 
@@ -142,9 +145,6 @@ MOD: Eris Food Expiry
 
 MOD: Faction Safehouses (2717575749)
     lua/client/ImportedMods/Mod_FactionSafehouses.lua
-
-MOD: Farming Never Rot (1415491388)
-    lua/server/Farming/Mod_FarmingNeverRot.lua
 
 MOD: Fuel Side Indicator (2616986064)
     lua/client/ImportedMods/Mod_FuelSideIndicator.lua
