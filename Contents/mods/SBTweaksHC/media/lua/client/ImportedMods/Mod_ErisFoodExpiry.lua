@@ -27,7 +27,7 @@ local show_cookinglevel = 3;
 ----------------------------------------/OPTIONS----------------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-local callback_drawItemDetails = ISInventoryPane.drawItemDetails;
+-- local callback_drawItemDetails = ISInventoryPane.drawItemDetails;
 local callback_render = ISToolTipInv.render;
 
 local fridgefactor = {0.4, 0.3, 0.2, 0.1, 0.03};
