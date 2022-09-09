@@ -1,0 +1,12 @@
+module Base
+{
+	sound RadioTalk
+	{
+		category = Object,
+		clip
+		{
+			file = media/sound/muffledvoices.ogg,
+		}
+	}
+
+}

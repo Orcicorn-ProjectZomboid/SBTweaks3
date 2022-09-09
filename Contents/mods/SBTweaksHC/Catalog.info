@@ -210,6 +210,10 @@ MOD: Tuck and Roll (2832401837)
 OVERRIDE: Base Game Exercise: Do not drop backpacks to workout 
     lua/client/ISUI/SBTweaks_ISFitnessUI.lua
 
+OVERRIDE: Base Game Sound Effects (TV/Radio)
+    scripts/SBTweaks_Override_RadioSounds.txt
+    sound/muffledvoices.ogg
+
 OVERRIDE: Base Game Welcome text & Shouts
     lua/shared/Translate/EN/IG_UI_EN.txt
     lua/shared/Translate/EN/UI_EN.txt
