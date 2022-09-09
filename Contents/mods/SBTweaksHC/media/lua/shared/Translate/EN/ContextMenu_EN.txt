@@ -10,4 +10,84 @@ ContextMenu_EN = {
 	/* Throw Corpse out the Window/Fence */
 	ContextMenu_ThrowCorpseOutTheWindow = "Throw Corpse Out The Window",
 	ContextMenu_ThrowCorpseOverFence = "Throw Corpse Over Fence",
+
+	/* ======================================================================= */
+	/* Brita's Armor ========================================================= */
+	/* ======================================================================= */
+	/* ARMY_Helmet.txt ------------------------------------------------------- */
+	ContextMenu_Visor3_OFF = "Visor Up",
+	ContextMenu_Visor3_ON = "Visor Down",
+	ContextMenu_Visor4_OFF = "Visor Up",
+	ContextMenu_Visor4_ON = "Visor Down",
+	/* Belt.txt -------------------------------------------------------------- */
+	ContextMenu_Tactical_Belt_WearFront = "Front",
+	ContextMenu_Tactical_Belt_WearBack = "Back",
+	ContextMenu_Duty_Belt_WearFront = "Front",
+	ContextMenu_Duty_Belt_WearBack = "Back",
+	/* Chest_Rig.txt --------------------------------------------------------- */
+	ContextMenu_D3M_Loose = "Loose",
+	ContextMenu_Bag_D3M = "Tight",
+	ContextMenu_D3M (Tight) = "Tight",
+	ContextMenu_Bag_D3M_Loose = "Loose",
+	ContextMenu_Blackhawk_Loose = "Loose",
+	ContextMenu_Bag_Blackhawk = "Tight",
+	ContextMenu_Blackhawk (Tight) = "Tight",
+	ContextMenu_Bag_Blackhawk_Loose = "Loose",
+	ContextMenu_X_Vest_Loose = "Loose",
+	ContextMenu_Bag_X_Vest = "Tight",
+	ContextMenu_X_Vest (Tight) = "Tight",
+	ContextMenu_Bag_X_Vest_Loose = "Loose",
+	ContextMenu_SKS_Vest_Loose = "Loose",
+	ContextMenu_Bag_SKS_Vest = "Tight",
+	ContextMenu_SKS_Vest (Tight) = "Tight",
+	ContextMenu_Bag_SKS_Vest_Loose = "Loose",
+	ContextMenu_AK_Vest_Loose = "Loose",
+	ContextMenu_Bag_AK_Vest = "Tight",
+	ContextMenu_AK_Vest (Tight) = "Tight",
+	ContextMenu_Bag_AK_Vest_Loose = "Loose",
+	/* Fire_Fighter.txt ------------------------------------------------------ */
+	ContextMenu_880_Visor_ON = "Visor Down",
+	ContextMenu_880_Visor_OFF = "Visor Up",
+	ContextMenu_Killa_880_ON = "Visor Down",
+	ContextMenu_Killa_880_OFF = "Visor Up",
+	/* Gas_Mask.txt ---------------------------------------------------------- */
+	ContextMenu_VPU_ON = "VPU On",
+	ContextMenu_VPU_OFF = "VPU Off",
+	/* Goggles.txt ----------------------------------------------------------- */
+	ContextMenu_X1000_ON = "On",
+	ContextMenu_X1000_OFF = "Up",
+	ContextMenu_Crewman_Goggles_ON = "Goggles On",
+	ContextMenu_Crewman_Goggles_OFF = "Goggles Up",
+	/* Hood.txt -------------------------------------------------------------- */
+	ContextMenu_Hood_ON = "Hood Up",
+	ContextMenu_Hood_OFF = "Hood Down",
+	/* Maska.txt ------------------------------------------------------------- */
+	ContextMenu_Visor_ON = "Faceshield Down",
+	ContextMenu_Visor_OFF = "Faceshield Up",
+	ContextMenu_Visor2_ON = "Faceshield Down",
+	ContextMenu_Visor2_OFF = "Faceshield Up",
+	ContextMenu_Killa_Visor_ON = "Faceshield Down",
+	ContextMenu_Killa_Visor_OFF = "Faceshield Up",
+	/* Other_Helmets.txt ----------------------------------------------------- */
+	ContextMenu_Glass_ON = "Goggles Off",
+	ContextMenu_Glass_OFF = "Goggles On",
+	/* PVS_NV.txt ------------------------------------------------------------ */
+	ContextMenu_PVS15_NV_OFF = "Goggles Up",
+	ContextMenu_PVS15_NV_ON = "Goggles Down",
+	ContextMenu_Sam_NV_OFF = "Goggles Up",
+	ContextMenu_Sam_NV_ON = "Goggles Down",
+	ContextMenu_PVS15_OFF = "Goggles Up",
+	ContextMenu_PVS15_ON = "Goggles Down",
+	ContextMenu_PVS15_Harness_OFF = "Goggles Up",
+	ContextMenu_PVS15_Harness_ON = "Goggles Down",
+	ContextMenu_NV18_OFF = "Goggles Up",
+	ContextMenu_NV18_ON = "Goggles Down",
+	ContextMenu_NV18_Harness_OFF = "Goggles Up",
+	ContextMenu_NV18_Harness_ON = "Goggles Down",
+	/* Vest.txt -------------------------------------------------------------- */
+	ContextMenu_Bag_Smersh_Vest = "Tight",
+	ContextMenu_Smersh_Vest_Loose = "Loose",
+	ContextMenu_Bag_Smersh_Vest_Loose = "Loose",
+	ContextMenu_Smersh_Vest (Tight) = "Tight",
+	/* ======================================================================= */
 }

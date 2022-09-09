@@ -258,6 +258,9 @@ OVERRIDE: Vehicle Recycling Fix
 PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
     lua/client/Patches/Compatibility_Desensitized_ToadTraits.lua
 
+PATCH: Fix Brita's Armor context menu missing translations
+    lua/shared/Translate/EN/ContextMenu_EN.txt
+
 PATCH: Fix Paw Low Loot Fantasy errors on clothing equip
     lua/client/erisPLL_nvg/erisPLL_headwearOverride/ReadMe.info
     lua/client/erisPLL_nvg/erisPLL_headwearOverride/erisPLL_headwearOverride.lua
