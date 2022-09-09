@@ -261,6 +261,9 @@ PATCH: Compatibility between "BecomeDesensitized" and "ToadTraits"
 PATCH: Fix Brita's Armor context menu missing translations
     lua/shared/Translate/EN/ContextMenu_EN.txt
 
+PATCH: DrHyde Books do not disappear on being read (if spawn enabled)
+    lua/client/SBTweaks_Tweak_DrHydeMagazines.lua
+
 PATCH: Fix Paw Low Loot Fantasy errors on clothing equip
     lua/client/erisPLL_nvg/erisPLL_headwearOverride/ReadMe.info
     lua/client/erisPLL_nvg/erisPLL_headwearOverride/erisPLL_headwearOverride.lua
