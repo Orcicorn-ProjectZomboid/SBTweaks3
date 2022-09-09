@@ -31,6 +31,12 @@ Books: Fitness and Melee
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
+Books: Lockpicking
+    lua/server/SBTweaks_Books_LockpickingXP.lua
+    lua/server/SBTweaks_Distribution_LockpickingBooks.lua
+    lua/shared/Translate/EN/ItemName_EN.txt
+    scripts/SBTweaks_Books_Lockpicking.txt
+
 Character Creation Methods
     lua/shared/NPCs/TweakCharacterCreationTraits.lua
 

@@ -110,6 +110,13 @@ ItemName_EN = {
     ItemName_SBTweaks.BookStrength4 = " Strength 4: Expert",
     ItemName_SBTweaks.BookStrength5 = " Strength 5: Master",
 
+    /* SBTweaks_Books_Lockpicking.txt */
+    ItemName_SBTweaks.BookLockpicking1 = " Lockpicking 1: Beginner",
+    ItemName_SBTweaks.BookLockpicking2 = " Lockpicking 2: Intermediate",
+    ItemName_SBTweaks.BookLockpicking3 = " Lockpicking 3: Advanced",
+    ItemName_SBTweaks.BookLockpicking4 = " Lockpicking 4: Expert",
+    ItemName_SBTweaks.BookLockpicking5 = " Lockpicking 5: Master",
+
     /* SBTweaks_Books_Melee.txt */
     ItemName_SBTweaks.BookAxe1 = " Axes 1: Beginner",
     ItemName_SBTweaks.BookAxe2 = " Axes 2: Intermediate",
