@@ -22,12 +22,14 @@ Books: Firearms
     lua/server/SBTweaks_Books_FirearmsXP.lua
     lua/server/SBTweaks_Distribution_FirearmBooks.lua
     lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Tooltip_EN.txt
     scripts/SBTweaks_Books_Firearms.txt
 
 Books: Fitness and Melee
     lua/server/SBTweaks_Distribution_MeleeBooks.lua 
     lua/server/SBTweaks_Books_MeleeXP.lua 
     lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Tooltip_EN.txt
     scripts/SBTweaks_Books_Fitness.txt
     scripts/SBTweaks_Books_Melee.txt
 
