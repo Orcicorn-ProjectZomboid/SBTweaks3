@@ -249,6 +249,9 @@ OVERRIDE: Music (Vietnam Era Music)
     lua/server/SBTweaks_Distribution_Music_Cassettes_Vietnam.lua
     lua/server/SBTweaks_Distribution_Music_Vinyl_Vietnam.lua
 
+OVERRIDE: Noir's Attachments Textures for Alice Pack 
+    textures/ALICEpack_Camo_Pink.png
+
 OVERRIDE: Packer Bag Textures from "More Traits"
     fileGuidTable.xml
     clothing/clothingItems/Bag_PackerBag.xml
