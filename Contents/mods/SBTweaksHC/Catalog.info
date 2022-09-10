@@ -267,6 +267,11 @@ OVERRIDE: Vehicle Recycling Fix
     lua/client/TimedActions/RecycleVehicleAction.lua
     lua/server/SBTweaks_Command_RMove.lua
 
+OVERRIDE: Water Dispenser Textures
+    textures/WaterJugEmpty.png
+    textures/WaterJugPetrolFull.png
+    textures/WaterJugWaterFull.png
+
 ============================================================
 == PATCHES ---------------------------------------------- ==
 ============================================================
