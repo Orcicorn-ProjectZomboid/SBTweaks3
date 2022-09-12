@@ -234,6 +234,10 @@ OVERRIDE: Poultice Names & Recipes
 OVERRIDE: Base Game Reload Action (Speed up)
     lua/clients/SBTweaks_Override_ReloadAction.lua
 
+OVERRIDE: Dr Hyde's Vaccine/Laboratory
+    lua/server/SBTweaks_Override_DrHydeAutopsy.lua 
+    lua/shared/Translate/EN/ItemName_EN.txt
+
 OVERRIDE: Gun Fighter Liquid Reload from Arsenal26
     lua/client/SBTweaks_Override_GunFighterLiquidReload.lua
 
