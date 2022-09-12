@@ -105,16 +105,19 @@ local function announceSleep(player)
         end
     else
         if announced_awake == false then
-            -- Player is awake, so reset announcement status
-            -- so that the next time they sleep, it'll announce
-            -- print("I've woken up")
+            -- Player is awake, announce it to the server        
             processGeneralMessage(getText("IGUI_ChatText_Awake"))
-            HaloMessage(getText("IGUI_PlayerText_Wakeup"), font_white)
+
+            -- If you're still a little tired, do a yawn emote-text to indicate not 100% rested
+            if player:getStats():getFatigue() > 0 then
+                HaloMessage(getText("IGUI_PlayerText_Wakeup"), font_white)
+            end
+
+            -- Reset announcement status so that the next time they sleep, it'll announce again.
             announced_sleep = false
             announced_awake = true
         end
     end
-
 end
 
 local function checkBites(player)
