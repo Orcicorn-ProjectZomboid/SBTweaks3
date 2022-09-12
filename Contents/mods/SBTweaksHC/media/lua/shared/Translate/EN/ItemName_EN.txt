@@ -7,6 +7,17 @@ ItemName_EN = {
     ItemName_SBTweaks.tshirt_spacebro_white = "Space Brothers Combat Shirt",
     ItemName_SBTweaks.socks_spacebro = "Space Brothers Running Socks",
 
+    /* Base Game: Baseball caps are confusing AF */
+    ItemName_Base.Hat_BaseballCapGreen = "Black Baseball Cap" ,
+    ItemName_Base.Hat_BaseballCapGreen_Reverse = "Black Baseball Cap",
+    ItemName_Base.Hat_BaseballCapBlue = "Blue Baseball Cap" ,
+    ItemName_Base.Hat_BaseballCapBlue_Reverse = "Blue Baseball Cap",
+    ItemName_Base.Hat_BaseballCapRed = "Beige Baseball Cap" ,
+    ItemName_Base.Hat_BaseballCapRed_Reverse = "Beige Baseball Cap",
+    ItemName_Base.Hat_BaseballCapKY = "Branded Baseball Cap",
+    ItemName_Base.Hat_BaseballCapKY_Reverse = "Branded Baseball Cap",
+    ItemName_Base.Hat_BaseballCapKY_Red = "Kentucky Baseball Cap",
+
     /* Medical Items *
     ItemName_SBTweaks.PillsSBTums = "Antacid",
     ItemName_SBTweaks.PillsSBCoughSyrup = "Cough Syrup",

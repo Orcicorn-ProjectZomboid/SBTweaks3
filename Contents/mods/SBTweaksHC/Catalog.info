@@ -218,6 +218,15 @@ MOD: Tuck and Roll (2832401837)
 OVERRIDE: Base Game Exercise: Do not drop backpacks to workout 
     lua/client/ISUI/SBTweaks_ISFitnessUI.lua
 
+OVERRIDE: Base Game: Change Baseball Hat Textures
+    lua/shared/Translate/EN/ItemName_EN.txt
+    textures/clothes/Hat/BaseballCapBlue.png
+    textures/clothes/Hat/BaseballCapBlueKY.png
+    textures/clothes/Hat/BaseballCapGreen.png
+    textures/clothes/Hat/BaseballCapGreenKY.png
+    textures/clothes/Hat/BaseballCapRed.png
+    textures/clothes/Hat/BaseballCapRedKY.png
+
 OVERRIDE: Base Game Sound Effects (TV/Radio)
     scripts/SBTweaks_Override_RadioSounds.txt
     sound/muffledvoices.ogg
