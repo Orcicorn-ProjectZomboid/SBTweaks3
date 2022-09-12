@@ -100,7 +100,9 @@ Taco Recipes & Items
 
 Toe Tags 
     lua/client/SBTweaks_ToeTags.lua
+    lua/shared/Translate/EN/Tooltip_EN.txt
     scripts/SBTweaks_ToeTags.txt
+    textures/Item_ToeTag.png
 
 Tweak Fire Extinguisher Spawns
     lua/server/SBTweaks_Distribution_FireExtinguishers.lua

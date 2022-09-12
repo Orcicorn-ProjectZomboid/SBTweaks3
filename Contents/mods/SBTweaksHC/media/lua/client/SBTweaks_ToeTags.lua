@@ -35,7 +35,7 @@ function CreateToeTag(player)
     item:addPage(1, details)
 
     -- Lock the item with an unobtainable name so it can't be used as paper
-    item:setLockedBy(player:getUsername() .. ZombRand(9999999) .. "#" ..  getCore():getVersionNumber() );
+    item:setLockedBy("GrimReaper#" .. getGametimeTimestamp());
 end
 
 Events.OnCharacterDeath.Add(CreateToeTag)

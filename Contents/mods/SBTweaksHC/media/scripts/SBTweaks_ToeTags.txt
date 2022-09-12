@@ -3,10 +3,11 @@ module Base {
 	    DisplayCategory = Accessory,
 		Type = Literature,
 		DisplayName = Toe Tag,
-		Icon = Necklace_Dogtags,
+		Icon = ToeTag,
 		Weight = 0,
 		WorldStaticModel = Necklace_Dogtags_Ground,
         CanBeWrite  =   true,
         PageToWrite =   1,
+		Tooltip = Tooltip_SBTweaks_ToeTag,
 	}
 }
