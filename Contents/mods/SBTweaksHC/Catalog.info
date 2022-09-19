@@ -127,6 +127,9 @@ Tweak Zombie Loot (Inspired by 2686972114)
 MOD: Backpack Borders (2808679062)
     lua/client/ImportedMods/Mod_BackpackBorders.lua
 
+MOD: Bookworm (2857910464)
+    lua/client/ImportedMods/Mod_Bookworm.lua
+
 MOD: Boredom Tweaks (2725360009)
     lua/client/ImportedMods/Mod_BoredomTweaks.lua
 
