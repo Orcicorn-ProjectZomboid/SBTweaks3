@@ -18,6 +18,10 @@ AFK Ring
     textures/Item_AFKRing.png
     fileGuidTable.xml
 
+Belts and Holsters
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweaks_Recipes_BeltsAndHolsters.txt
+
 Books: Firearms
     lua/server/SBTweaks_Books_FirearmsXP.lua
     lua/server/SBTweaks_Distribution_FirearmBooks.lua

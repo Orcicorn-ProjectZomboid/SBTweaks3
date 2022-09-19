@@ -72,4 +72,10 @@ Recipe_EN = {
 
     /* Smores */
     Recipe_PrepareSmores = "Make Smore",
+
+    /* Craft Belts and Holsters */
+    Recipe_MakeBelt = "Make Belt",
+    Recipe_MakeHolster = "Make Holster (Single)",
+    Recipe_MakeHolsterDouble = "Make Holster (Double)",
+    Recipe_MakeHolsterDouble2 = "Upgrade Holster to Double",
 }

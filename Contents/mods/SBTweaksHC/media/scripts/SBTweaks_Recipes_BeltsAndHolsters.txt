@@ -1,0 +1,56 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe MakeBelt {
+        keep Scissors,
+	    keep Needle/SutureNeedle,
+        Thread/Twine=3,
+	    LeatherStrips=3,
+	    Result: Base.Belt,
+	    SkillRequired:Tailoring=1,
+	    Time:90.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+
+    recipe MakeHolster {
+        keep Scissors,
+	    keep Needle/SutureNeedle,
+        Thread/Twine=4,
+	    LeatherStrips=3,
+        Base.Belt,
+	    Result: Base.HolsterSimple,
+	    SkillRequired:Tailoring=2,
+	    Time:120.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+
+    recipe MakeHolsterDouble {
+        keep Scissors,
+	    keep Needle/SutureNeedle,
+        Base.Belt,
+        Thread/Twine=8,
+	    LeatherStrips=6,
+	    Result: Base.HolsterDouble,
+	    SkillRequired:Tailoring=2,
+	    Time:120.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+
+    recipe MakeHolsterDouble2 {
+        keep Scissors,
+	    keep Needle/SutureNeedle,
+        Base.HolsterSimple,
+        Thread/Twine=4,
+	    LeatherStrips=3,
+	    Result: Base.HolsterDouble,
+	    SkillRequired:Tailoring=2,
+	    Time:120.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+}
