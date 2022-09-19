@@ -293,7 +293,6 @@ PATCH: Compatibility between "Dynamic Traits" and "Better Lockpicking"
     lua/client/SBTweaks_Compatibility_Dynamictraits_BetterLocks.lua
 
 PATCH: Dr Hyde's Vaccine/Laboratory
-    lua/server/SBTweaks_Override_DrHydeAutopsy.lua 
     lua/shared/Translate/EN/ItemName_EN.txt
 
 PATCH: Fix Brita's Armor context menu missing translations
