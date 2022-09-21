@@ -254,6 +254,7 @@ OVERRIDE: Base Game Reload Action (Speed up)
     lua/clients/SBTweaks_Override_ReloadAction.lua
 
 OVERRIDE: GreenFire Cigarettes
+    lua/client/SBTweaks_Tweak_Mods.lua
     lua/server/SBTweaks_Override_GreenfireRecipeCode.lua
     scripts/Mod_GreenFire.txt
 

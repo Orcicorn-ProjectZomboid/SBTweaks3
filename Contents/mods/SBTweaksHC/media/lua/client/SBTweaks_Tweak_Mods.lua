@@ -25,3 +25,36 @@ if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
     TweakItem("MoreTraits.AntiqueKatana", "AttachmentType", "Knife");
 end
+
+-- MOD: GreenFire Fix Custom Sounds for Lighters in non-pipe situations
+if getActivatedMods():contains("jiggasGreenfireMod") then
+    TweakItem("Greenfire.Joint", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfJoint", "CustomEatSound", "");
+    TweakItem("Greenfire.KiefJoint", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfKiefJoint", "CustomEatSound", "");
+    TweakItem("Greenfire.HashJoint", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfHashJoint", "CustomEatSound", "");
+    TweakItem("Greenfire.CannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.PreCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfPreCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.DelCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfDelCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.ResCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfResCannaCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.Blunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.MixedBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfMixedBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.KiefBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfKiefBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HashBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfHashBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.SpaceBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfSpaceBlunt", "CustomEatSound", "");
+    TweakItem("Greenfire.GFCigarette", "CustomEatSound", "");
+    TweakItem("Greenfire.BluntCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfBluntCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.GFCigar", "CustomEatSound", "");
+    TweakItem("Greenfire.HalfCigar", "CustomEatSound", "");
+end
