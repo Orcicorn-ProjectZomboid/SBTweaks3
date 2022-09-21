@@ -8,7 +8,7 @@ function SBTweaks_SuperRepairGuns(items, result, player)
             end
         end
     end
-    result:setWeight(0)
-    result:setCondition(0)
-    result:setName("Metal Shavings")
+    -- result:setWeight(0)
+    -- result:setCondition(0)
+    -- result:setName("Metal Shavings")
 end

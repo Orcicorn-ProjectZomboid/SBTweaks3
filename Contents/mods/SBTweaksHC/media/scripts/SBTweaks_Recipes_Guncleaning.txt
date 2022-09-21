@@ -48,6 +48,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalNew {
@@ -60,6 +61,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack1 {
@@ -72,6 +74,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack2 {
@@ -84,6 +87,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack3 {
@@ -96,6 +100,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack4 {
@@ -108,6 +113,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack5 {
@@ -120,6 +126,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack6 {
@@ -132,6 +139,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack7 {
@@ -144,6 +152,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack8 {
@@ -156,6 +165,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack9 {
@@ -168,6 +178,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack10 {
@@ -180,6 +191,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack11 {
@@ -192,6 +204,7 @@ module SBTweaks
 		NeedToBeLearn:False,
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
+		RemoveResultItem:true,
 	}
 
    recipe SBSuperRepairsArsenalWeaponPack12 {
@@ -204,6 +217,7 @@ module SBTweaks
 		OnCreate:SBTweaks_SuperRepairGuns,
       	Category:SBTweaks,
       	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
 	}
 
 }
