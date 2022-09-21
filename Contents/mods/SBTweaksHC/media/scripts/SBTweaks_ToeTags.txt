@@ -1,13 +1,18 @@
 module Base {
-    item PlayerToeTag {
+    item ToeTag {
 	    DisplayCategory = Accessory,
 		Type = Literature,
-		DisplayName = Toe Tag,
+		DisplayName = Player Toe Tag,
 		Icon = ToeTag,
 		Weight = 0,
-		WorldStaticModel = Necklace_Dogtags_Ground,
-        CanBeWrite  =   true,
-        PageToWrite =   1,
-		Tooltip = Tooltip_SBTweaks_ToeTag,
+		WorldStaticModel = ToeTag,
+        CanBeWrite = true,
+        PageToWrite = 1,
 	}
+
+    model ToeTag {
+        mesh = WorldItems/EmptyNotebook,
+        texture = WorldItems/ToeTag,
+        scale = 0.2,
+    }
 }
