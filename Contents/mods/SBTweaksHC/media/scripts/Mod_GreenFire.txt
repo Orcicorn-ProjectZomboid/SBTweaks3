@@ -1,0 +1,7 @@
+module Base {
+    recipe Convert to Vanilla Cigarettes {
+        GFCigarette,
+        Result: Base.Cigarettes,
+        Time: 0.0,
+    }
+}
