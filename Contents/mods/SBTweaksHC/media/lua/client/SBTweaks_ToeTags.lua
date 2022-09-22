@@ -79,5 +79,5 @@ Events.OnCharacterDeath.Add(CreateToTagOnDeadPlayer)
 -- -------------------------------------------------- --
 -- -- DEBUG ----------------------------------------- --
 -- -------------------------------------------------- --
-Events.OnWeaponSwing.Add(CreateToTagOnDeadPlayer)
+-- Events.OnWeaponSwing.Add(CreateToTagOnDeadPlayer)
 -- -------------------------------------------------- --
