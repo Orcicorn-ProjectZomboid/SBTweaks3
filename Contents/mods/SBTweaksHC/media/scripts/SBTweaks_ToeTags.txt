@@ -10,6 +10,17 @@ module Base {
         PageToWrite = 1,
 	}
 
+    item PlayerToeTag {
+	    DisplayCategory = Accessory,
+		Type = Literature,
+		DisplayName = Player Toe Tag,
+		Icon = ToeTag,
+		Weight = 0,
+		WorldStaticModel = ToeTag,
+        CanBeWrite = true,
+        PageToWrite = 1,
+	}    
+
     model ToeTag {
         mesh = WorldItems/EmptyNotebook,
         texture = WorldItems/ToeTag,
