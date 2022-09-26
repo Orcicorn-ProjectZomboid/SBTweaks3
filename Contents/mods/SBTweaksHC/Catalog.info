@@ -117,6 +117,7 @@ Tweak Item Settings to our choices (Requires ItemTweaker API)
     lua/client/SBTweaks_Tweak_Mods.lua
 
 Tweak Paw Low Loot
+    lua/client/SBTweaks_Tweak_Mods.lua
     lua/server/SBTweaks_Distribution_Tweak_PawLowLoot.lua
     scripts/Mod_PawLowLoot_FixGrimoire.txt
 

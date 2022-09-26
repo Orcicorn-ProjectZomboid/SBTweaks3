@@ -58,3 +58,8 @@ if getActivatedMods():contains("jiggasGreenfireMod") then
     TweakItem("Greenfire.GFCigar", "CustomEatSound", "");
     TweakItem("Greenfire.HalfCigar", "CustomEatSound", "");
 end
+
+-- MOD: Paw Low Loot
+if getActivatedMods():contains("PLLoot") then
+    TweakItem("Base.RogueSword", "AttachmentType", "Knife");
+end
