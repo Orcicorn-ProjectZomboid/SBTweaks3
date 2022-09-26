@@ -31,4 +31,9 @@
         <path>media/clothing/clothingItems/Apron_ElinasBakery_White.xml</path>
         <guid>sbtweaks-elna-aprn-whte-40bd68cc4520</guid>
     </files>
+    <files>
+        <note>Full protection: Admin-only spawn item</note>
+        <path>media/clothing/clothingItems/Boilersuit_AdminAlien.xml</path>
+        <guid>SBTWEAKS-ADMN-SUIT-ALIN-375f99b5eb91</guid>
+    </files>
 </fileGuidTable>

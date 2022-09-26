@@ -1,9 +1,29 @@
-module SBTweaks
-{
-	imports
-	{
+module SBTweaks {
+	imports {
 		Base
 	}
+
+    item AdminAlienSuit {
+        Type = Clothing,
+        DisplayName = Admin: Alien Suit,
+        ClothingItem = Boilersuit_AdminAlien,
+        BodyLocation = FullSuit,
+        Icon = AlienFace,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 10.0,
+        CombatSpeedModifier = 10.0,
+        BiteDefense = 100,
+        ScratchDefense = 100,
+        BulletDefense = 100,
+        NeckProtectionModifier = 100.0,
+        Insulation = 100.0,
+        WindResistance = 100.0,
+        WaterResistance = 100.0,
+        StompPower = 100,
+        FabricType = Cotton,
+        Weight = 0,
+        CanHaveHoles = false,
+    }
 
 	item tshirt_spacebro_black {
         DisplayCategory = Clothing,
