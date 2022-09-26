@@ -56,5 +56,29 @@ module SBTweaks
         WorldStaticModel = Sock_Ankle_Ground,
     }
 
+    item apron_elinasbakery_black {
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Elina's Bakery Apron (Black),
+		ClothingItem = Apron_ElinasBakery_Black,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		IconsForTexture = ApronBlack,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+    }
+
+    item apron_elinasbakery_white {
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Elina's Bakery Apron (White),
+		ClothingItem = Apron_ElinasBakery_White,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		IconsForTexture = ApronWhite,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+    }
+
 
 }

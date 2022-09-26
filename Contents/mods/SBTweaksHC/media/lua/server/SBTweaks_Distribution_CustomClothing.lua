@@ -107,3 +107,21 @@ table.insert(ProceduralDistributions["list"]["WardrobeMan"].items, "SBTweaks.soc
 table.insert(ProceduralDistributions["list"]["WardrobeMan"].items, 0.5);
 table.insert(ProceduralDistributions["list"]["WardrobeWoman"].items, "SBTweaks.socks_spacebro");
 table.insert(ProceduralDistributions["list"]["WardrobeWoman"].items, 0.5);
+
+-- Elina's Bakery Aprons
+table.insert(ProceduralDistributions["list"]["BakeryKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_black");
+table.insert(ProceduralDistributions["list"]["BakeryKitchenBaking"]["junk"].items, 10);
+table.insert(ProceduralDistributions["list"]["BakeryKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_white");
+table.insert(ProceduralDistributions["list"]["BakeryKitchenBaking"]["junk"].items, 10);
+table.insert(ProceduralDistributions["list"]["GrillAcessories"].items, "SBTweaks.apron_elinasbakery_black");
+table.insert(ProceduralDistributions["list"]["GrillAcessories"].items, 5);
+table.insert(ProceduralDistributions["list"]["GrillAcessories"].items, "SBTweaks.apron_elinasbakery_white");
+table.insert(ProceduralDistributions["list"]["GrillAcessories"].items, 5);
+table.insert(ProceduralDistributions["list"]["StoreKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_black");
+table.insert(ProceduralDistributions["list"]["StoreKitchenBaking"]["junk"].items, 10);
+table.insert(ProceduralDistributions["list"]["StoreKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_white");
+table.insert(ProceduralDistributions["list"]["StoreKitchenBaking"]["junk"].items, 10);
+table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_black");
+table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, 10);
+table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_white");
+table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, 10);

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>Elinas_Bakery</m_Name>
+		<m_Guid>de3b1c63-36fd-44f3-9b81-d95ec1c3779c</m_Guid>
+        <m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_items><!-- Elina's Bakery Apron -->
+			<itemGUID>sbtweaks-elna-aprn-blck-40bd68cc4520</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+    <m_MaleOutfits>
+		<m_Name>Elinas_Bakery</m_Name>
+		<m_Guid>de3b1c63-36fd-44f3-9b81-d95ec1c3779c</m_Guid>
+        <m_Top>true</m_Top>
+		<m_Pants>true</m_Pants>
+		<m_items><!-- Elina's Bakery Apron -->
+			<itemGUID>sbtweaks-elna-aprn-whte-40bd68cc4520</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>

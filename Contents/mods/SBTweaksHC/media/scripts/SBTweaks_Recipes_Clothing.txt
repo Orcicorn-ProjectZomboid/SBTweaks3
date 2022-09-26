@@ -1,0 +1,25 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+    recipe Add Elina's Bakery Logo to Apron {
+	    keep Base.Pen,
+        Base.Apron_White,
+        SapphCooking.VodkaFull,
+	    Result:SBTweaks.apron_elinasbakery_white,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+
+    recipe Add Elina's Bakery Logo to Apron {
+	    keep Base.Pen,
+        Base.Apron_Black,
+        SapphCooking.VodkaFull,
+	    Result:SBTweaks.apron_elinasbakery_black,
+	    Time:60.0,
+	    NeedToBeLearn:False,
+		Category: Tailoring,
+    }
+}
