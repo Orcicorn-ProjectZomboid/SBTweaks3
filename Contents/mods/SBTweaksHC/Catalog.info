@@ -113,6 +113,7 @@ Taco Recipes & Items
 
 Toe Tags 
     lua/client/SBTweaks_ToeTags.lua
+    lua/client/SBTweaks_ToeTags_ModOptions.lua
     lua/shared/Translate/EN/IG_UI_EN.txt
     scripts/SBTweaks_ToeTags.txt
     textures/Item_ToeTag.png
