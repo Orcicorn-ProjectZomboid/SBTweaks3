@@ -257,4 +257,7 @@ ItemName_EN = {
 	ItemName_LabItems.JournalOfResearch = "Journal of research",
 	ItemName_LabItems.CureNotes = "Dr. Hyde's notes about the Cure",
 	ItemName_LabItems.DrHydePhotograph = "Dr. Hyde's photograph",
+
+    /* Magic 8 Ball */
+    ItemName_Magic8Ball = "Magic 8-Ball",
 }

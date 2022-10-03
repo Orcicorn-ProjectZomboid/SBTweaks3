@@ -76,6 +76,16 @@ Gun Cleaning (Expert)
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweaks_Recipes_Guncleaning.txt
 
+Magic 8Ball
+    lua/client/SBTweaks_Recipes_Magic8Ball.lua
+    lua/server/SBTweaks_Distribution_Magic8Ball.lua
+    lua/shared/Translate/EN/IG_UI_EN.txt
+    lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweaks_Magic8Ball.txt
+    textures/Item_Magic8Ball.png
+    textures/WorldItems/Magic8Ball.png
+
 Medical Items
     lua/client/TimedActions/SBTweaks_ISTakePillAction.lua
     lua/server/SBTweaks_Distribution_MedicalItems.lua

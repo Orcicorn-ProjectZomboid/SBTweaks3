@@ -1,0 +1,29 @@
+module Base {
+
+    item Magic8Ball {
+        DisplayCategory = Junk,
+        Weight = 0.1,
+        Type = Normal,
+        DisplayName = Magic 8-Ball,
+        Icon	=	Magic8Ball,
+        WorldStaticModel = Magic8Ball,
+    }
+
+    recipe ShakeMagic8Ball {
+        keep Base.Magic8Ball,
+        Result: Base.Magic8Ball,
+        RemoveResultItem:true,
+        OnCreate:SBTweaks_ShakeMagic8Ball,
+        AnimNode:ExamineVehicle,
+        Prop1:Magic8Ball,
+        Time:95.0,
+    }
+
+    model Magic8Ball
+	{
+		mesh = WorldItems/PoolBall,
+		texture = WorldItems/Magic8Ball,
+		scale = 0.4,
+	}
+
+}

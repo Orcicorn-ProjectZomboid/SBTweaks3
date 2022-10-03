@@ -84,4 +84,7 @@ Recipe_EN = {
     Recipe_MakeJournal = "Make Journal"
     Recipe_DestroyNotebook = "Rip out paper",
     Recipe_DestroyJournal = "Rip out paper",
+
+    /* Magic 8Ball */
+    Recipe_ShakeMagic8Ball = "Shake",
 }
