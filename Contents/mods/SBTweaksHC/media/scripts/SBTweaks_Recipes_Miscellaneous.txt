@@ -1,0 +1,30 @@
+module Base {
+    recipe MakeNotebook {
+        keep Base.Stapler,
+        Base.SheetPaper2=5,
+        Result: Base.Notebook,
+        Time: 10.0,
+    }
+
+    recipe DestroyNotebook {
+        Base.Notebook,
+        Result: Base.SheetPaper2=5,
+        AnimNode:RipSheets,
+        Sound: ClothesRipping,
+        Time: 10.0,
+    }
+
+    recipe MakeJournal {
+        Base.Notebook,
+        Result:Base.Journal,
+        Time: 15.0,
+    }
+
+    recipe DestroyJournal {
+        Base.Journal,
+        Result: Base.SheetPaper2=5,
+        AnimNode:RipSheets,
+        Sound: ClothesRipping,
+        Time: 10.0,
+    }
+}

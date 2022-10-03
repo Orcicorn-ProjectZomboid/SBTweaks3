@@ -78,4 +78,10 @@ Recipe_EN = {
     Recipe_MakeHolster = "Make Holster (Single)",
     Recipe_MakeHolsterDouble = "Make Holster (Double)",
     Recipe_MakeHolsterDouble2 = "Upgrade Holster to Double",
+
+    /* Make Notebook, Destroy Notebook */
+    Recipe_MakeNotebook = "Make notebook",
+    Recipe_MakeJournal = "Make Journal"
+    Recipe_DestroyNotebook = "Rip out paper",
+    Recipe_DestroyJournal = "Rip out paper",
 }

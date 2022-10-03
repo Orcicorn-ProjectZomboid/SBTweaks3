@@ -89,6 +89,10 @@ Medical Items
     textures/Item_SBOpioids.png
     textures/Item_SBTums.png
 
+Miscellaneous Crafting Recipes
+    scripts/SBTweaks_Recipes_Miscellaneous.txt
+    lua/shared/Translate/EN/Recipes_EN.txt
+
 Miscellaneous Food Recipes
     scripts/SBTweaks_Recipes_Food.txt
     lua/shared/Translate/EN/Recipes_EN.txt    
