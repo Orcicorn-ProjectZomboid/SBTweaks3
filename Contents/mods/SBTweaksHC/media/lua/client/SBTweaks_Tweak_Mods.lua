@@ -62,4 +62,20 @@ end
 -- MOD: Paw Low Loot
 if getActivatedMods():contains("PLLoot") then
     TweakItem("Base.RogueSword", "AttachmentType", "Knife");
+    TweakItem("Base.TKSwordHalf", "AttachmentType", "Knife");
+end
+
+-- MOD: Madax's Melee Weapons (2492565135)
+if getActivatedMods():contains("Max") then
+    TweakItem("MWPWeapons.fiskarcurvedmachete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.albtacticalkatana", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.syntheticsword", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.defender18machete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.zhunterhookmachete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.gothsamuraisword", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.crtkkukrimachete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.britishp1856pioneers", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.sogfaritantomachete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.korekmachete", "AttachmentType", "Knife");
+    TweakItem("MWPWeapons.taigamachete", "AttachmentType", "Knife");
 end
