@@ -15,8 +15,8 @@ local function SBTweaksSleep()
 
     if player:isAsleep() then
         -- Configuration Settings
-        local requiredSleepHours = 4;           -- Hours of Sleep Required
-        local maxSleepHours = 8;                -- Max hours of sleep allowed
+        local requiredSleepHours = 2;           -- Hours of Sleep Required
+        -- local maxSleepHours = 8;                -- Max hours of sleep allowed
         local modifierWakeful = 0.5;            -- If Trait Wakeful, multiply config by this
         local modifierSleepy = 1.5;             -- If trait Sleepyhead, multiply config by this
 
