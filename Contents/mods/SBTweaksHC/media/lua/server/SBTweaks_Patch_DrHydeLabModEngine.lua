@@ -81,7 +81,7 @@ function TestForInfection(items, result, player)
     -- Doctor score determines your chance of determining if it's wrong
         local isFalsePositive = false
         local isInfected = player:getBodyDamage():isInfected();
-        if ZombRand(1, 10) <= 3 then
+        if ZombRand(1, 10) <= 2 then
             -- Defective Test, invert the results
             isFalsePositive = true;
             isInfected = not(isInfected)
