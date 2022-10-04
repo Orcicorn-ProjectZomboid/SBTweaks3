@@ -18,4 +18,7 @@ Tooltip_EN {
     Tooltip_BookTitle_Spear = "Spears",
     Tooltip_BookTitle_Maintenance = "Weapon Maintenance",
     Tooltip_BookTitle_Lockpicking = "Lockpicking",
+
+    /* Dr Hyde's Vaccine */
+    Tooltip_VirusTestKit = "70% effective detecting Knox-19",
 }
