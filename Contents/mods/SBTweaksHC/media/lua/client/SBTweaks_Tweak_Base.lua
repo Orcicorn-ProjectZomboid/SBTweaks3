@@ -16,6 +16,7 @@ TweakItem("Base.LeadPipe", "AttachmentType", "Knife");
 TweakItem("Base.MetalBar", "AttachmentType", "Knife");
 TweakItem("Base.MetalPipe", "AttachmentType", "Knife");
 TweakItem("Base.Machete", "AttachmentType", "Knife");
+TweakItem("Base.Crowbar", "AttachmentType", "Knife");
 
 -- BASE GAME: Blow Torch can be used to start fire
 TweakItem("Base.BlowTorch", "Tags", "StartFire");

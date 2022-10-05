@@ -24,6 +24,7 @@ if getActivatedMods():contains("ToadTraits") then
     TweakItem("MoreTraits.PackerBag", "IconsForTexture", "BagPacker;BagPacker_Camo;BagPacker_Alien");
     TweakItem("MoreTraits.PapierMacheSword", "AttachmentType", "Knife");
     TweakItem("MoreTraits.AntiqueKatana", "AttachmentType", "Knife");
+    TweakItem("MoreTraits.BloodyCrowbar", "AttachmentType", "Knife");
 end
 
 -- MOD: GreenFire Fix Custom Sounds for Lighters in non-pipe situations
