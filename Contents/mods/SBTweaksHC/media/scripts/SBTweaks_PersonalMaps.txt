@@ -3,20 +3,20 @@ module Base {
         DisplayCategory = Cartography,
 	    Type = Map,
         DisplayName = Book Catalog,
-        Icon = Notebook,
+        Icon = SBMapNotes,
         Weight = 0.05,
         Map = SBTweaks_BooksList,
-        WorldStaticModel = EmptyNotebook,
+        WorldStaticModel = SBMapNotes,
     }
 
     item MapPersonalNotes {
         DisplayCategory = Cartography,
 	    Type = Map,
         DisplayName = Personal Notes,
-        Icon = Notebook,
+        Icon = SBMapNotes,
         Weight = 0.05,
         Map = SBTweaks_PersonalNotes,
-        WorldStaticModel = EmptyNotebook,
+        WorldStaticModel = SBMapNotes,
     }
 
     recipe MakeMapBookList {
@@ -31,5 +31,11 @@ module Base {
        SheetPaper2=1,
        Result: MapPersonalNotes,
        Time:30.0,
+    }
+
+    model SBMapNotes {
+        mesh = WorldItems/EmptyNotebook,
+        texture = WorldItems/SBMapNotes,
+        scale = 0.4,
     }
 }

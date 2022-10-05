@@ -81,6 +81,8 @@ Maps / Personal Notes
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweaks_PersonalMaps.txt
+    textures/Item_SBMapNotes.png
+    textures/WorldItems/SBMapNotes.png
     ui/LootableMaps/SBTweaks_Blank.png
     ui/LootableMaps/SBTweaks_BooksList.png
 
