@@ -191,6 +191,10 @@ MOD: Description on Trait
 MOD: Edible Junk (2697578712)
     scripts/Mod_EdibleJunk.txt
 
+MOD: Everything has a Name (2867163008)
+    lua/client/Mod_RenameEverything.lua
+    lua/shared/Translate/EN/ContextMenu_EN.txt
+
 MOD: Eris Food Expiry 
     lua/client/ImportedMods/Mod_ErisFoodExpiry.lua
     lua/shared/Translate/EN/UI_EN.txt
