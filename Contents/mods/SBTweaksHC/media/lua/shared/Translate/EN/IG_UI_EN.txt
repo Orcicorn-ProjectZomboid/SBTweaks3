@@ -47,6 +47,7 @@ IGUI_EN = {
 	IGUI_SM_Leather = "Leather",
 
     /* MOD: Toe Tags */
+    IGUI_ToeTag_Discover = "A toe tag?",
     IGUI_ToeTag_ItemName = "Toe Tag: %1",
     IGUI_ToeTag_ItemNameSorted = "[%2] %1",
     IGUI_ToeTag_Died = "Died: %1",
