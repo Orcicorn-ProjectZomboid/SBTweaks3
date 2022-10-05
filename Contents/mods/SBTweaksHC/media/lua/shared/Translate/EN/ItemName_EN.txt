@@ -260,4 +260,8 @@ ItemName_EN = {
 
     /* Magic 8 Ball */
     ItemName_Magic8Ball = "Magic 8-Ball",
+
+    /* Personal Maps/Notes */
+    ItemName_MapBookList = "Book Catalog",
+    ItemName_MapPersonalNotes = "Personal Notes",
 }

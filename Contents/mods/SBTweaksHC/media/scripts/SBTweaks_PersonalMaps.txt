@@ -1,0 +1,35 @@
+module Base {
+    item MapBookList {
+        DisplayCategory = Cartography,
+	    Type = Map,
+        DisplayName = Book Catalog,
+        Icon = Notebook,
+        Weight = 0.05,
+        Map = SBTweaks_BooksList,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    item MapPersonalNotes {
+        DisplayCategory = Cartography,
+	    Type = Map,
+        DisplayName = Personal Notes,
+        Icon = Notebook,
+        Weight = 0.05,
+        Map = SBTweaks_PersonalNotes,
+        WorldStaticModel = EmptyNotebook,
+    }
+
+    recipe MakeMapBookList {
+       keep Pen,
+       SheetPaper2=1,
+       Result: MapBookList,
+       Time:30.0,
+    }
+
+    recipe MakeMapPersonalNotes {
+       keep Pen,
+       SheetPaper2=1,
+       Result: MapPersonalNotes,
+       Time:30.0,
+    }
+}

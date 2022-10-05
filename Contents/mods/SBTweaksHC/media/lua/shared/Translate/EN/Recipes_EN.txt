@@ -87,4 +87,8 @@ Recipe_EN = {
 
     /* Magic 8Ball */
     Recipe_ShakeMagic8Ball = "Shake",
+
+    /* Maps */
+    Recipe_MakeMapBookList = "Create Book Catalog",
+    Recipe_MakeMapPersonalNotes = "Create Personal Notes",
 }
