@@ -1,3 +1,5 @@
+-- Only load of DrHyde is loaded
+if getActivatedMods():contains("DrHyde1Vaccine") == false then return; end
 require 'functions/LabModEngine.lua'
 
 -- Embed infection rate into Syringe With Blood
