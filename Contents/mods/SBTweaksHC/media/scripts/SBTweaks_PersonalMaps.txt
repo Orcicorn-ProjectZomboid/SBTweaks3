@@ -20,14 +20,14 @@ module Base {
     }
 
     recipe MakeMapBookList {
-       keep Pen,
+       keep [Recipe.GetItemTypes.Write],
        SheetPaper2=1,
        Result: MapBookList,
        Time:30.0,
     }
 
     recipe MakeMapPersonalNotes {
-       keep Pen,
+       keep [Recipe.GetItemTypes.Write],
        SheetPaper2=1,
        Result: MapPersonalNotes,
        Time:30.0,
