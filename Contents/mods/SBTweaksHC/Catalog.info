@@ -292,6 +292,9 @@ OVERRIDE: Base Poultice Names & Recipes
 OVERRIDE: Base Game Reload Action (Speed up)
     lua/clients/SBTweaks_Override_ReloadAction.lua
 
+OVERRIDE: Night Vision Chucked (2842179206)
+    lua/client/eris_nvg/eris_nvg/eris_nvg.lua
+
 OVERRIDE: GreenFire Cigarettes
     lua/client/SBTweaks_Tweak_Mods.lua
     lua/server/SBTweaks_Override_GreenfireRecipeCode.lua
