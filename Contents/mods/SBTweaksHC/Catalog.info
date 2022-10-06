@@ -144,6 +144,9 @@ Toe Tags
     textures/Item_ToeTag.png
     textures/WorldItems/ToeTag.png
 
+Tweak: Brita Weapon Pack (Remove NVG Scopes)
+    lua/server/SBTweaks_Distribution_Tweak_BritaScopes.lua
+
 Tweak Fire Extinguisher Spawns
     lua/server/SBTweaks_Distribution_FireExtinguishers.lua
 
@@ -192,10 +195,6 @@ MOD: Description on Trait
 
 MOD: Edible Junk (2697578712)
     scripts/Mod_EdibleJunk.txt
-
-MOD: Everything has a Name (2867163008)
-    lua/client/Mod_RenameEverything.lua
-    lua/shared/Translate/EN/ContextMenu_EN.txt
 
 MOD: Eris Food Expiry 
     lua/client/ImportedMods/Mod_ErisFoodExpiry.lua
