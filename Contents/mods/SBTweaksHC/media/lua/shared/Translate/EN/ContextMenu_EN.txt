@@ -11,10 +11,6 @@ ContextMenu_EN = {
 	ContextMenu_ThrowCorpseOutTheWindow = "Throw Corpse Out The Window",
 	ContextMenu_ThrowCorpseOverFence = "Throw Corpse Over Fence",
 
-	/* Rename Everything */
-	ContextMenu_renameButton = "Rename",
-	ContextMenu_label = "Change Item Name",
-
 	/* ======================================================================= */
 	/* Brita's Armor ========================================================= */
 	/* ======================================================================= */
