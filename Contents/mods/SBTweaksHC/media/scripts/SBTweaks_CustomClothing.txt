@@ -100,5 +100,18 @@ module SBTweaks {
 		WorldStaticModel = Apron_Ground,
     }
 
+    item hat_crimsonberet {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Crimson Beret,
+        ClothingItem = Hat_CrimsonBeret,
+        BodyLocation = Hat,
+        Icon = hat_crimsonberet,
+        CanHaveHoles = false,
+        ChanceToFall = 1,
+        Insulation = 0.3,
+        BlkoodLocation = Head,
+        Weight = 0.5,
+    }
 
 }

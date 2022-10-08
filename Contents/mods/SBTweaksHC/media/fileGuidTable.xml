@@ -36,4 +36,9 @@
         <path>media/clothing/clothingItems/Boilersuit_AdminAlien.xml</path>
         <guid>SBTWEAKS-ADMN-SUIT-ALIN-375f99b5eb91</guid>
     </files>
+    <files>
+        <note>Crimson Beret for Ryan</note>
+        <path>media/clothing/clothingItems/Hat_CrimsonBeret.xml</path>
+        <guid>sbtweaks-e675-458c-9f63-5cc2f0ed0f3f</guid>
+    </files>
 </fileGuidTable>

@@ -51,6 +51,7 @@ Custom Clothing
     clothing/clothingItems/Apron_ElinasBakery_Black.xml
     clothing/clothingItems/Apron_ElinasBakery_White.xml
     clothing/clothingItems/Boilersuit_AdminAlien.xml
+    clothing/clothingItems/Hat_CrimsonBeret.xml
     clothing/clothingItems/Socks_SpaceBroRunning.xml
     clothing/clothingItems/TShirt_SpaceBroBlack.xml
     clothing/clothingItems/TShirt_SpaceBroWhite.xml
@@ -61,10 +62,11 @@ Custom Clothing
     textures/clothes/apron_elinabakery_black.png
     textures/clothes/apron_elinabakery_white.png
     textures/clothes/boilersuit_aliensuit.png
-    textures/clothes/apron_elinabakery_white.png
+    textures/clothes/Hat_CrimsonBeret.png
     textures/clothes/tshirt_spacebro_black.png
     textures/clothes/tshirt_spacebro_white.png
     textures/Item_AlienFace.png
+    textures/Item_hat_crimsonberet.png
     textures/Item_tshirt_spacebroblack.png
     textures/Item_tshirt_spacebrowhite.png
 

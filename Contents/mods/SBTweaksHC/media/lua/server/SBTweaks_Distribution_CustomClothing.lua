@@ -125,3 +125,13 @@ table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].ite
 table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, 10);
 table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, "SBTweaks.apron_elinasbakery_white");
 table.insert(ProceduralDistributions["list"]["WesternKitchenBaking"]["junk"].items, 10);
+
+-- Crimson Beret
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, "SBTweaks.hat_crimsonberet");
+table.insert(ProceduralDistributions.list["LockerArmyBedroom"].items, 2);
+table.insert(ProceduralDistributions.list["ArmySurplusOutfit"].items, "SBTweaks.hat_crimsonberet");
+table.insert(ProceduralDistributions.list["ArmySurplusOutfit"].items, 5);
+table.insert(ProceduralDistributions.list["ArmyStorageOutfit"].items, "SBTweaks.hat_crimsonberet");
+table.insert(ProceduralDistributions.list["ArmyStorageOutfit"].items, 1);
+table.insert(ProceduralDistributions.list["CampingStoreClothes"].items, "SBTweaks.hat_crimsonberet");
+table.insert(ProceduralDistributions.list["CampingStoreClothes"].items, 0.5);
