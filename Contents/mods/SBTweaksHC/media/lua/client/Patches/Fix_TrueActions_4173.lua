@@ -25,7 +25,10 @@ end
     TrueActions.WorldSeatObject["furniture_seating_outdoor_01_34"] = {0.70, 0.50}   -- East (2 Legs)
     TrueActions.WorldSeatObject["furniture_seating_outdoor_01_35"] = {0.70, 0.50}   -- East (1 Leg)
 
-    
+    -- Add Shitty Carpentry Chairs
+    TrueActions.WorldSeatObject["carpentry_01_36"] = { 0.40, 0.70} -- Face South
+    TrueActions.WorldSeatObject["carpentry_01_38"] = { 0.65, 0.45} -- Face East
+
 -- *****************************************************************************
 -- Add Sit Objects *************************************************************
 -- *****************************************************************************
