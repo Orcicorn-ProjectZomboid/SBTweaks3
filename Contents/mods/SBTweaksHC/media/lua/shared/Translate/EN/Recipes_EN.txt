@@ -50,6 +50,7 @@ Recipe_EN = {
     Recipe_MakeChipsSaltVinegar = "Make Chips (Salt & Vinegar)",
     Recipe_MakeChipsKetchup = "Make Chips (Ketchup)",
     Recipe_MakeChipsSourCream = "Make Chips (Sour Cream)",
+    Recipe_MakeChipsFromSapphPeels = "Make Homemade Potato Chips",
 
     /* Engineering Recipes */
     Recipe_MakeAlarmClock = "Make Alarm Clock",

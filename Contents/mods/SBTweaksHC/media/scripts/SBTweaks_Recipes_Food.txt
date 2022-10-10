@@ -67,4 +67,22 @@ module SBTweaks {
 		Category:Cooking,
 		SkillRequired:Cooking=3
 	}
+
+	/* Turn Sapph's Cooking Potato Peels into Chips */
+	recipe MakeChipsFromSapphPeels {
+		keep KitchenTongs/Fork/Chopsticks,
+		SapphCooking.PotatoPeel,
+		Salt=1,
+		SaucepanwithOil,
+		CanBeDoneFromFloor 		: true,
+		Result 		: Crisps2=1,
+		Time 		: 120,
+		Heat 		: -0.11,
+		Category : Cooking,
+		OnGiveXP : Recipe.OnGiveXP.Cooking10,
+		Sound : FryingSounds,
+		AnimNode:Disassemble,
+		Prop1: Source=1,
+		Prop2: Cooking_SaucepanOil,
+	}
 }
