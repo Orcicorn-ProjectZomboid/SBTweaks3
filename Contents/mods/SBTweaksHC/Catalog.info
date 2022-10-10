@@ -73,6 +73,12 @@ Custom Clothing
 Fix Canned Items
     lua/server/SBTweaks_Override_OpenCannedItems.lua
 
+Fix Charcoal Spawns and appearance
+    lua/server/SBTweaks_Distribution_Charcoal.lua
+    scripts/SBTweaks_Orverride_Charcoal.txt
+    textures/WorldItems/BagCharcoal.png
+    textures/Item_BagCharcoal.png
+
 Gun Cleaning (Expert)
     lua/client/SBTweaks_Recipes_ExpertRepair.lua
     lua/shared/Translate/EN/Recipes_EN.txt

@@ -1,0 +1,20 @@
+module Base {
+    item Charcoal {
+	    DisplayCategory = Material,
+		Weight = 8,
+		Type = Drainable,
+		UseWhileEquipped = FALSE,
+		UseDelta = 0.1,
+		DisplayName	= Charcoal,
+		Icon = BagCharcoal,
+		WeightEmpty = 0.02,
+		WorldStaticModel = Charcoal_Ground,
+		ConsolidateOption = ContextMenu_Merge,
+	}
+
+	model Charcoal_Ground {
+		mesh = WorldItems/Rice,
+		texture = WorldItems/BagCharcoal,
+		scale = 0.6,
+	}
+}
