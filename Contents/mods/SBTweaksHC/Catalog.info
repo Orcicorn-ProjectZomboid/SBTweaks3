@@ -86,6 +86,7 @@ Gun Cleaning (Expert)
 
 Maps / Personal Notes
     lua/client/ISUI/Maps/SBTweaks_ISMapDefinitions.lua
+    lua/server/SBTweaks_Distribution_Maps.lua
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweaks_PersonalMaps.txt
@@ -93,6 +94,7 @@ Maps / Personal Notes
     textures/WorldItems/SBMapNotes.png
     ui/LootableMaps/SBTweaks_Blank.png
     ui/LootableMaps/SBTweaks_BooksList.png
+    ui/LootableMaps/SBTweaks_WorldMap.png
 
 Magic 8Ball
     lua/client/SBTweaks_Recipes_Magic8Ball.lua

@@ -30,3 +30,13 @@ LootMaps.Init.SBTweaks_BooksList = function(mapUI)
 	mapAPI:setBoundsInSquares(0, 0, 850, 475)
 	overlayPNG(mapUI, 0, 0, 0.666, "lootMapPNG", "media/ui/LootableMaps/SBTweaks_BooksList.png", 1)
 end
+
+-- The World map
+LootMaps.Init.SBTweaks_WorldMap = function(mapUI)
+	local mapAPI = mapUI.javaObject:getAPIv1()
+	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(0, 0, 850, 475)
+	overlayPNG(mapUI, 0, 0, 0.666, "lootMapPNG", "media/ui/LootableMaps/SBTweaks_WorldMap.png", 1)
+end
+
+

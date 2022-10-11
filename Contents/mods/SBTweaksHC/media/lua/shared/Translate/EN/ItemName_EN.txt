@@ -265,4 +265,5 @@ ItemName_EN = {
     /* Personal Maps/Notes */
     ItemName_MapBookList = "Book Catalog",
     ItemName_MapPersonalNotes = "Personal Notes",
+    ItemName_MapWorldMap = "World Map (October 2022)",
 }

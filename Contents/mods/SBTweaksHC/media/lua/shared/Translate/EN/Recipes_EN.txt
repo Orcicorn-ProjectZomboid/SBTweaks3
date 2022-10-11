@@ -92,4 +92,5 @@ Recipe_EN = {
     /* Maps */
     Recipe_MakeMapBookList = "Create Book Catalog",
     Recipe_MakeMapPersonalNotes = "Create Personal Notes",
+    Recipe_MakeMapWorldMap = "Create World Map",
 }
