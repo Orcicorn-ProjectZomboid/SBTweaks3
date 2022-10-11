@@ -1,0 +1,24 @@
+module Base {
+
+	model KellyHelmet_WorldItem {
+		mesh = WorldItems/KellyHelmet_WorldItem,
+		texture = clothes/hat/Hat_KellyHelmet,
+		scale = 0.5,
+	}
+
+	model M40Helmet_WorldItem {
+		mesh = WorldItems/M40Helmet_WorldItem,
+		texture = clothes/hat/Hat_M40Helmet,
+		scale = 0.9,
+	}
+
+	model M80Helmet_WorldItem {
+		mesh = WorldItems/M80Helmet_WorldItem,
+		texture = clothes/hat/Hat_M80Helmet,
+		scale = 0.45,
+	}
+
+	-- PRIVATE NOTE:  It has to be named "SRPS_worlditems.txt" to overwrite the existing
+	-- structure.  Simply calling it by the Model name fails as Zomboid will not overwrite
+	-- existing model declarations and this mod always loads last.
+}

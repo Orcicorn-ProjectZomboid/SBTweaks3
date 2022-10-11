@@ -337,6 +337,9 @@ OVERRIDE: Packer Bag Textures from "More Traits"
     textures/clothes/Bag_MoreTraitsPacker_Camo.png
     textures/clothes/Bag_MoreTraitsPacker.png
 
+OVERRIDE: Shark's Ready Prep Surplus Models (They're too small by default)
+    scripts/SRPS_worlditems.txt 
+
 OVERRIDE: Vehicle Recycling Fix 
     lua/client/TimedActions/RecycleVehicleAction.lua
     lua/server/SBTweaks_Command_RMove.lua
