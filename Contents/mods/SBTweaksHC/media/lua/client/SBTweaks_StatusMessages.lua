@@ -109,7 +109,8 @@ local function announceSleep(player)
             processGeneralMessage(getText("IGUI_ChatText_Awake"))
 
             -- If you're still a little tired, do a yawn emote-text to indicate not 100% rested
-            if player:getStats():getFatigue() > 0 then
+            -- Used to be > 0 but you'll always have a little like 0.008675309 so adjust to > 0.1
+            if player:getStats():getFatigue() > 0.1 then
                 HaloMessage(getText("IGUI_PlayerText_Wakeup"), font_white)
             end
 
