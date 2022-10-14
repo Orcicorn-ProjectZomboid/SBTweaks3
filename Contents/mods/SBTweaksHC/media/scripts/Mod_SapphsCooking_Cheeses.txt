@@ -105,7 +105,7 @@ module Base {
 
     recipe CreateCheeseStrainer {
         Base.BakingPan,
-        TightsBlack/TightsBlackTrans/TightsBlackSemiTrans/TightsFishnets/Greenfire.Silkscreen/GreenFire.RollNylon,
+        Base.TightsBlack/Base.TightsBlackTrans/Base.TightsBlackSemiTrans/Base.TightsFishnets/Greenfire.RollNylon,
         Result: CheeseStrainer,
         Category: Cooking,
         OnGiveXP: Recipe.OnGiveXP.None,
