@@ -1,0 +1,169 @@
+module Base {
+    /* *********************************************** */
+    /* Models **************************************** */
+    /* *********************************************** */
+    model CheeseStrainer {
+		mesh = WorldItems/BakingPan,
+		texture = WorldItems/CheeseStrainer,
+		scale = 0.4,
+	}
+
+    /* *********************************************** */
+    /* Items ***************************************** */
+    /* *********************************************** */
+    item CheesePreparationRaw {
+        Displayname = Raw Cheese Preparation,
+        DisplayCategory = Food,
+        Type = Food,
+        Weight = 2,
+        Icon = SaucepanFilled,
+        FoodType = NoExplicit,
+        CookingSound = BoilingFood,
+        IsCookable = true,
+		ReplaceOnUse = Saucepan,
+        ReplaceOnCooked = CheesePreparation,
+        DaysFresh = 3,
+        DaysTotallyRotten = 6,
+        HungerChange = -10,
+        ThirstChange = -50,
+        UnhappyChange = 10,
+        Calories = 110,
+		Carbohydrates = 13,
+		Lipids = 2.5,
+		Proteins = 8,
+		StaticModel = SaucePan,
+		WorldStaticModel = WaterSaucepanRice,
+        MinutesToCook = 60,
+        MinutesToBurn = 90,
+    }
+
+    item CheesePreparation {
+        DisplayName = Cooked Cheese Preparation,
+        DisplayCategory = Food,
+        Type = Food,
+        Weight = 1.5,
+        Icon = SaucepanFilled,
+        FoodType = NoExplicit,
+        ReplaceOnUse = Saucepan,
+        DaysFresh = 5,
+        DaysTotallyRotten = 8,
+        HungerChange = -10,
+        ThirstChange = -50,
+        UnhappyChange = 25,
+        Calories = 125.0,
+        Carbohydrates = 13,
+        Lipids = 2.5,
+        Proteins = 8,
+		StaticModel = SaucePan,
+		WorldStaticModel = WaterSaucepanRice,
+    }
+
+    item CheeseStrainer {
+        DisplayName = Cheese Strainer,
+		Weight = 0.1,
+		Type  = Normal,
+		Icon = CheeseStrainer,
+		WorldStaticModel = CheeseStrainer,
+	}
+
+    item CheeseCurds {
+        DisplayName = Cheese Curds,
+        DisplayCategory = Food,
+        Type = Food,
+        Weight = 0.2,
+        Icon = PopcornCooked,
+        EvolvedRecipe = Pizza:15;Soup:10;Sandwich:5;Sandwich Baguette:5;Burger:5;Salad:5;PastaPot:10;PastaPan:10;Taco:5;Burrito:5;Bread:5;Toast:5,
+        FoodType = Cheese,
+        DaysFresh = 14,
+        DaysTotallyRotten = 21,
+        HungerChange = -15,
+        Calories = 113,
+        Carbohydrates = 0.87,
+        Lipids = 9.33,
+        Proteins = 6.4,
+        Tags = Cheese,
+    }
+
+    /* *********************************************** */
+    /* Recipes *************************************** */
+    /* *********************************************** */
+    recipe CreateCheesePreparation {
+        Base.Saucepan,
+        [Recipe.GetItemTypes.Milk];3,
+        Base.Salt=1,
+        SapphCooking.BottleofLemonJuice=1,
+        Result: Base.CheesePreparationRaw,
+        Category: Cooking,
+        OnGiveXP: Recipe.OnGiveXP.None,
+        SkillRequired: Cooking=4,
+        Time: 90.0,
+        AnimNode:Disassemble,
+		Prop1: CanClosedMilk,
+		Prop2: Saucepan,
+    }
+
+
+    recipe CreateCheeseStrainer {
+        Base.BakingPan,
+        TightsBlack/TightsBlackTrans/TightsBlackSemiTrans/TightsFishnets/Greenfire.Silkscreen/GreenFire.RollNylon,
+        Result: CheeseStrainer,
+        Category: Cooking,
+        OnGiveXP: Recipe.OnGiveXP.None,
+        SkillRequired: Tailoring=1,
+        Sound:ClothesRipping,
+        Time: 60.0,
+    }
+
+    recipe StrainTheCheese {
+        keep Base.CheeseStrainer,
+        Base.CheesePreparation,
+        Result: Base.CheeseCurds,
+        OnGiveXP: Recipe.OnGiveXP.Cooking10,
+        OnCreate: SBTweaks_GiveBackSaucePan,
+        Category: Cooking,
+        Time: 200.0,
+        AnimNode:Pour,
+        Prop1:Base.Saucepan,
+		Prop2:Base.CheeseStrainer,
+    }
+
+    recipe CurdsIntoCreamCheese {
+        keep Base.Bowl,
+        Base.CheeseCurds,
+        [Recipe.GetItemTypes.Milk];1,
+        Result: CreamCheese,
+        Category: Cooking,
+        AnimNode: Disassemble,
+        Prop1: CheeseCurds,
+        Prop2: Bowl,
+        Time: 120.0,
+    }
+
+    recipe CurdsIntoRegularCheese {
+        Base.CheeseCurds,
+        Result: Base.Cheese,
+        Category: Cooking,
+        AnimNode: Craft,
+        Prop2: Cheese,
+        Time: 150.0,
+    }
+
+    recipe CurdsIntoMozzarella {
+        Base.CheeseCurds,
+        Result: SapphCooking.MozzarelaCheese,
+        Category: Cooking,
+        AnimNode: Craft,
+        Prop2: SapphCooking.MozzarelaCheese,
+        Time: 150.0,
+    }
+
+    recipe CurdsIntoParmesan {
+        Base.CheeseCurds,
+	    Result: SapphCooking.ParmesanCheese,
+        Category: Cooking,
+        AnimNode: Craft,
+        Prop2: SapphCooking.ParmesanCheese,
+        Time: 150.0,
+    }
+
+}

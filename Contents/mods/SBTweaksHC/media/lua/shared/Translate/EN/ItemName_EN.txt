@@ -266,4 +266,10 @@ ItemName_EN = {
     ItemName_MapBookList = "Book Catalog",
     ItemName_MapPersonalNotes = "Personal Notes",
     ItemName_MapWorldMap = "World Map (October 2022)",
+
+    /* Sapph Cooking: Cheese */
+    ItemName_CheesePreparationRaw = "Raw cheese preparation",
+    ItemName_CheesePreparation = "Cooked cheese preparation",
+    ItemName_CheeseStrainer = "Cheese Strainer",
+    ItemName_CheeseCurds = "Cheese Curds",
 }

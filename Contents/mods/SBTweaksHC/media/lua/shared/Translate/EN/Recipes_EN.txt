@@ -93,4 +93,13 @@ Recipe_EN = {
     Recipe_MakeMapBookList = "Create Book Catalog",
     Recipe_MakeMapPersonalNotes = "Create Personal Notes",
     Recipe_MakeMapWorldMap = "Create World Map",
+
+    /* Sapph Cooking: Recipes */
+    Recipe_CreateCheesePreparation = "Create cheese preparation",
+    Recipe_CreateCheeseStrainer = "Create cheese strainer",
+    Recipe_StrainTheCheese = "Strain cheese",
+    Recipe_CurdsIntoCreamCheese = "Whip into cream cheese",
+    Recipe_CurdsIntoRegularCheese = "Form cheese wedge",
+    Recipe_CurdsIntoParmesan = "Form parmesan wedge",
+    Recipe_CurdsIntoMozzarella = "Form mozzarella ball",
 }

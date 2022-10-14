@@ -11,6 +11,9 @@ ContextMenu_EN = {
 	ContextMenu_ThrowCorpseOutTheWindow = "Throw Corpse Out The Window",
 	ContextMenu_ThrowCorpseOverFence = "Throw Corpse Over Fence",
 
+	/* Sapph Right-Click Context Menu Fix */
+	ContextMenu_EvolvedRecipe_SapphCooking.PoutineBowl = "Add",
+
 	/* ======================================================================= */
 	/* Brita's Armor ========================================================= */
 	/* ======================================================================= */

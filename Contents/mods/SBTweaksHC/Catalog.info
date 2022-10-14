@@ -385,6 +385,15 @@ PATCH: Fix/Tweak Gunfighter Arsenal Recipes
     scripts/Mod_Gunfighter_FixBuckshot.txt
     scripts/Mod_Gunfighter_MakeShells.txt
 
+PATCH: Fix/Tweak Sapph's Cooking Cheese
+    lua/server/SBTweaks_Override_SapphRecipeCode.lua
+    shared/Translate/EN/ContextMenu_EN.txt
+    shared/Translate/EN/ItemName_EN.txt
+    shared/Translate/EN/Recipes_EN.txt
+    scripts/Mod_SapphsCooking_Cheeses.txt
+    textures/WorldItems/CheeseStrainer.png
+    textures/Item_CheeseStrainer.png
+
 PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
     lua/client/Patches/Fix_ToadTraits_Cannibal.lua
     scripts/Mod_ToadTraits_FoodFixes.txt
