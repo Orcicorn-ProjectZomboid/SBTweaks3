@@ -2,6 +2,6 @@ version=1
 id=2858909826
 title=SBTweaks (Version 3.0)
 description=Various tweaks, improvements and nerfs for the Space Brothers' Private Server v3.0
-description=https://github.com/Orcicorn-ProjectZomboid/SBTweaks
+description=https://github.com/Orcicorn-ProjectZomboid/SBTweaks3
 tags=Build 41;Misc;Multiplayer;Silly/Fun
 visibility=unlisted
