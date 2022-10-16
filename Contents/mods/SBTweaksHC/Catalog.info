@@ -169,7 +169,7 @@ Tweak Paw Low Loot
     lua/server/SBTweaks_Distribution_Tweak_PawLowLoot.lua
     scripts/Mod_PawLowLoot_FixGrimoire.txt
 
-Tweak Sleeping Mechanics 
+Tweak Sleeping Mechanics (Including in-car menus)
     lua/client/SBTweaks_RequireLessSleep.lua
 
 Tweak Zombie Loot (Inspired by 2686972114)
