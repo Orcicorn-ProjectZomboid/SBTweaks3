@@ -157,6 +157,10 @@ Toe Tags
 Tweak: Brita Weapon Pack (Remove NVG Scopes)
     lua/server/SBTweaks_Distribution_Tweak_BritaScopes.lua
 
+Tweak: Exercise Mechanics and XP
+    lua/shared/Definitions/FitnessExercises.lua
+    lua/shared/Translate/EN/IG_UI_EN.txt
+
 Tweak Fire Extinguisher Spawns
     lua/server/SBTweaks_Distribution_FireExtinguishers.lua
 

@@ -88,4 +88,13 @@ IGUI_EN = {
     IGUI_Magic8Ball_13 = "My sources say no",
     IGUI_Magic8Ball_14 = "Outlook not so good",
     IGUI_Magic8Ball_15 = "Very doubtful",
+
+    /* TWEAK: Workout names */
+    IGUI_Burpees = "Burpees (Fit/Str x25)",
+    IGUI_Squats = "Squats (Fit x50)",
+    IGUI_SitUps = "Sit Ups (Fit x50)",
+    IGUI_PushUps = "Push Ups (Str x35)",
+    IGUI_BicepsCurl = "Dumbell Curl (Str x50)",
+    IGUI_DumbbellPress = "Dumbell Press (Str x55)",
+    IGUI_BarbellCurl = "Barbell Curl (Str x75)",
 }
