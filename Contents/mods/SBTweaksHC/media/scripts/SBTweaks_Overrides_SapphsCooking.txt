@@ -1,0 +1,38 @@
+module SapphCooking {
+	imports {
+		Base,
+	}
+    /*  No amount over "override: true" and recipe renaming seems to allow me to overwrite the
+        recipe from Sapph Cooking.  Multiple reports on developer forums of bugs since 41.65 breaking
+        the override functionality.  This isn't tragic enough to require us to write a loop through every
+        recipe on load and find the original and then try to hide it. BEcause again the Disable() routine is broken.
+        Instead, I've added a "_Fixed" recipe, then using Translate/EN renamed the old recipe to "Broken do not use"
+        It's ugly in the Menu, but it works, so good enough. Not worth any more effort. You now keep the Mortar Pestle
+    */
+	recipe Make Homemade Ketchup Fixed {
+		[Recipe.GetItemTypes.SapphCookingSugar];2,
+		Vinegar;5,
+		keep MortarPestle,
+		Bowl,
+		Tomato=3,
+		Result: HomemadeKetchup,
+		Time: 20,
+		Category: Cooking,
+		OnGiveXP: Recipe.OnGiveXP.Cooking3,
+		Sound: SliceBread,
+		SkillRequired: Cooking=2,
+	}
+	recipe Make Tomato Sauce with Canned Tomatoes Fixed {
+		[Recipe.GetItemTypes.SapphCookingSugar];5,
+		Vinegar;5,
+		keep MortarPestle,
+		Bowl,
+		CannedTomatoOpen,
+		Result: HomemadeKetchup,
+		Time: 20,
+		Category: Cooking,
+		OnGiveXP: Recipe.OnGiveXP.Cooking3,
+		Sound: SliceBread,
+		SkillRequired: Cooking=2,
+	}
+}

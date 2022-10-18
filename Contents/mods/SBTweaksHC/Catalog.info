@@ -394,6 +394,10 @@ PATCH: Fix/Tweak Sapph's Cooking Cheese
     textures/WorldItems/CheeseStrainer.png
     textures/Item_CheeseStrainer.png
 
+PATCH: Fix Sapph Cooking recipes for consuming mortar&Pestle
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweaks_Overrides_SapphsCooking.txt
+
 PATCH: Fix/Tweak "ToadTraits" Cannibal functionality
     lua/client/Patches/Fix_ToadTraits_Cannibal.lua
     scripts/Mod_ToadTraits_FoodFixes.txt
