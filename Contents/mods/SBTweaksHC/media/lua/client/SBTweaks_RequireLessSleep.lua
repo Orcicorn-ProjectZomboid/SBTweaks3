@@ -131,7 +131,11 @@ function ISVehicleMenu.showRadialMenu(player)
             -- If you are being prevent because you're not tired enough or slept too recently, fuck off
             if (player:getStats():getFatigue() <= 0.3) or ((playerObj:getHoursSurvived() - playerObj:getLastHourSleeped()) <= 1) then
                 -- Delete the vanilla "can't sleep slice".  Use TSar lib if possible. See functions below
-                menu:deleteMultiSliceTsar({getText("IGUI_Sleep_NotTiredEnough"), getText("ContextMenu_NoSleepTooEarly")})
+                if getActivatedMods():contains("tsarslib") then
+                    menu:deleteMultiSliceTsar({getText("IGUI_Sleep_NotTiredEnough"), getText("ContextMenu_NoSleepTooEarly")})
+                else
+                    menu:deleteMultiSliceSB({getText("IGUI_Sleep_NotTiredEnough"), getText("ContextMenu_NoSleepTooEarly")})
+                end
                 -- Add in a regular sleep slice
                 menu:addSlice(getText("ContextMenu_Sleep"), getTexture("media/ui/vehicles/vehicle_sleep.png"), ISVehicleMenu.onSleep, player, vehicle);
                 menu:addToUIManager()
@@ -140,16 +144,14 @@ function ISVehicleMenu.showRadialMenu(player)
     end
 end
 
--- If TSar lib is installed, stop loading this file.
-if getActivatedMods():contains("tsarslib") then; return; end
 
--- TSarslib is not installed so here's a copy/pasted variation so that menus still work
+-- Incase TSarslib is not installed so here's a copy/pasted variation so that menus still work
 local function Set (list)
     local set = {}
     for _, l in ipairs(list) do set[l] = true end
     return set
 end
-function ISRadialMenu:deleteMultiSliceTsar(textTableForDelete)
+function ISRadialMenu:deleteMultiSliceSB(textTableForDelete)
     print("[DEBUG]: SBTweakHC using alternate TSars function");
     if type(textTableForDelete) == "table" then
         local textTableForDeleteSet = Set(textTableForDelete)
