@@ -35,4 +35,29 @@ module SapphCooking {
 		Sound: SliceBread,
 		SkillRequired: Cooking=2,
 	}
+
+	/* Combine Satchets/Packets into base items for vanilla recipes */
+	recipe Combine Salt Packets {
+		SapphCooking.SaltPacket=3,
+		Result: Salt,
+		Time: 69.0,
+	}
+
+	recipe Combine Sugar Packets {
+		SapphCooking.SugarPacket=12,
+		Result: Base.Sugar,
+		Time: 69.0,
+	}
+
+	recipe Combine Hot Sauce Packets {
+		SapphCooking.HotsaucePacket=3,
+		Result: Base.Hotsauce,
+		Time: 69.0,
+	}
+
+	recipe Combine Coffee Packets {
+		SapphCooking.CoffeePacket=3,
+		Result: Base.Coffee2,
+		Time: 69.0,
+	}
 }
