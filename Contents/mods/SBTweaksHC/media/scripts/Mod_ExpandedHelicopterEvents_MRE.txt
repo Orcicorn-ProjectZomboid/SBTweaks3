@@ -1,0 +1,26 @@
+module EHE {
+    recipe Open Pack of Meal Ready to Eat {
+        EHE.MealReadytoEat,
+        Result: MRE_BeefStewUn,
+        Time: 150,
+        Category: Cooking,
+        OnGiveXP: Recipe.OnGiveXP.None,
+        OnCreate: recipe_MREopen1,
+        Sound: CardboardOpen,
+    }
+
+    item MealReadytoEat {
+		Type = Food,
+		Weight = 1.0,
+		DisplayName = Packet of MRE,
+		Icon = MREBoxIcon,
+		WorldStaticModel = MREPacket_Ground,
+		DisplayCategory = Food,
+		CannedFood = true,
+		Packaged = true,
+		Calories = 750,
+		Carbohydrates = 250,
+		Proteins = 50,
+		Lipids = 50,
+	}
+}

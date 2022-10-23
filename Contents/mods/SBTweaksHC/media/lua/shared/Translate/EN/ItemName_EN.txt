@@ -272,4 +272,7 @@ ItemName_EN = {
     ItemName_CheesePreparation = "Cooked cheese preparation",
     ItemName_CheeseStrainer = "Cheese Strainer",
     ItemName_CheeseCurds = "Cheese Curds",
+
+    /* Expanded Helicopter Events */
+    ItemName_EHE.MealReadytoEat = "Packet of MRE",
 }
