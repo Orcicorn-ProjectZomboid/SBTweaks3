@@ -5,10 +5,14 @@ require("ImportedMods/Mod_ItemTweaker.lua");
 -- mod is enabled. If so, we make the books not consume so that you are not restricted by
 -- loot respawn rules to get them if you die. 
 if getActivatedMods():contains("DrHyde1VaccineBooks") then
+    -- Don't make books consume
     TweakItem("LabBooks.BkLaboratoryEquipment1", "ReplaceOnUse", "LabBooks.BkLaboratoryEquipement1");
     TweakItem("LabBooks.BkLaboratoryEquipment2", "ReplaceOnUse", "LabBooks.BkLaboratoryEquipment2");
     TweakItem("LabBooks.BkLaboratoryEquipment3", "ReplaceOnUse", "LabBooks.BkLaboratoryEquipment3");
     TweakItem("LabBooks.BkVirologyCourses1", "ReplaceOnUse", "LabBooks.BkVirologyCourses1");
     TweakItem("LabBooks.BkVirologyCourses2", "ReplaceOnUse", "LabBooks.BkVirologyCourses2");
     TweakItem("LabBooks.BkChemistryCourse", "ReplaceOnUse", "LabBooks.BkChemistryCourse");
+
+    -- Teach the "Create Test Kit" recipes
+    TweakItem("LabBooks.BkVirologyCourses2", "TeachedRecipes", "CreateTestKit1;CreateTestKit2;ChmDivideBloodIntoComponents;ChmExtractLeukocytesFromBloodCells;ChmExtractAntibodiesFromLeukocytes;ChmSynthesizePlainVaccine;ChmSynthesizeQualityVaccine;ChmSynthesizeAdvancedVaccine;ChmSynthesizePlainVaccineTwo;ChmSynthesizeQualityVaccineTwo;ChmSynthesizeAdvancedVaccineTwo;ChmMakeAlbumin")
 end
