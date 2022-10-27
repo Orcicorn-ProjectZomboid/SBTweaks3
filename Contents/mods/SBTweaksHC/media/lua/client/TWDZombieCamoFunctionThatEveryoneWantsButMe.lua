@@ -1,0 +1,36 @@
+-- ---------------------------------------------------------------------------- --
+-- PAW LOW LOOT (2279084780) -------------------------------------------------- --
+-- ---------------------------------------------------------------------------- --
+-- DIRTY OVERWRITE:  If this code is emabled, then the "Spooky Suit" allows
+--                   the users to have a Walking Dead-like ghost mode. 
+--                   HOWEVER it breaks GhostMode from the cheat window and
+--                   any other mod that utilizes Ghost Mode.
+--                   I've commented out the entire thing because it's obnoxious
+--                   to think you'd be THE ONLY MOD TO EVER USE GHOST MODE
+-- ---------------------------------------------------------------------------- --
+-- PLLGhost = {}
+-- PLLGhost.GhostModeclose = true;
+
+-- function PLLGhost.checkGhostItem(player)
+-- 	return player:getInventory():contains("Base.SpookySuit");
+-- end
+-- function PLLGhost.setGhost(player)
+-- 	if PLLGhost.checkGhostItem(player) then
+-- 		if not player:isGhostMode() then
+-- 			player:setGhostMode(true);
+-- 			if not PLLGhost.GhostModeclose then
+-- 				--player:Say(getText("Spooky ON"));
+-- 			end
+-- 		end
+-- 		if player:isGhostMode() and PLLGhost.GhostModeclose then
+-- 			player:setGhostMode(false);
+-- 		end
+-- 	elseif  player:isGhostMode() then
+-- 		player:setGhostMode(false);
+-- 		--player:Say(getText("Spooky OFF"));
+--     end
+	
+-- 	PLLGhost.GhostModeclose = false;
+-- end
+
+-- Events.OnPlayerUpdate.Add(PLLGhost.setGhost);
