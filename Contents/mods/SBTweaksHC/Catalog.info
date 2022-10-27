@@ -406,6 +406,7 @@ PATCH: Fix/Tweak Sapph's Cooking Cheese
     textures/Item_CheeseStrainer.png
 
 PATCH: Fix Sapph Cooking recipes and add additional recipes
+    lua/client/SBTweaks_Tweak_SapphsCooking.lua
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweaks_Override_SapphsCooking.txt
 
