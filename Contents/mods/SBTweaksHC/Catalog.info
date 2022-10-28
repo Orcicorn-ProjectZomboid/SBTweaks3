@@ -131,6 +131,17 @@ Miscellaneous Engineering Recipes
     scripts/SBTweaks_Recipes_Engineering.txt
     lua/shared/Translate/EN/Recipes_EN.txt
 
+Pocket Kitten
+    clothing/clothingItems/Necklace_PocketKitten.xml
+    lua/server/SBTweaks_Logic_PocketKitten.lua
+    lua/shared/Translate/EN/ItemName_EN.txt
+    lua/shared/Translate/EN/Recipes_EN.txt
+    lua/shared/Translate/EN/Tooltip_EN.txt
+    scripts/SBTweaks_PocketKitten.txt
+    textures/clothes/necklace_pocketkitten.png
+    textures/Item_PocketKitten.png
+    fileGuidTable.xml
+
 S'mores Recipes & Items
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt 

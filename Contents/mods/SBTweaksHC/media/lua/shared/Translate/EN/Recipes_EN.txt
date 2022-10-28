@@ -2,6 +2,9 @@ Recipe_EN = {
     /* SBTweaks_AFKRing.txt */
     Recipe_MakeGhostRing = "Craft a Ghost Ring",
 
+    /* SBTweaks_PoketKitten.txt */
+    Recipe_CreatePocketKitten = "Capture a Pocket Kitten",
+
     /* Mod_GunFighter_MakeShells.txt */
     Recipe_MakeBrass223 = "Make 223-REM Brass",
     Recipe_MakeBrass3006 = "Make 30-06 SPRG Brass",

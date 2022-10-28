@@ -1,0 +1,30 @@
+module SBTweaks {
+    imports {
+        Base
+    }
+
+	item PocketKitten {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Pocket Kitten,
+        ClothingItem = Necklace_PocketKitten,
+        BodyLocation = Necklace,
+        Weight = 0.01,
+        FabricType = Leather,
+        Icon = PocketKitten,
+        Cosmetic = TRUE,
+        WorldStaticModel = TShirt_Ground,
+        CanHaveHoles = false,
+        Tooltip = Tooltip_PocketKitten,
+    }
+
+    recipe CreatePocketKitten {
+        keep Base.TrapCrate/Base.TrapBox/Base.TrapCage,
+        Base.TunaTin/Base.TunaTinOpen,
+        Result: SBTweaks.PocketKitten,
+        Time: 240.0,
+        NeedToBeLearn: False,
+        SkillRequired: Trapping=1,
+        CanBeDoneFromFloor: TRUE,
+    }
+}
