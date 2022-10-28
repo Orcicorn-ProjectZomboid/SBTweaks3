@@ -13,7 +13,7 @@ module SBTweaks {
         FabricType = Leather,
         Icon = PocketKitten,
         Cosmetic = TRUE,
-        WorldStaticModel = TShirt_Ground,
+        WorldStaticModel = SBTweaks.PocketKitten,
         CanHaveHoles = false,
         Tooltip = Tooltip_PocketKitten,
     }
@@ -26,5 +26,11 @@ module SBTweaks {
         NeedToBeLearn: False,
         SkillRequired: Trapping=1,
         CanBeDoneFromFloor: TRUE,
+    }
+
+     model PocketKitten {
+        mesh = WorldItems/pocketkitten,
+        texture = WorldItems/pocketkitten,
+        scale = 0.004,
     }
 }

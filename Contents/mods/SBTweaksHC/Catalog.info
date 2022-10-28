@@ -137,8 +137,10 @@ Pocket Kitten
     lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt
     lua/shared/Translate/EN/Tooltip_EN.txt
+    models_X/WorldItems/pocketkitten.fbx
     scripts/SBTweaks_PocketKitten.txt
     textures/clothes/necklace_pocketkitten.png
+    textures/WorldItems/pocketkitten.png
     textures/Item_PocketKitten.png
     fileGuidTable.xml
 
