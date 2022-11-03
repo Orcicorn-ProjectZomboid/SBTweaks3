@@ -106,4 +106,8 @@ Recipe_EN = {
     Recipe_Make_Homemade_Ketchup = "(Broken recipe, do not click)",
     Recipe_Make_Tomato_Sauce_with_Canned_Tomatoes_Fixed  = "Make Tomato Sauce with Canned Tomatoes",
     Recipe_Make_Tomato_Sauce_with_Canned_Tomatoes  = "(Broken recipe, do not click)",
+
+    /* Dr Hyde Fixes */
+    Recipe_SBTweakCreateTestKit1 = "Create Virus Test Kit (Centrifuge)",
+    Recipe_SBTweakCreateTestKit2 = "Create Virus Test Kit (Spectrometer)",
 }

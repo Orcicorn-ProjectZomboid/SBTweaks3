@@ -1,0 +1,31 @@
+module Chemistry {
+  imports {
+      Base
+  }
+
+	recipe SBTweakCreateTestKit1 {
+        LabSyringe,
+        CmpFlaskWithSodiumHypochlorite=1,
+        NeedToBeLearn:false,
+        Time:1000.0,
+        Result:VirusTestKit1,
+        Category:Health,
+        CanBeDoneFromFloor:true,
+        OnTest:LabRecipes.IsNearCentrifuge,
+	    OnGiveXP:LabRecipes_GiveXP_Doctor_1,
+        SkillRequired:Doctor=5,
+    }
+
+	recipe SBTweakCreateTestKit2 {
+        LabSyringeReusable,
+        CmpFlaskWithSodiumHypochlorite=1,
+        NeedToBeLearn:false,
+        Time:1000.0,
+        Result:VirusTestKit2,
+        Category:Health,
+        CanBeDoneFromFloor:true,
+        OnTest:LabRecipes.IsNearSpectrometer,
+	    OnGiveXP:LabRecipes_GiveXP_Doctor_1,
+        SkillRequired:Doctor=5,
+    }
+}

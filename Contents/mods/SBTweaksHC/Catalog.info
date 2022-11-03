@@ -380,9 +380,11 @@ PATCH: Fix Brita's Armor context menu missing translations
 PATCH: DrHyde Books do not disappear on being read (if spawn enabled)
     lua/client/SBTweaks_Tweak_DrHydeMagazines.lua
 
-PATCH: DrHyde Virus Test kits english is backwards
+PATCH: DrHyde Virus Test kits english is backwards and don't workout
     lua/server/SBTweaks_Patch_DrHydeLabModEngine.lua
+    lua/shared/Translate/EN/Recipes_EN.txt
     lua/shared/Translate/EN/Tooltip_EN.txt
+    scripts/SBTweaks_Override_DrHydeLaboratory.txt
 
 PATCH: Fix Filibuster's Car Name (IG_UI_EN = {} should be IGUI_EN = {})
     lua/shared/Translate/EN/IG_UI_EN.txt
