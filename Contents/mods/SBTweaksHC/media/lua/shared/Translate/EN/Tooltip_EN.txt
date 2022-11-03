@@ -21,7 +21,4 @@ Tooltip_EN {
 
     /* Dr Hyde's Vaccine */
     Tooltip_VirusTestKit = "70% effective detecting Knox-19",
-
-    /* Pocket Kitten */
-    Tooltip_PocketKitten = "A pocketsized companion<br>Reduces boredom over time",
 }

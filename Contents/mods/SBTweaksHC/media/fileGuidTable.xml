@@ -41,9 +41,4 @@
         <path>media/clothing/clothingItems/Hat_CrimsonBeret.xml</path>
         <guid>sbtweaks-e675-458c-9f63-5cc2f0ed0f3f</guid>
     </files>
-    <files>
-        <note>Pocket Kitten: Reduce Boredom</note>
-        <path>media/clothing/clothingItems/Necklace_PocketKitten.xml</path>
-        <guid>sbtweaks-elna-pckt-kttn-7691a12d70a2</guid>
-    </files>
 </fileGuidTable>
