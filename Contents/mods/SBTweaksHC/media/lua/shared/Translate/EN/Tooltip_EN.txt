@@ -20,5 +20,5 @@ Tooltip_EN {
     Tooltip_BookTitle_Lockpicking = "Lockpicking",
 
     /* Dr Hyde's Vaccine */
-    Tooltip_VirusTestKit = "70% effective detecting Knox-19",
+    Tooltip_VirusTestKit = "~80% effective detecting Knox-19",
 }
