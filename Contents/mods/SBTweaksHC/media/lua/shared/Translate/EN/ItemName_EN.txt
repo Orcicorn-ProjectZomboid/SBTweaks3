@@ -258,6 +258,8 @@ ItemName_EN = {
 	ItemName_LabItems.JournalOfResearch = "Journal of research",
 	ItemName_LabItems.CureNotes = "Dr. Hyde's notes about the Cure",
 	ItemName_LabItems.DrHydePhotograph = "Dr. Hyde's photograph",
+	ItemName_Chemistry.VirusTestKit1 = "Portable Virus Test Kit",
+	ItemName_Chemistry.VirusTestKit2 = "Portable Virus Test Kit",
 
     /* Magic 8 Ball */
     ItemName_Magic8Ball = "Magic 8-Ball",

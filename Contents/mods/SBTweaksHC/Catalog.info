@@ -384,7 +384,9 @@ PATCH: DrHyde Books do not disappear on being read (if spawn enabled)
     lua/client/SBTweaks_Tweak_DrHydeMagazines.lua
 
 PATCH: DrHyde Virus Test kits english is backwards and don't workout
+    lua/client/SBTweaks_Recipes_DrHyde.lua
     lua/server/SBTweaks_Patch_DrHydeLabModEngine.lua
+    lua/shared/Translate/EN/ItemName_EN.txt
     lua/shared/Translate/EN/Recipes_EN.txt
     lua/shared/Translate/EN/Tooltip_EN.txt
     scripts/SBTweaks_Override_DrHydeLaboratory.txt

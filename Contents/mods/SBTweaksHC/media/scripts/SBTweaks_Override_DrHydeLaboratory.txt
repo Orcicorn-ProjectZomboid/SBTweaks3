@@ -13,6 +13,7 @@ module Chemistry {
         CanBeDoneFromFloor:true,
         OnTest:LabRecipes.IsNearCentrifuge,
 	    OnGiveXP:LabRecipes_GiveXP_Doctor_1,
+        OnCreate:SBTweaks_DrHydeFlaskFix,
         SkillRequired:Doctor=5,
     }
 
@@ -24,8 +25,9 @@ module Chemistry {
         Result:VirusTestKit2,
         Category:Health,
         CanBeDoneFromFloor:true,
-        OnTest:LabRecipes.IsNearSpectrometer,
+        OnTest:LabRecipes.IsNearCentrifuge,
 	    OnGiveXP:LabRecipes_GiveXP_Doctor_1,
+        OnCreate:SBTweaks_DrHydeFlaskFix,
         SkillRequired:Doctor=5,
     }
 }

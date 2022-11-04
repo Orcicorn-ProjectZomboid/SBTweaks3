@@ -109,5 +109,6 @@ Recipe_EN = {
 
     /* Dr Hyde Fixes */
     Recipe_SBTweakCreateTestKit1 = "Create Virus Test Kit (Centrifuge)",
-    Recipe_SBTweakCreateTestKit2 = "Create Virus Test Kit (Spectrometer)",
+    Recipe_SBTweakCreateTestKit2 = "Create Virus Test Kit (Centrifuge)",
+    Recipe_StartResearchJournal = "Start a research journal",
 }
