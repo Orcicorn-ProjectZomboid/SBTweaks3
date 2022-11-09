@@ -130,3 +130,6 @@ TweakItem("Base.Parsley", "UnhappyChange", -5);
 TweakItem("Base.Rosemary", "UnhappyChange", -5);
 TweakItem("Base.Sage", "UnhappyChange", -5);
 TweakItem("Base.Thyme", "UnhappyChange", -5);
+
+-- BASE GAME: Add Sapph Cooking Tags to regular rice
+TweakItem("Base.Rice", "Tags", "SapphCookingRice");
