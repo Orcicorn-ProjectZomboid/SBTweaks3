@@ -278,6 +278,9 @@ MOD: Tuck and Roll (2832401837)
 ============================================================
 == OVERRIDES -------------------------------------------- ==
 ============================================================
+OVERRIDE: Authentic-Z Items
+    media/clothes/Items/BalloonGreen.png
+
 OVERRIDE: Base Game Exercise: Do not drop backpacks to workout 
     lua/client/ISUI/SBTweaks_ISFitnessUI.lua
 
