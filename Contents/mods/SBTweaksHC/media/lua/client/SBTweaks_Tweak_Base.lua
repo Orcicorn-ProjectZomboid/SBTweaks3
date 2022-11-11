@@ -133,3 +133,6 @@ TweakItem("Base.Thyme", "UnhappyChange", -5);
 
 -- BASE GAME: Add Sapph Cooking Tags to regular rice
 TweakItem("Base.Rice", "Tags", "SapphCookingRice");
+
+-- BASE GAME: Improve Propane Torch
+TweakItem("Base.BlowTorch", "UseDelta", 0.01);
