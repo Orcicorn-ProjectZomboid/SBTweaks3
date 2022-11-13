@@ -95,6 +95,7 @@ module Base {
         Result: Base.CheesePreparationRaw,
         Category: Cooking,
         OnGiveXP: Recipe.OnGiveXP.None,
+        OnCreate: SBTweaks_GiveBackBottle,
         SkillRequired: Cooking=4,
         Time: 90.0,
         AnimNode:Disassemble,
