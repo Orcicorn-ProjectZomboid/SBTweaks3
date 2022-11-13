@@ -60,4 +60,19 @@ module SapphCooking {
 		Result: Base.Coffee2,
 		Time: 69.0,
 	}
+
+	/* Allow Coffee from Instant Coffee */
+	recipe Brew Instant Coffee on Thermos {
+		Coffee2;25,
+		destroy EmptyThermos,
+		Water=5,
+		Result: ThermosCoffee,
+		Time: 500,
+		Category: Cooking,
+		OnGiveXP: Recipe.OnGiveXP.None,
+		Sound: FilterDrip,
+		CanBeDoneFromFloor: true,
+		StopOnWalk: false,
+		Heat: -0.22,
+	}
 }
