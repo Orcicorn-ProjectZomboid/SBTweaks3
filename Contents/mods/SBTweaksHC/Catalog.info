@@ -289,12 +289,19 @@ OVERRIDE: Base Game Generator Details: Show Time Remaining
 
 OVERRIDE: Base Game: Change Baseball Hat Textures
     lua/shared/Translate/EN/ItemName_EN.txt
+    scripts/SBTweaks_Override_BaseClothing.txt
     textures/clothes/Hat/BaseballCapBlue.png
     textures/clothes/Hat/BaseballCapBlueKY.png
     textures/clothes/Hat/BaseballCapGreen.png
     textures/clothes/Hat/BaseballCapGreenKY.png
     textures/clothes/Hat/BaseballCapRed.png
     textures/clothes/Hat/BaseballCapRedKY.png
+    textures/Item_BaseballCapBlue_Custom.png
+    textures/Item_BaseballCapBlueBrand_Custom.png
+    textures/Item_BaseballCapGreen_Custom.png
+    textures/Item_BaseballCapGreenBrand_Custom.png
+    textures/Item_BaseballCapRed_Custom.png
+    textures/Item_BaseballCapRedBrand_Custom.png
 
 OVERRIDE: Base Game Sound Effects (TV/Radio)
     scripts/SBTweaks_Override_RadioSounds.txt
