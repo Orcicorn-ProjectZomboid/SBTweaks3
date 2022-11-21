@@ -25,7 +25,7 @@ module SBTweaks {
 
     recipe Create Terminator Glasses {
         Glasses_Sun,
-        [Recipe.GetItemTypes.GasMask],
+        [Recipe.GetItemTypes.NVGchucked],
         keep Base.Screwdriver,
         SkillRequired:Electricity=3,
         Time: 250.0,
