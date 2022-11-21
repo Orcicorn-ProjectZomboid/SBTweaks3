@@ -5,7 +5,11 @@ require "TimedActions/ISUnequipAction"
 
 -- DIRTY OVERWRITE:  Done so that we can tweak the battery
 -- length while waiting for Chuckleberry to update sandbox options.
--- See Line 164 for details
+-- as well as adjust some overlays for terminator glasses
+
+--	Line 20:		Added reference to red overlay
+--	Line 169:		Increased battery durability
+--	Line 225, 231	Toggle on Red overlay if terminator glasses used
 
 local eris_nvg = {
 	batteryManagers = {},
@@ -13,6 +17,7 @@ local eris_nvg = {
 	activeNVG = {},
 	playerScreenBounds = {},
 	brightnessOverlay = getTexture("media/textures/overlayBrightness.png"),
+	brightnessOverlayRed = getTexture("media/textures/overlayBrightnessRed.png"),
 }
 
 
@@ -217,12 +222,17 @@ Events.OnGameStart.Add(eris_nvg.init)
 eris_nvg.doBrightnessOverlay = function()
 	local nvgItem
 	local bounds, powerLevel
+	local overlayImage = eris_nvg.brightnessOverlay
 	for plID, manager in pairs(eris_nvg.activeNVG) do
 		if manager then
 			bounds = eris_nvg.playerScreenBounds[plID]
 			powerLevel = manager:getPowerLevel()
 			if bounds and powerLevel and eris_nvg.brightnessOverlay then
-				UIManager.DrawTexture(eris_nvg.brightnessOverlay, bounds.x, bounds.y, bounds.w, bounds.h, 1 - powerLevel)
+				-- If you're wearing terminator glasses, change the overlay to red
+				if manager:getItem():getType() == "glasses_terminator" then 
+					overlayImage = eris_nvg.brightnessOverlayRed;
+				end
+				UIManager.DrawTexture(overlayImage, bounds.x, bounds.y, bounds.w, bounds.h, 1 - powerLevel)
 			end
 		end
 	end

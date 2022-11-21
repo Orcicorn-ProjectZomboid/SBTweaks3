@@ -114,4 +114,16 @@ module SBTweaks {
         Weight = 0.5,
     }
 
+    item glasses_terminator {
+        DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Sunglasses,
+		ClothingItem = Glasses_Sun,
+		BodyLocation = Eyes,
+		Icon = GlassesSun,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		ChanceToFall = 0,
+        Tags = NVGchucked,
+    }
 }

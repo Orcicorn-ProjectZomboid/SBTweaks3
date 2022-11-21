@@ -277,4 +277,7 @@ ItemName_EN = {
 
     /* Expanded Helicopter Events */
     ItemName_EHE.MealReadytoEat = "Packet of MRE",
+
+    /* Terminator Sunglasses */
+    ItemName_SBTweaks.glasses_terminator = "Terminator Glasses",
 }

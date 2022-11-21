@@ -22,4 +22,14 @@ module SBTweaks {
 	    NeedToBeLearn:False,
 		Category: Tailoring,
     }
+
+    recipe Create Terminator Glasses {
+        Glasses_Sun,
+        [Recipe.GetItemTypes.GasMask],
+        keep Base.Screwdriver,
+        SkillRequired:Electricity=3,
+        Time: 250.0,
+        NeedToBeLearn:False,
+        Result:SBTweaks.glasses_terminator,
+    }
 }

@@ -145,6 +145,13 @@ Taco Recipes & Items
     lua/shared/Translate/EN/Recipes_EN.txt 
     scripts/SBTweaks_Tacos.txt
 
+Terminator Glasses
+    lua/client/eris_nvg/eris_nvg/eris_nvg.lua (see comments inside)
+    lua/shared/Translate/EN/ItemName_EN.txt
+    scripts/SBTweaks_CustomClothing.txt
+    scripts/SBTweaks_Recipes_Clothing.txt
+    textures/overlayBrightnessRed.png
+
 Toe Tags 
     lua/client/SBTweaks_ToeTags.lua
     lua/client/SBTweaks_ToeTags_ModOptions.lua
