@@ -24,9 +24,9 @@ module SBTweaks {
     }
 
     recipe Create Terminator Glasses {
-        Glasses_Sun,
-        [Recipe.GetItemTypes.NVGchucked],
         keep Base.Screwdriver,
+        Base.Glasses_Sun,
+        Base.Animask23/Base.Mask_HECU/Base.Hat_PVS_5/Base.Hat_PVS15/Base.Hat_Sam_NV/Base.Hat_PVS15_ON/Base.Hat_PVS15_Harness_ON/Base.Hat_NV18_ON/Base.Hat_NV18_Harness_ON,
         SkillRequired:Electricity=3,
         Time: 250.0,
         NeedToBeLearn:False,
