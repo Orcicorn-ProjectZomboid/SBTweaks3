@@ -80,3 +80,10 @@ if getActivatedMods():contains("Max") then
     TweakItem("MWPWeapons.korekmachete", "AttachmentType", "Knife");
     TweakItem("MWPWeapons.taigamachete", "AttachmentType", "Knife");
 end
+
+-- MOD: Simple Remote Door Controllers
+if getActivatedMods():contains("RDC_Z777") then
+    print("Hello world")
+    TweakItem("Base.Remote Door Control Receiver", "Weight", 2.0);
+    TweakItem("Base.Simple Remote Door Control Receiver", "Weight", 2.0);
+end
