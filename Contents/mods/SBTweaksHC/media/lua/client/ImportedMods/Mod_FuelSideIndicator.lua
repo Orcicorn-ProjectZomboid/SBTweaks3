@@ -46,18 +46,30 @@ function ISVehicleDashboard:setVehicle(vehicle)
         self.gasLeftTex:setY(fuelY)
 
         -- jank but this is the best thing i could think of since there is no BaseVehicle param for gas tank side
-        -- this may break if the car doesn't have a left & right rear tire. shit. -- TODO: FIXTHIS
+        -- this may break if the car doesn't have a left & right rear tire. shit. -- TODO: FIXTHIS -- DONE & FIXED!
         local gasArea = vehicle:getAreaCenter("GasTank")
-        local gasLeft = gasArea:distanceTo(vehicle:getAreaCenter("TireRearLeft"))
-        local gasRight = gasArea:distanceTo(vehicle:getAreaCenter("TireRearRight"))
+        local leftTire, rightTire
+        if vehicle:getAreaCenter("TireRearLeft") then leftTire = vehicle:getAreaCenter("TireRearLeft") else leftTire = vehicle:getAreaCenter("TireFrontLeft") end
+        if vehicle:getAreaCenter("TireRearRight") then rightTire = vehicle:getAreaCenter("TireRearRight") else rightTire = vehicle:getAreaCenter("TireFrontRight") end
 
-        if gasLeft > gasRight then
-            self.gasRightTex:setVisible(true)
-            self.gasLeftTex:setVisible(false)
-        elseif gasLeft < gasRight then
+        if (gasArea and leftTire and rightTire) then 
+
+            local gasLeft = gasArea:distanceTo(vehicle:getAreaCenter("TireRearLeft"))
+            local gasRight = gasArea:distanceTo(vehicle:getAreaCenter("TireRearRight"))
+
+            if gasLeft > gasRight then
+                self.gasRightTex:setVisible(true)
+                self.gasLeftTex:setVisible(false)
+            elseif gasLeft < gasRight then
+                self.gasRightTex:setVisible(false)
+                self.gasLeftTex:setVisible(true)
+            end
+
+        else
             self.gasRightTex:setVisible(false)
-            self.gasLeftTex:setVisible(true)
+            self.gasLeftTex:setVisible(false)
         end
+
     end
 
     return ret
