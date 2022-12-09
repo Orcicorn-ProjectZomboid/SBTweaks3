@@ -420,6 +420,11 @@ PATCH: Fix/Tweak Gunfighter Arsenal Recipes
     scripts/Mod_Gunfighter_FixBuckshot.txt
     scripts/Mod_Gunfighter_MakeShells.txt
 
+PATCH: Fix/Tweak PawLowLoot Procedural Distributions 
+    lua/server/SBTweaks_Fix_PawLowLoot.lua
+    lua/server/SBTweaks_Fix_PawLowLoot_Bags.lua
+    lua/server/SBTweaks_Fix_PawLowLoot_Guns.lua
+
 PATCH: Fix/Tweak Sapph's Cooking Cheese
     lua/server/SBTweaks_Override_SapphRecipeCode.lua
     shared/Translate/EN/ContextMenu_EN.txt
