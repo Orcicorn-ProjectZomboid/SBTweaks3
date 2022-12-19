@@ -326,6 +326,9 @@ OVERRIDE: Base Poultice Names & Recipes
 OVERRIDE: Base Game Reload Action (Speed up)
     lua/clients/SBTweaks_Override_ReloadAction.lua
 
+OVERRIDE: Better Lockpicking (2368058459)
+    lua/client/Lockpicking/BobbyPin/BobbyPinWindow.lua
+
 OVERRIDE: Enhanced Helicopter Events MREs (Convert to Sapph)
     lua/shared/Translate/EN/ItemName_EN.txt
     scripts/Mod_ExpandedHelicopterEvents_MRE.txt
