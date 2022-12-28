@@ -7,6 +7,8 @@ module Base {
         DisplayName = Magic 8-Ball,
         Icon	=	Magic8Ball,
         WorldStaticModel = Magic8Ball,
+        AttachmentType = SpiffoPlushie,
+        StaticModel = Magic8BallPlushie,
     }
 
     recipe ShakeMagic8Ball {
@@ -24,6 +26,13 @@ module Base {
 		mesh = WorldItems/PoolBall,
 		texture = WorldItems/Magic8Ball,
 		scale = 0.4,
+	}
+
+    model Magic8BallPlushie
+	{
+		mesh = WorldItems/PoolBallPlushie,
+		texture = WorldItems/Magic8BallPlushie,
+		scale = 0.2,
 	}
 
 }
