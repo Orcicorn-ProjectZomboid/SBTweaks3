@@ -318,6 +318,10 @@ OVERRIDE: Base Game Welcome text & Shouts
     lua/shared/Translate/EN/IG_UI_EN.txt
     lua/shared/Translate/EN/UI_EN.txt
 
+OVERRIDE: Base Game Fire Settings 
+    lua/client/SBTweaks_Tweak_FirePlayer.lua 
+    lua/server/SBTweaks_Tweak_FireZombies.lua
+
 OVERRIDE: Base Poultice Names & Recipes 
     lua/shared/Translate/EN/ContextMenu_EN.txt
     lua/shared/Translate/EN/ItemName_EN.txt
