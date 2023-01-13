@@ -220,4 +220,17 @@ module SBTweaks
 		RemoveResultItem:true,
 	}
 
+	recipe SBSuperRepairsPawLowLoot01 {
+      	keep [Recipe.GetItemTypes.Screwdriver],
+		keep ClericRevolver/JERICHOP/Lewis/m32r/m79/m79A/MAS38/p88p/PPSH/RogueSniperRifle/TKShotgun/WitchySMG/WitchySMGE/WitchySMGN/WitchySMGEN,
+      	Cleaning=5,
+		Result:UnusableMetal,
+		Time:960.0,
+		NeedToBeLearn:False,
+		OnCreate:SBTweaks_SuperRepairGuns,
+      	Category:SBTweaks,
+      	SkillRequired:Aiming=5;MetalWelding=2,
+		RemoveResultItem:true,
+	}
+
 }
