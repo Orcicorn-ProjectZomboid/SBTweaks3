@@ -85,4 +85,18 @@ module SBTweaks {
 		Prop1: Source=1,
 		Prop2: Cooking_SaucepanOil,
 	}
+
+	recipe MakeMayo {
+		keep Base.Bowl,
+		keep Spatula/Recipe.GetItemTypes.Spoon]/[Recipe.GetItemTypes.Fork],
+		[Recipe.GetItemTypes.Egg];2,
+		AvocadoOil/CanolaOil/PeanutOil/OilOlive/OilVegetable/CoconutOil,
+		SapphCooking.BottleofLemonJuice=1,
+		[Recipe.GetItemTypes.SapphCookingSalt];2,
+		EmptyJar,
+		Result: farming.MayonnaiseFull,
+		Time: 90.0,
+		NeedToBeLearn:False,
+		SkillRequired:Cooking=2,
+	}
 }
