@@ -43,6 +43,7 @@ Recipe_EN = {
     Recipe_SBSuperRepairsArsenalWeaponPack10 = "Expert Repair",
     Recipe_SBSuperRepairsArsenalWeaponPack11 = "Expert Repair",
     Recipe_SBSuperRepairsArsenalWeaponPack12 = "Expert Repair",
+    Recipe_SBSuperRepairsPawLowLoot01 = "Expert Repair",
 
     /* Miscellaneous Food Recipes */
     Recipe_MakeKetchup = "Make Ketchup",
@@ -51,6 +52,7 @@ Recipe_EN = {
     Recipe_MakeChipsKetchup = "Make Chips (Ketchup)",
     Recipe_MakeChipsSourCream = "Make Chips (Sour Cream)",
     Recipe_MakeChipsFromSapphPeels = "Make Homemade Potato Chips",
+    Recipe_MakeMayo = "Make Mayonnaise",
 
     /* Engineering Recipes */
     Recipe_MakeAlarmClock = "Make Alarm Clock",
